@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Randy's Blog]]></title>
+  <subtitle><![CDATA[Randy Lu, Chinese fullstack developer.]]></subtitle>
+  <link href="/feed.xml" rel="self"/>
+  <link href="http://djyde.github.io/"/>
+  <updated>2015-09-09T17:24:13.000Z</updated>
+  <id>http://djyde.github.io/</id>
+  
+  <author>
+    <name><![CDATA[Randy]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[我是 Randy, 这是我的利器]]></title>
+    <link href="http://djyde.github.io/2015/09/09/my-liqi/"/>
+    <id>http://djyde.github.io/2015/09/09/my-liqi/</id>
+    <published>2015-09-09T15:07:00.000Z</published>
+    <updated>2015-09-09T17:24:13.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="u4ECB_u7ECD_u4E00_u4E0B_u4F60_u81EA_u5DF1_u548C_u6240_u505A_u7684_u5DE5_u4F5C"><a href="#u4ECB_u7ECD_u4E00_u4E0B_u4F60_u81EA_u5DF1_u548C_u6240_u505A_u7684_u5DE5_u4F5C" class="headerlink" title="介绍一下你自己和所做的工作"></a>介绍一下你自己和所做的工作</h3><p>我是 Randy，一名 95 后程序员，在一家创业公司做前端工程师。热衷于技术和各种科技、数码产品。</p>
+<h3 id="u4F60_u90FD_u5728_u4F7F_u7528_u54EA_u4E9B_u786C_u4EF6_uFF1F"><a href="#u4F60_u90FD_u5728_u4F7F_u7528_u54EA_u4E9B_u786C_u4EF6_uFF1F" class="headerlink" title="你都在使用哪些硬件？"></a>你都在使用哪些硬件？</h3><ul>
+<li><p><a href="http://www.apple.com/cn/macbook-air/" target="_blank" rel="external">Macbook Air</a> </p>
+<p>11 寸 Macbook Air ( i5 4GB 128GB ) 是我的主力机，是 2014 Early 的版本。目前来看写 Android 写到项目中期的时候会有明显的卡顿。写前端项目对性能要求没有 Android 高，所以目前还没有必须升级的需求。11 寸的确比较小，但是平时工作都是接显示器的，就不在意了，尤其是当你背着它到处抱的时候，就觉得为了便携性，屏幕小也是值得的。</p>
+</li>
+<li><p>iPod Touch 4</p>
+<p>这台 iPod Touch 4 主要用来听 Podcast，我最常听的节目是 『内核恐慌』，『IT 公论』</p>
+</li>
+<li><p><a href="http://item.jd.com/845638.html" target="_blank" rel="external">AOC I2269VW 21.5 寸 IPS 显示器</a></p>
+<p>性价比较高的显示器，色彩满意，外观时尚，是低价位显示器的好选择。</p>
+</li>
+<li><p>IKBC Poker 2</p>
+<p>我用的机械键盘是 Poker 2 红轴。Poker 2 和 Mac 配合使用没有什么问题，只是电脑休眠后要重新插拔。由于是第一个机械键盘，在轴的选择没有经验，选择了相对保守的红轴，使用了半年的感受是，红轴直上直下的感觉并不太适合我个人，我比较喜欢有段落感的轴，所以如果要买新的键盘，我可能就不会选红轴了。</p>
+</li>
+<li><p>一加手机 1</p>
+<p>现在的主力手机从 Nexus 5 换到了一加（Babyskin），唯一不太满意的地方是屏幕太大，单手操作很吃力。</p>
+</li>
+<li><p><a href="https://getpebble.com/" target="_blank" rel="external">Pebble</a></p>
+<p>Pebble 是比较小众的智能手表，用的是 E-ink，续航一周，单纯的用来看天气、时间和手机推送，非常棒。不过外观不太符合大众的审美。</p>
+</li>
+</ul>
+<h3 id="u8F6F_u4EF6_u5462_uFF1F"><a href="#u8F6F_u4EF6_u5462_uFF1F" class="headerlink" title="软件呢？"></a>软件呢？</h3><ul>
+<li><a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime Text 3</a> 曾经主力的 Editor，目前换用 Atom</li>
+<li><a href="https://atom.io" target="_blank" rel="external">Atom</a> 最近主力 Editor</li>
+<li><a href="https://www.iterm2.com/" target="_blank" rel="external">iTerm</a> Mac 上最好用的 Terminal Emulator</li>
+<li><a href="https://itunes.apple.com/us/app/sip/id507257563?mt=12" target="_blank" rel="external">Sip</a> 免费好用的取色工具</li>
+<li><a href="http://getpocket.com" target="_blank" rel="external">Pocket</a> 我最喜欢的 Read it later APP</li>
+<li><a href="https://maxiang.info" target="_blank" rel="external">马克飞象</a> Markdown 写作利器</li>
+<li><a href="/music.163.com">网易云音乐</a> 听歌的首选，深夜看评论很精彩</li>
+<li><a href="https://www.rescuetime.com" target="_blank" rel="external">RescueTime</a> 统计你使用各个软件占用的时间</li>
+</ul>
+<h3 id="u4F60_u6700_u7406_u60F3_u7684_u5DE5_u4F5C_u73AF_u5883_u662F_u4EC0_u4E48_uFF1F"><a href="#u4F60_u6700_u7406_u60F3_u7684_u5DE5_u4F5C_u73AF_u5883_u662F_u4EC0_u4E48_uFF1F" class="headerlink" title="你最理想的工作环境是什么？"></a>你最理想的工作环境是什么？</h3><p>我希望在一个宽阔的空间里工作，加上足够大的桌子和显示器，舒适的人体工程学椅。光线要好，窗外的景色能让人感到活力。</p>
+<h3 id="u4F60_u5E73_u65F6_u83B7_u5F97_u5DE5_u4F5C_u7075_u611F_u7684_u65B9_u5F0F_u6709_u54EA_u4E9B_uFF1F"><a href="#u4F60_u5E73_u65F6_u83B7_u5F97_u5DE5_u4F5C_u7075_u611F_u7684_u65B9_u5F0F_u6709_u54EA_u4E9B_uFF1F" class="headerlink" title="你平时获得工作灵感的方式有哪些？"></a>你平时获得工作灵感的方式有哪些？</h3><p>阅读。读资讯，读书等等。平时我经常刷 Github, hackernews, V2EX 这些社区。 V2EX 的创意板块是获取灵感的好地方。</p>
+<h3 id="u63A8_u8350_u4E00_u4EF6_u751F_u6D3B_u4E2D_u7684_u5229_u5668_u7ED9_u5927_u5BB6"><a href="#u63A8_u8350_u4E00_u4EF6_u751F_u6D3B_u4E2D_u7684_u5229_u5668_u7ED9_u5927_u5BB6" class="headerlink" title="推荐一件生活中的利器给大家"></a>推荐一件生活中的利器给大家</h3><p>我推荐<strong>乌克丽丽</strong>。因为 ukulele 是一件学习门槛不高的乐器，它的音色很欢快，学习也很容易，学几个和弦指法就能弹唱一首歌。平时累了就弹一首，等待编译的时候也可以舒缓一下工作压力。</p>
+<p><strong>本文参与了「利器社群计划」，发现更多创造者和他们的工具：<a href="http://liqi.io/community/" target="_blank" rel="external">http://liqi.io/community/</a></strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="u4ECB_u7ECD_u4E00_u4E0B_u4F60_u81EA_u5DF1_u548C_u6240_u505A_u7684_u5DE5_u4F5C"><a href="#u4ECB_u7ECD_u4E00_u4E0B_u4F60_u81EA_u5DF1_u]]>
+    </summary>
+    
+      <category term="live" scheme="http://djyde.github.io/tags/live/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Vue.js 和 Webpack（三）]]></title>
+    <link href="http://djyde.github.io/2015/08/31/vuejs-and-webpack-3/"/>
+    <id>http://djyde.github.io/2015/08/31/vuejs-and-webpack-3/</id>
+    <published>2015-08-31T07:43:00.000Z</published>
+    <updated>2015-08-31T14:07:57.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>转载前请务必先联系邮箱</strong></p>
+<h2 id="Why_Vue-js_+_Webpack"><a href="#Why_Vue-js_+_Webpack" class="headerlink" title="Why Vue.js + Webpack"></a>Why Vue.js + Webpack</h2><p>在以往的一些小型的前端项目中，我习惯把逻辑（<code>scripts</code>）、视图（<code>views</code>）和样式（<code>styles</code>）分开在独立的目录当中，保证三者不耦合在一起。但是随着项目越来越大，这样的结构会让开发越来越痛苦，比如要增加或修改某个 <code>view</code> 的时候，就要在 <code>scripts</code> 和 <code>sytles</code> 里找到对应这个 <code>view</code> 的逻辑和样式进行修改。</p>
+<p>为了避免这样随着项目增大带来的难于维护，我开始尝试<strong>前端组件化</strong>，把 <code>views</code> 拆分成不同的组件（component），为单个组件编写对应的逻辑和样式：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">app/components&#10;&#9500;&#9472;&#9472; Chat&#10;&#9474;   &#9500;&#9472;&#9472; Chat.jade&#10;&#9474;   &#9500;&#9472;&#9472; Chat.js&#10;&#9474;   &#9492;&#9472;&#9472; Chat.scss&#10;&#9492;&#9472;&#9472; Video&#10;    &#9500;&#9472;&#9472; Video.jade&#10;    &#9500;&#9472;&#9472; Video.js&#10;    &#9492;&#9472;&#9472; Video.scss</span><br></pre></td></tr></table></figure>
+<p>这样的开发模式，不仅提高代码的可维护性和可重用性，还有利于团队之间的协作，一个组件由一个人去维护，更好地实现<strong>分治</strong>。幸运的是，随着 React 越来越火，组件化的开发模式也就越来越被接受。</p>
+<h2 id="Using_Vue-js_+_Webpack"><a href="#Using_Vue-js_+_Webpack" class="headerlink" title="Using Vue.js + Webpack"></a>Using Vue.js + Webpack</h2><p>在 Vue 中，可以利用一个 <code>.vue</code> 文件实现组件化，而不需要对每个组件分别建立 style, scripts 和 view。这样做的好处是使组件能更加直观，而坏处是目前有些 editor 对 <code>.vue</code> 的语法支持还是不太好。我用 Atom 写 <code>.vue</code> 的时候，<code>&lt;style&gt;</code> 的那一块并不能自动补全。不过我个人不依赖 css 的补全，所以没有太大的影响。如果你比较依赖这个，建议你还是把这些代码分离出来。</p>
+<p>一个简单的 Vue Component：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- components/sample.vue --&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">template</span> <span class="attribute">lang</span>=<span class="value">"jade"</span>&gt;</span></span><br><span class="line">  .test</span><br><span class="line">    h1 hello &#123;&#123;msg&#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="title">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  el: <span class="string">'#app'</span>,</span><br><span class="line">  data: &#123;</span><br><span class="line">    msg: <span class="string">'world'</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">style</span> <span class="attribute">lang</span>=<span class="value">"sass"</span>&gt;</span><span class="css"></span><br><span class="line">  <span class="class">.test</span><span class="rules">&#123;</span><br><span class="line">    h1&#123;</span><br><span class="line">      <span class="rule"><span class="attribute">text-align</span>:<span class="value"> center</span></span>;</span><br><span class="line">    &#125;</span></span><br><span class="line">  &#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>我们使用 Webpack 就可以自动将 <code>.vue</code> 文件编译成正常的 JavaScript 代码，只需要在 Webpack 中配置好 <code>vue-loader</code> 即可：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'app.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="built_in">module</span>: &#123;</span><br><span class="line">    loaders: [</span><br><span class="line">      &#123;</span><br><span class="line">        test: <span class="regexp">/\.vue$/</span>, loader: <span class="string">'vue-loader'</span></span><br><span class="line">      &#125;</span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这样，就可以正常地在文件中 <code>require()</code> 所有 <code>.vue</code> 文件：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    el: <span class="string">'#app'</span>,</span><br><span class="line">    data: &#123;<span class="comment">/* ... */</span>&#125;,</span><br><span class="line">    components: &#123;</span><br><span class="line">      <span class="string">'sample'</span>: <span class="built_in">require</span>(<span class="string">'./components/sample.vue'</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<h3 id="css__u5206_u79BB"><a href="#css__u5206_u79BB" class="headerlink" title="css 分离"></a>css 分离</h3><p><code>vue-loader</code> 使用 <code>style-loader</code> 把 component 当中的样式编译成字符串后插入到 <code>&lt;head&gt;</code> 中去。但我们希望把 css 文件独立出去，那么可以使用上一篇文章提到的 <code>ExtractTextPlugin</code> 插件，配合 <code>vue-loader</code> 的 <code>withLoaders()</code> 方法实现生成独立样式文件：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="keyword">var</span> vue = <span class="built_in">require</span>(<span class="string">'vue-loader'</span>)</span><br><span class="line">  , ExtractTextPlugin = <span class="built_in">require</span>(<span class="string">"extract-text-webpack-plugin"</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'app.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="built_in">module</span>: &#123;</span><br><span class="line">    loaders: [</span><br><span class="line">      &#123;</span><br><span class="line">        test: <span class="regexp">/\.vue$/</span>, loader: vue.withLoaders(&#123;</span><br><span class="line">          sass: ExtractTextPlugin.extract(<span class="string">"css!sass"</span>) <span class="comment">// 编译 Sass</span></span><br><span class="line">        &#125;)</span><br><span class="line">      &#125;</span><br><span class="line">    ]</span><br><span class="line">  &#125;,</span><br><span class="line">  plugins: [</span><br><span class="line">    <span class="keyword">new</span> ExtractTextPlugin(<span class="string">'app.css'</span>) <span class="comment">// 输出到 output path 下的 app.css 文件</span></span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="u603B_u7ED3"><a href="#u603B_u7ED3" class="headerlink" title="总结"></a>总结</h2><p>Vue.js 和 Webpack 的结合使用方法写到这里就已经算是写完了，当然，还有很多其它的实践方法，都要靠读者自己去摸索了，毕竟不能顾及到世界上各种各样的业务需求。这个系列仅仅是想给没有使用过 Vue.js 或者 Webpack 的读者一个大概的认识。</p>
+<p>最后趁这个机会感慨一下，前端开发是让人感到兴奋的，我以前也写很多有关前端的东西，但从来不愿意称自己为『前端开发者』，是由于自己对前端开发的各种浅见，认为前端开发低端、repetitive、不能成大事。但是经过更加深入的实践，才慢慢发现前端也是工程化的、有学问的、有活力的。我很高兴可以作为一名『前端开发者』，在这里感受日新月异的氛围的技术浪潮。</p>
+<p><strong>系列完结</strong>。</p>
+<h2 id="u5EF6_u4F38_u9605_u8BFB"><a href="#u5EF6_u4F38_u9605_u8BFB" class="headerlink" title="延伸阅读"></a>延伸阅读</h2><ul>
+<li><a href="https://github.com/fouber/blog/issues/10" target="_blank" rel="external">前端工程——基础篇</a></li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>转载前请务必先联系邮箱</strong></p>
+<h2 id="Why_Vue-js_+_Webpack"><a href="#Why_Vue-js_+_Webpack" class="headerlink" title="Why Vue.js + Web]]>
+    </summary>
+    
+      <category term="frontend" scheme="http://djyde.github.io/tags/frontend/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Vue.js 和 Webpack（二）]]></title>
+    <link href="http://djyde.github.io/2015/08/30/vuejs-and-webpack-2/"/>
+    <id>http://djyde.github.io/2015/08/30/vuejs-and-webpack-2/</id>
+    <published>2015-08-29T16:31:00.000Z</published>
+    <updated>2015-08-30T02:24:49.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>转载前请务必先联系邮箱</strong></p>
+<h2 id="About_Webpack"><a href="#About_Webpack" class="headerlink" title="About Webpack"></a>About Webpack</h2><p>与其费周章说明 Webpack 是什么东西，倒不如先说说不用 Webpack 以前的一些现实。</p>
+<p>我们在写前端 JavaScript 的时候，通常是写在多个 <code>.js</code> 文件里，通过闭包避免全局变量污染，然后一股脑地用 <code>&lt;script&gt;</code> 引入。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"a.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"b.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"c.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>出于性能上的追求，我们会应该把 <code>a.js</code> <code>b.js</code> <code>c.js</code> 合并为同一个文件 <code>bundle.js</code> 来减少请求数量，变成：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"bundle.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>使用 Gulp/Grunt 等自动化构建工具很容易可以实现这样的 concat，但是很快我们就会发现，单纯的 concat 并不是一个好的方案，因为代码文件之间的依赖关系不明确，这样一来，有时不得不花一些时间去组织 concat 的顺序。我们很希望像写 Node 一样模块化地去写前端 JavaScript。</p>
+<p>又有些时候，在两个不同的页面当中我们常常会共用一些代码，单纯的 concat 会增加很多不必要的体积。</p>
+<p>所以  ，我们理想的情况是，可以在前端优雅地写符合模块规范（AMD, UMD, CommonJS）的代码并且自动打包，最好还能自动把重用的文件分离出来。</p>
+<p>嘿，Webpack 就很擅长做这种事。</p>
+<h2 id="Using_Webpack"><a href="#Using_Webpack" class="headerlink" title="Using Webpack"></a>Using Webpack</h2><p>Webpack 兼容所有模块规范（如果你不知道到底用哪一种，就用 CommonJS）。</p>
+<p>配置 webpack 比较简单，你需要定义入口文件和 bundle 输出的目录：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'bundle.js'</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这样，你就能在前端这样去写 JavaScript：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// /app.js</span></span><br><span class="line"><span class="keyword">var</span> Vue = <span class="built_in">require</span>(<span class="string">'vue'</span>);</span><br><span class="line"><span class="keyword">var</span> app = <span class="keyword">new</span> Vue(&#123;<span class="comment">/*...*/</span>&#125;)</span><br></pre></td></tr></table></figure>
+<p>这是 CommonJS 的写法，如果你写过 Node.js，应该对这种写法相当熟悉。这时运行 <code>$ webpack</code> ，webpack 会自动根据入口文件 <code>app.js</code> 中的依赖关系来打包成单个 js 文件，输出到配置文件中指定的 output path 中。</p>
+<p>webpack 也可以通过 plugin 自动分析重用的模块并且打包成单独的文件：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="keyword">var</span> webpack = <span class="built_in">require</span>(<span class="string">'webpack'</span>),</span><br><span class="line">  CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'bundle.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  plugins: [</span><br><span class="line">    <span class="keyword">new</span> CommonsChunkPlugin(<span class="string">'vendor.js'</span>)</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u591A_u5165_u53E3_u6587_u4EF6"><a href="#u591A_u5165_u53E3_u6587_u4EF6" class="headerlink" title="多入口文件"></a>多入口文件</h3><p>webpack 的一个特色是可以指定多个入口文件，最后打包成多个 bundle。比如说 Timeline page 和 Profile page 是不同的页面，我们不希望两个页面的 js 被打包在一起，这时我们就可以为 timeline 和 profile 两个页面定义不同的入口：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: &#123;</span><br><span class="line">    timeline: <span class="string">'./timeline.js'</span>,</span><br><span class="line">    profile: <span class="string">'./profile.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'[name].bundle.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  plugins: [</span><br><span class="line">    <span class="keyword">new</span> CommonsChunkPlugin(<span class="string">'vendor.js'</span>)</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>最后会被分别打包成 <code>timeline.bundle.js</code> 和 <code>profile.bundle.js</code>。</p>
+<p>###loader</p>
+<p>webpack 神奇的地方在于，任何的文件都能被 <code>require()</code>。依靠各种 loader，使你可以直接 <code>require()</code> 样式、图片等静态文件。这些静态文件最后都会被处理（比如 scss pre-process 和图片的压缩）和打包在配置好的 output path 中。</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#container</span>&#123;</span><br><span class="line">  <span class="attribute">background-image</span><span class="value">: <span class="function">url</span>(<span class="function">require</span>(<span class="string">'./images/background.png'</span>));</span></span><br><span class="line">  <span class="tag">p</span>&#123;</span><br><span class="line">    <span class="attribute">color</span><span class="value">: <span class="hexcolor">#69C</span>;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// app.js</span></span><br><span class="line"><span class="built_in">require</span>(<span class="string">'./styles/app.scss'</span>)</span><br><span class="line"><span class="comment">// blablabla....</span></span><br></pre></td></tr></table></figure>
+<p>你可以像上面这样在 JavaScript 中引入 scss （和在样式中引入图片），只要你配置好处理 scss 的 loader：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'bundle.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="built_in">module</span>: &#123;</span><br><span class="line">    loaders: [</span><br><span class="line">      &#123;</span><br><span class="line">        test: <span class="regexp">/\.(css|scss)$/</span>,</span><br><span class="line">        loader: ExtractTextPlugin.extract(<span class="string">'style'</span>,<span class="string">'css!sass'</span>)</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        test: <span class="regexp">/\.(png|jpg)$/</span>,</span><br><span class="line">        loader: <span class="string">'url?limit=8192'</span> <span class="comment">// 图片低于 8MB 时转换成 inline base64，非常神奇！</span></span><br><span class="line">      &#125;</span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>css 默认被编译到 JavaScript 中成为字符串后再被插入到 <code>&lt;style&gt;</code> 中，我个人建议使用 <code>ExtractTextPlugin</code> 这个插件把 css 分离出去。</p>
+<h2 id="u603B_u7ED3"><a href="#u603B_u7ED3" class="headerlink" title="总结"></a>总结</h2><p>webpack 是一个十分好用的模块打包工具，使用它更加利于实现前端开发工程化。</p>
+<p>很多人认为 webpack 可以取代 Gulp/Grunt 等构建工具，其实不然。Webpack 仅仅是<strong>顺便</strong>替构建工具分担了一些预编译预处理的工作，而构建工作不仅仅只有预编译啊。</p>
+<h3 id="u5EF6_u4F38_u9605_u8BFB"><a href="#u5EF6_u4F38_u9605_u8BFB" class="headerlink" title="延伸阅读"></a>延伸阅读</h3><ul>
+<li><a href="http://webpack.github.io/docs/tutorials/getting-started/" target="_blank" rel="external">Webpack Getting Started</a></li>
+<li><a href="http://segmentfault.com/a/1190000002551952" target="_blank" rel="external">Webpack 入门指迷</a></li>
+<li><a href="https://www.youtube.com/watch?v=VkTCL6Nqm6Y" target="_blank" rel="external">How Instagram.com Works</a></li>
+</ul>
+<p>##To be continued</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>转载前请务必先联系邮箱</strong></p>
+<h2 id="About_Webpack"><a href="#About_Webpack" class="headerlink" title="About Webpack"></a>About Webpa]]>
+    </summary>
+    
+      <category term="frontend" scheme="http://djyde.github.io/tags/frontend/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Vue.js 和 Webpack（一）]]></title>
+    <link href="http://djyde.github.io/2015/08/29/vuejs-and-webpack-1/"/>
+    <id>http://djyde.github.io/2015/08/29/vuejs-and-webpack-1/</id>
+    <published>2015-08-29T09:58:00.000Z</published>
+    <updated>2016-01-07T14:49:59.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>转载前请务必先联系邮箱</strong></p>
+<p>最近在把 SISE Game（我们学校的校内游戏直播网站） 从原本的 Ruby on Rails 彻底用 Node.js 重写，  经过一些考虑，决定用 Vue.js 和 Express.js 实现前后端分离的架构，在这几天的重写过程中，积累了对 Webpack 和 Vue.js 的一些新的看法，今天我想先说说 Vue.js。</p>
+<h2 id="About_Vue-js"><a href="#About_Vue-js" class="headerlink" title="About Vue.js"></a>About Vue.js</h2><p>Vue 是个很年轻的 MVVM Library，常常有很多人用 Angular 和 Vue 比较，因为两者都是 MVVM，但实际上，前者是 Framework，而后者是 Library。前者有很陡峭的学习曲线，后者可以很快地掌握运用到项目中去。</p>
+<p>Vue 的官方是用 <strong>a library for building modern web interfaces</strong> 来描述自己的。Vue 适合和 React 对比，因为在使用 Vue 的 Components System 开发比较大型的 Single Page Application 的时候，我发现它和 React 有一些相似的地方。如果你赞同 React 的思想，但又不想写 JSX，那么，你就可能需要试试 Vue 了。</p>
+<p>一个用 Vue 实现 Data binding 的 Demo：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- index.html --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"#app"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">input</span> <span class="attribute">v-model</span>=<span class="value">"msg"</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">p</span>&gt;</span>&#123;&#123; msg &#125;&#125;<span class="tag">&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="actionscript"></span><br><span class="line">  <span class="keyword">var</span> app = <span class="keyword">new</span> Vue(&#123;</span><br><span class="line">    el: <span class="string">'#app'</span>,</span><br><span class="line">    data: &#123;</span><br><span class="line">      msg: <span class="string">'hello Vue.js'</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Why_Vue-js"><a href="#Why_Vue-js" class="headerlink" title="Why Vue.js"></a>Why Vue.js</h2><p>前端开发发展到现在，我们做过的很多努力，都是在尝试把开发者从繁琐的 DOM  操作和管理 DOM state 中解放出去，我们希望只需要通过描述数据和行为，DOM 自己就可以发生对应的变化，React 在 View 这一层实现了这一目标，而 MVVM 则是通过 ViewModel 的 Data Binding。React 宣称自己是 View，那么在我看来， Vue 则是 View + ViewModel，并且 Vue 更加 lightweight 和 flexible。</p>
+<p>Vue 最让我喜欢的是它的 Components System，利用它可以构建组件化的中大型应用。React 当然也是组件化的，但是 Virtual DOM (JSX) 在一些场景让我很不满意。比如有一次，我用一个使用 React 的项目中，想要在一 <code>&lt;video&gt;</code> 里使用 <code>webkit-playsinline</code> 这个 attribute，但是 React 不支持，渲染的时候直接被 ignored，我必须手动地操作 DOM 给 <code>&lt;video&gt;</code> setAttribute。相反，Vue 的 Components System 当中，写的是真正的 DOM，不需要担心不支持不兼容的各种情况。</p>
+<p>容易被用作对比的是 Angular。我第一次听说 Vue 的时候，也是把它当作一个 lightweight 的 Angular alternative. 但是当真正实践使用 Vue 的时候，才发现它和 Angular 有着很大的不同。Angular 是一个 Framework，一旦你使用它，就必须按照它的一套去组织你的项目。以前写 Angular 项目的过程和经历对我个人来说都不太愉快，我更加倾向于 Vue 这种更灵活的方案。</p>
+<p>关于 Vue 和其它库和框架的对比，官方也有作者更详细的 <a href="http://vuejs.org/guide/faq.html" target="_blank" rel="external">解答</a>（<a href="http://cn.vuejs.org/guide/faq.html" target="_blank" rel="external">中文版本</a>）</p>
+<p>##Using Vue.js<br>SISE Game 并不算一个大型的 Web APP，但也规范地使用组件化的开发，整个项目的结构大致如下：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#9500;&#9472;&#9472; app&#10;&#9474;   &#9500;&#9472;&#9472; app.js #entry&#10;&#9474;   &#9500;&#9472;&#9472; app.vue&#10;&#9474;   &#9500;&#9472;&#9472; config.js &#10;&#9474;   &#9500;&#9472;&#9472; filters # &#33258;&#23450;&#20041;&#30340;&#19968;&#20123; filters&#10;&#9474;   &#9500;&#9472;&#9472; components #&#21508;&#31181;&#32452;&#20214;&#10;&#9474;   &#9500;&#9472;&#9472; models&#10;&#9474;   &#9500;&#9472;&#9472; utils&#10;&#9474;   &#9492;&#9472;&#9472; views #&#21508;&#31181;&#39029;&#38754;&#30340; views&#10;&#9474;       &#9500;&#9472;&#9472; home.vue&#10;&#9474;       &#9500;&#9472;&#9472; room.vue&#10;&#9474;       &#9500;&#9472;&#9472; signin.vue&#10;&#9474;       &#9500;&#9472;&#9472; signup.vue&#10;&#9474;       &#9492;&#9472;&#9472; user.vue&#10;&#9500;&#9472;&#9472; bower.json&#10;&#9500;&#9472;&#9472; build&#10;&#9500;&#9472;&#9472; gulpfile.js&#10;&#9500;&#9472;&#9472; index.html&#10;&#9500;&#9472;&#9472; node_modules&#10;&#9500;&#9472;&#9472; package.json&#10;&#9500;&#9472;&#9472; static #&#38745;&#24577;&#25991;&#20214;&#10;&#9474;   &#9500;&#9472;&#9472; images&#10;&#9474;   &#9500;&#9472;&#9472; styles&#10;&#9474;   &#9492;&#9472;&#9472; swfs&#10;&#9492;&#9472;&#9472; webpack.config.js</span><br></pre></td></tr></table></figure>
+<h3 id="u7EC4_u4EF6_u5316"><a href="#u7EC4_u4EF6_u5316" class="headerlink" title="组件化"></a>组件化</h3><p>Vue 通过自己的 <code>.vue</code> 文件来定义 components，<code>.vue</code> 文件里包含组件的模板、逻辑和样式，从而实现组件和组件之间的<strong>分治</strong>，非常易于维护。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- components/user.vue --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">p</span>&gt;</span>Hello &#123;&#123; name &#125;&#125;<span class="tag">&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">button</span> <span class="attribute">v-on</span>=<span class="value">"click: alertName()"</span>&gt;</span>alert!<span class="tag">&lt;/<span class="title">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">template</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript"></span><br><span class="line">  <span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    data: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      <span class="keyword">return</span> &#123;</span><br><span class="line">        name: <span class="string">'Randy'</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    methods: &#123;</span><br><span class="line">      alertName: <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">        alert(<span class="keyword">this</span>.name);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">style</span>&gt;</span><span class="css"></span><br><span class="line">  <span class="tag">p</span><span class="rules">&#123;</span><br><span class="line">    <span class="rule"><span class="attribute">color</span>:<span class="value"> <span class="hexcolor">#69C</span></span></span>;</span><br><span class="line">  &#125;</span></span><br><span class="line"></span><span class="tag">&lt;/<span class="title">style</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>以上就是一个简单的 component 实现，借助 webpack，甚至可以直接在 component 里写 es6、scss 和 jade。</p>
+<p>###路由<br>路由对于 Single Page Application 来说应该算是不可少的东西，Vue 作为一个 Library，它本身并不提供这些组件。目前官方的 vue-router 仍处于 technical preview 的状态，官方也建议可以使用 component 和 Director.js 实现路由，比如：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">"app"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">component</span> <span class="attribute">is</span>=<span class="value">"&#123;&#123; currentView &#125;&#125;"</span>&gt;</span><span class="tag">&lt;/<span class="title">component</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Vue.component(<span class="string">'home'</span>, &#123; <span class="comment">/* ... */</span> &#125;)</span><br><span class="line">Vue.component(<span class="string">'page1'</span>, &#123; <span class="comment">/* ... */</span> &#125;)</span><br><span class="line"><span class="keyword">var</span> app = <span class="keyword">new</span> Vue(&#123;</span><br><span class="line">  el: <span class="string">'#app'</span>,</span><br><span class="line">  data: &#123;</span><br><span class="line">    currentView: <span class="string">'home'</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// Switching pages in your route handler:</span></span><br><span class="line">app.currentView = <span class="string">'page1'</span></span><br></pre></td></tr></table></figure>
+<p>这样你只需要操作 <code>app.currentView</code> 的值就可以实现视图的切换，这一步通常会配合 Director.js 这类的 hash router.</p>
+<p>###延伸阅读</p>
+<ul>
+<li><a href="http://vuejs.org/guide/components.html" target="_blank" rel="external">Vue.js - Component System</a></li>
+<li><a href="http://vuejs.org/guide/application.html" target="_blank" rel="external">Vue.js - Building Larger Apps</a></li>
+<li><a href="https://github.com/vuejs/vue-router" target="_blank" rel="external">vue-router</a></li>
+<li><a href="http://teahour.fm/2015/08/16/vuejs-creator-evan-you.html" target="_blank" rel="external">和 Vue.js 框架的作者聊聊前端框架开发背后的故事</a></li>
+</ul>
+<p>##To be continued</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>转载前请务必先联系邮箱</strong></p>
+<p>最近在把 SISE Game（我们学校的校内游戏直播网站） 从原本的 Ruby on Rails 彻底用 Node.js 重写，  经过一些考虑，决定用 Vue.js 和 Express.js 实现前后]]>
+    </summary>
+    
+      <category term="frontend" scheme="http://djyde.github.io/tags/frontend/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[写给即将学习编程的大学新生]]></title>
+    <link href="http://djyde.github.io/2015/07/01/note-to-new-students/"/>
+    <id>http://djyde.github.io/2015/07/01/note-to-new-students/</id>
+    <published>2015-06-30T16:00:00.000Z</published>
+    <updated>2015-07-01T13:37:22.000Z</updated>
+    <content type="html"><![CDATA[<p>写下这篇文章，是由于我想和即将进入大学有意学习编程的同学谈谈关于编程的事，因为你可能需要一些建议，来步入这个新的阶段。</p>
+<p>编程是非常有趣的一件事情，学会编程就像成为魔术师，你可以创造任何你想创造的东西。在我出生到现在的这 20 年里，除了文学，没有比编程更吸引我的活动。就像 Zed Shaw 所说的，『编程作为一项智力活动，是唯一一种能让你创建交互式艺术的艺术形式。你可以创建项目让别人使用，而且你可以间接地和使用者沟通。没有其他的艺术形式能做到如此程度的交互性。电影领着观众走向一个方向，绘画是不会动的。而代码却是双向互动的。』</p>
+<h3 id="u4E00_u4E9B_u56F0_u60D1"><a href="#u4E00_u4E9B_u56F0_u60D1" class="headerlink" title="一些困惑"></a>一些困惑</h3><p>但是当你开始接触（我所在的）大学的计算机相关课程，你会发现，所谓的编程学习，无非是老师教一章内容，要求你用学到的语法去解一些数学题。于是很多人选择放弃，认为编程乏味无趣，用很长的课时学习，却只能写出简单的四则运算，或者解数学题。</p>
+<p>然而这并非编程的全部，因为这恰恰能生动地表明编程语言只不过是一种工具，你可以用它来解数学题，也能做其它更有趣、更实用的程序。</p>
+<p>在（我所在的）大学，计算机相关课程教 C/C++。有一次，一位大三的朋友问我说，『我学 C 学了一段时间，为什么我还是感觉很没用？』我是这样回答他的：</p>
+<p>你学 C 学了一段时间感觉没有用处并非你个人的问题，我无法跟你解释为什么，不过我可以告诉你的是，Linus Torvalds 用 C 写了 Linux 和 Git; Antirez 用 C 写了数据库 Redis. 你可能连 Git 是什么都不知道，如何用 C 写出这种水平的程序呢？</p>
+<p>所以，当你学习 C/C++ 基础后进入困惑期时，不要因为用它写不出实用的程序而止步不前，而应该开始接触其它的编程语言。当你所学和所做的东西越来越多的时候，你慢慢就会发现，编程语言只不过是一种工具，重要的在于你想做什么，用什么语言合适去做（华软的校内游戏直播网站 SISE Game 就是例子，网站的后端用 Ruby on Rails 写，但实时聊天是用 Node.js (JavaScript) ，因为相对于 Ruby, Node.js 更加适合处理 WebSocket）。 <strong>你之所以感觉 C/C++ 没用，是因为你暂时还没有足够的眼界和能力去使用他去进行创造</strong>。</p>
+<p>应该去学什么？我的建议是一门严谨的强类型语言（如 Java）和一门愉快的脚本语言（如 JavaScript, Ruby, Python）。当然了，如果你想学一些能立竿见影的技能，你也可以写写前端（HTML, CSS）。</p>
+<h3 id="So_2C_How_3F"><a href="#So_2C_How_3F" class="headerlink" title="So, How?"></a>So, How?</h3><p>对于应该如何去学习，我不打算在这里论述，我只想列出一些有用的建议：</p>
+<ol>
+<li><p>无论你要学什么，你读的第一篇文章应该是《提问的智慧》</p>
+</li>
+<li><p>用 Google 搜索技术相关的信息</p>
+</li>
+<li><p>购买付费可靠的科学上网服务，不要吝啬一顿饭的钱。</p>
+</li>
+<li><p>不要害怕英文，英文非常重要。</p>
+</li>
+</ol>
+<p>几乎所有最新的技术在刚出来的时候只有英文文档，优质的 Tutorial 大多数也是英文的。</p>
+<ol>
+<li>参与一些质量高的社区，关注一些值得关注的人。</li>
+</ol>
+<p>这一点很重要。学校所教的内容是陈旧、过时的（虽然这也许不是学校的错），你必须和社区保持同步，不断接触和学习新的技术。AngularJS 发布至今都有 6 年了，但在我们学校仍然在教 ExtJS，很多学生甚至毕业出来找工作的时候，连 AngularJS 都没听说过。</p>
+<p>国内的 <a href="http://v2ex.com" target="_blank" rel="external">V2EX</a> 和国外的 <a href="https://news.ycombinator.com/" target="_blank" rel="external">Hackernews</a> 都是不错的社区。</p>
+<h3 id="u4E00_u4E9B_u73B0_u72B6"><a href="#u4E00_u4E9B_u73B0_u72B6" class="headerlink" title="一些现状"></a>一些现状</h3><p>你并不能指望大学的课程或者大学老师能给你带来什么，一切都应该靠你自己。无论在多优秀或者多差劲的学校，学校本身能影响你的是辅助性的，而不是决定性的。在我的学校，几乎都在打游戏和应付考试，据我所知，即使是重点大学，这样的学生也大有人在，我渐渐明白，『你今后人生的艰难，恰恰不是因为你没能考上一个满意的学校，而是在这所学校里，在一个能让自己自由充分成长的黄金四年里，把自己给荒废了』（采铜的回答）。</p>
+<h3 id="u4E3A_u672A_u6765_u94FA_u8DEF"><a href="#u4E3A_u672A_u6765_u94FA_u8DEF" class="headerlink" title="为未来铺路"></a>为未来铺路</h3><p>如果你以后有意从事编程的相关工作，你应该要知道，在找工作时和其它竞争者拉开差距的，并非你从哪里毕业，在学校当什么干部，而是你有足够的能力，并且能清楚地让别人看到你的能力。</p>
+<p>让别人看到你能力的方法是开源社区和博客，所以我建议你在学习的过程中，多为开源做贡献，甚至可以维护一个自己的开源项目。另外还可以把自己的所学记录和总结到独立博客中。一个好的 Github Account 和好的独立博客是一份最好的简历。也许你也只有在大学这自由的四年才能有时间做这两件事情。</p>
+<h3 id="u6700_u540E"><a href="#u6700_u540E" class="headerlink" title="最后"></a>最后</h3><p>我在广州大学华软软件学院读书已经有一年了，这一年里我遇到过许多对现在对未来感到迷茫的朋友，他们对教育抱有希望，对知识怀有渴望。我曾经试图做一些事情去改变现状，但是效果都不大，该混日子的还是继续混日子，到毕业后才开始抱怨就业难。我呸，互联网行业都缺人缺到什么地步了你跟我说就业难？</p>
+<p>不过，只要我还没被学校开除，我还是会尽我所能地为迷茫的朋友做一些事情。至于做些什么，我还没想好，我不知道应该怎么做，如果你有好的建议，欢迎联系我。</p>
+<p>如果你看完这篇文章，还有问题可以联系我的 Email: randypriv@gmail.com，只要你读过《提问的智慧》，问的问题经过自己思考，我都会尽快地详细地回复。</p>
+<p>『你会编程。他们不会。这真他妈的酷。』</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>写下这篇文章，是由于我想和即将进入大学有意学习编程的同学谈谈关于编程的事，因为你可能需要一些建议，来步入这个新的阶段。</p>
+<p>编程是非常有趣的一件事情，学会编程就像成为魔术师，你可以创造任何你想创造的东西。在我出生到现在的这 20 年里，除了文学，没有比编程更吸引我]]>
+    </summary>
+    
+      <category term="tech" scheme="http://djyde.github.io/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[V2HOT Plus]]></title>
+    <link href="http://djyde.github.io/2015/05/09/release-v2hot-plus/"/>
+    <id>http://djyde.github.io/2015/05/09/release-v2hot-plus/</id>
+    <published>2015-05-08T16:22:00.000Z</published>
+    <updated>2015-05-08T16:23:46.000Z</updated>
+    <content type="html"><![CDATA[<p>大约在一年前，我刚毕业，开始搞 Android，做了一个叫 V2HOT 的 APP <a href="https://www.v2ex.com/t/130456" target="_blank" rel="external">https://www.v2ex.com/t/130456</a></p>
+<p>后来由于各种事情，再也没有迭代。过了几乎一年，我对 Android 和 Material Design 有了更深的理解，所以今天我重写了一个新的版本，取名叫 V2HOT Plus。</p>
+<p>很多东西都变了，不变的是它仍是开源的： <a href="https://github.com/djyde/V2HOT-Plus" target="_blank" rel="external">https://github.com/djyde/V2HOT-Plus</a></p>
+<p><a href="https://fir.im/v2hot" target="_blank" rel="external">下载</a></p>
+<p>V2HOT Plus 是原 V2HOT 的 redesign 版本。对比 V2HOT，此版本有以下改进：</p>
+<ul>
+<li>更舒适的 UI </li>
+<li>新增收藏夹功能</li>
+</ul>
+<h2 id="Screenshot"><a href="#Screenshot" class="headerlink" title="Screenshot"></a>Screenshot</h2><p><img src="http://ww2.sinaimg.cn/large/62580dd9gw1erx525z9tgj21kw0pcn6x.jpg" alt=""></p>
+<h2 id="u6350_u8D60"><a href="#u6350_u8D60" class="headerlink" title="捐赠"></a>捐赠</h2><p><img src="https://tfsimg.alipay.com/images/mobilecodec/T1omJfXd0bXXXXXXXX" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>大约在一年前，我刚毕业，开始搞 Android，做了一个叫 V2HOT 的 APP <a href="https://www.v2ex.com/t/130456" target="_blank" rel="external">https://www.v2ex.com/t/1]]>
+    </summary>
+    
+      <category term="android" scheme="http://djyde.github.io/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[使用 RecylerView 实现触底加载]]></title>
+    <link href="http://djyde.github.io/2015/04/24/recyclerview-endless-load/"/>
+    <id>http://djyde.github.io/2015/04/24/recyclerview-endless-load/</id>
+    <published>2015-04-24T02:07:00.000Z</published>
+    <updated>2015-08-29T16:29:41.000Z</updated>
+    <content type="html"><![CDATA[<p>最近项目中需要实现列表到底后加载更多的功能，由于我使用的是 RecyclerView，所以我就基于它实现了一个，现在分享给大家。</p>
+<p>要实现触底的时候刷新，首先要做的事当然是监听列表滑动到最底部的事件了，在 RecyclerView 当中，实现的方法和以前的 ListView 不同。因为前者有一个非常厉害的 LayoutManager，我们可以利用它来获取一些需要用到的数据。</p>
+<p>具体可以移步 <a href="https://developer.android.com/reference/android/support/v7/widget/RecyclerView.LayoutManager.html" target="_blank" rel="external">LayoutManager 的 API 文档</a></p>
+<p>需要用到的是其中的 <a href="https://developer.android.com/reference/android/support/v7/widget/RecyclerView.LayoutManager.html#getChildCount(" target="_blank" rel="external">getChildCount()</a>)，这个方法用于获取当前可视的 item 的数量；还有是<a href="https://developer.android.com/reference/android/support/v7/widget/RecyclerView.LayoutManager.html#getItemCount(" target="_blank" rel="external">getItemCount()</a>)，用于获取 RecyclerView 中当前所有 item 的数目。</p>
+<p>得到这两个量其实还不够，我们还需要一个量。在 LayoutManager 的子类 <a href="https://developer.android.com/reference/android/support/v7/widget/LinearLayoutManager.html" target="_blank" rel="external">LinearLayoutManager</a> 中有一个扩展的方法 <a href="https://developer.android.com/reference/android/support/v7/widget/LinearLayoutManager.html#findFirstVisibleItemPosition(" target="_blank" rel="external">findFirstVisibleItemPosition()</a>)，这个方法返回当前可视的 item 中第一个 item 的 position，换句话说，其实就是返回了已经滚动过的 item 的数量。</p>
+<p>我们很容易可以通过这三个量判断是否已经达到底部，思路是，监听 RecyclerView 的 onScroll 事件，如果当前可视 item 的数目加上已经滚动过的 item 数目大于或者等于所有 item 数目，那么就可以认为列表已经到达底部了。</p>
+<p>接下来是 coding time.</p>
+<p>首先定义成员变量，这里需要注意的是有一个 onLoading，这个变量用来防止在未加载完成的状态下再一次触发到底事件时重复请求加载。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">private</span> RecyclerView list;</span><br><span class="line"><span class="keyword">private</span> LinearLayoutManager linearLayoutManager;</span><br><span class="line"><span class="keyword">private</span> <span class="keyword">boolean</span> onLoading;</span><br><span class="line"><span class="keyword">private</span> MyAdapter myAdapter;</span><br></pre></td></tr></table></figure>
+<p>在 onCreate() 里初始化</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">// onCreate</span></span><br><span class="line"></span><br><span class="line">onLoading = <span class="keyword">false</span>;</span><br><span class="line"></span><br><span class="line">linearLayoutManager = <span class="keyword">new</span> LinearLayoutManager(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line">myAdapter = <span class="keyword">new</span> MyAdapter(foo,bar);</span><br><span class="line"></span><br><span class="line">list.setLayoutManager(linearLayoutManager);</span><br><span class="line">list.setAdapter(myAdapter);</span><br></pre></td></tr></table></figure>
+<p>现在就可以监听 list 的 onScroll 事件了：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">list.setOnScrollListener(<span class="keyword">new</span> RecyclerView.OnScrollListener() &#123;</span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onScrolled</span><span class="params">(RecyclerView recyclerView, <span class="keyword">int</span> dx, <span class="keyword">int</span> dy)</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">        visibleItemCount = layoutManager.getChildCount();</span><br><span class="line">        totalItemCount = layoutManager.getItemCount();</span><br><span class="line">        pastItems = layoutManager.findFirstVisibleItemPosition();</span><br><span class="line"> </span><br><span class="line">        <span class="keyword">if</span> (!onLoading) &#123;</span><br><span class="line">        </span><br><span class="line">            <span class="keyword">if</span> ((pastItems + visibleItemCount) &gt;= totalItemCount) &#123;</span><br><span class="line">                Toast.makeText(getApplicationContext(),<span class="string">"loading..."</span>,SHORT).show();</span><br><span class="line">                onLoading = <span class="keyword">true</span>;</span><br><span class="line">                <span class="comment">// load something new and set adapter notifyDatasetChanged</span></span><br><span class="line">                <span class="comment">// 记得在 load something 完了以后把 onLoading 赋值为 false</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>这样就实现了触底加载，在未来几天我会在 Github 上放一个 Demo app。</p>
+<p>快下课了，就写这么多。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近项目中需要实现列表到底后加载更多的功能，由于我使用的是 RecyclerView，所以我就基于它实现了一个，现在分享给大家。</p>
+<p>要实现触底的时候刷新，首先要做的事当然是监听列表滑动到最底部的事件了，在 RecyclerView 当中，实现的方法和以前的 Li]]>
+    </summary>
+    
+      <category term="android" scheme="http://djyde.github.io/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[2014 年终总结]]></title>
+    <link href="http://djyde.github.io/2014/12/31/2014-all/"/>
+    <id>http://djyde.github.io/2014/12/31/2014-all/</id>
+    <published>2014-12-30T16:00:00.000Z</published>
+    <updated>2015-01-01T16:39:52.000Z</updated>
+    <content type="html"><![CDATA[<p>2014 年因为有高考所以比往年过得快了些，大学的一个学期转眼也过了。有时候甚至缓不过神来，甚至让我常常有种错觉，2014 它早就过了，但 2015 它迟迟未来。</p>
+<p>今年的 1 月我还在为化学烦恼，今年的 12 月现在的我已经过上了那时梦寐以求的自由的生活。但是生活哪有什么所谓的自由，高考只不过给我开了一个闸，从一个小笼子，滚进了一个更大的笼子而已。而这个更大的笼子比以前按部就班的生活更让我感到害怕，就像《海上钢琴师》里 1900 放弃离开轮船后 对 Max 说的一样，让我害怕的不是我看到的东西，而是我所无法看到的东西，这里什么都有，可是唯独没有尽头。</p>
+<p>还好上了大学以后，能遇到几个让我又有了寄托的朋友，我和他们一起做事，非常地快乐。</p>
+<p>技术方面，哈哈，就不说了，我仍然迫切的希望能用技术给这个社会带来一点好的改变。</p>
+<p>遗憾的事是好像很难再找到能聊聊天的朋友，而且好像变得不太爱说话了，所以有时候我还是挺怀念高一时候的我。最遗憾的事是 Google 还没有解封，当我以为『她』正在慢慢变好的时候，却再一次让我失望了。</p>
+<p>新年愿望是，1，所有人都好 2，能继续写代码 3，生活的这片土地能再进步一些，我知道这的确需要一个过程，但我想自己，和我身边的人，还有未来的儿子和女儿，都能在这里活得快乐些。</p>
+<p>最后附上 1900 对 Max 说的那段话，说的真他妈的好：</p>
+<p>“All that city. You just couldn’t see the end to it. The end? Please? You please just show me where it ends? It was all very fine on that gangway. And I was grand too, in my overcoat. I cut quite a figure. And I was getting off. Guaranteed. There was no problem. It wasn’t what I saw that stopped me, Max. It was what I didn’t see. You understand that? What I didn’t see. In all that sprawling city there was everything except an end. There was no end. What I did not see was where the whole thing came to an end. The end of the world… ” 　　</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>2014 年因为有高考所以比往年过得快了些，大学的一个学期转眼也过了。有时候甚至缓不过神来，甚至让我常常有种错觉，2014 它早就过了，但 2015 它迟迟未来。</p>
+<p>今年的 1 月我还在为化学烦恼，今年的 12 月现在的我已经过上了那时梦寐以求的自由的生活。但是]]>
+    </summary>
+    
+      <category term="live" scheme="http://djyde.github.io/tags/live/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[撸了个新作品 MoniCoin]]></title>
+    <link href="http://djyde.github.io/2014/11/14/monicoin/"/>
+    <id>http://djyde.github.io/2014/11/14/monicoin/</id>
+    <published>2014-11-13T16:00:00.000Z</published>
+    <updated>2014-11-14T15:38:31.000Z</updated>
+    <content type="html"><![CDATA[<p>今天中午朋友想要一个可以模拟比特币交易的东西，我看挺简单的，就开始动手写。为了高效、方便我决定还是选用 <a href="http://github.com/djyde/storedb" target="_blank" rel="external">StoreDB</a> + AngularJS 架构，而实时行情使用 <a href="http://okcoin.cn" target="_blank" rel="external">OKCoin</a> 提供的 WebSocket。</p>
+<p>下午有两节课，逃课风险比较高，所以索性把 mba 带去上课写。上课写代码其实还是挺高效的，只是有时候在想逻辑的时候会被干扰。</p>
+<p><img src="http://ww2.sinaimg.cn/large/62580dd9gw1emay00eiiej21kw16ox20.jpg" alt=""></p>
+<p>这东西叫 <strong>MoniCoin</strong>，名字是随便起的，但是我很喜欢。这次写的时候因为太久没有写 AngularJS 所以遇到了一些坑，比如说在外部环境使用 <code>$scope</code> 的时候应该用 <code>$scope.$apply()</code>，也顺便熟悉了一下 WebSocket。</p>
+<p>不说这么多了，直接放个截图（ Mac 的截屏真美啊）：</p>
+<p><img src="http://ww2.sinaimg.cn/large/62580dd9gw1ematlu0yjlj21350luwhm.jpg" alt=""></p>
+<p>我把他开源了，想想我从 13 岁到现在几乎没做过什么东西是闭源的，也没有写过什么为了捞钱的代码。我不喜欢写代码为了钱，这也是我不喜欢做外包的原因。</p>
+<p>项目地址: <a href="https://github.com/djyde/MoniCoin" target="_blank" rel="external">http://github.com/djyde/MoniCoin</a></p>
+<p>欢迎 Pull Request，更欢迎以 MoniCoin 为基础创造更好更强的派生应用，但请谨记遵守协议，即所有以 <strong>MoniCoin</strong> 为基础派生的应用 <strong>必须声明派生自 MoniCoin</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天中午朋友想要一个可以模拟比特币交易的东西，我看挺简单的，就开始动手写。为了高效、方便我决定还是选用 <a href="http://github.com/djyde/storedb" target="_blank" rel="external">StoreDB</a> ]]>
+    </summary>
+    
+      <category term="internet" scheme="http://djyde.github.io/tags/internet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Realm 中文文档]]></title>
+    <link href="http://djyde.github.io/2014/10/17/realm-doc-in-chinese/"/>
+    <id>http://djyde.github.io/2014/10/17/realm-doc-in-chinese/</id>
+    <published>2014-10-16T16:00:00.000Z</published>
+    <updated>2015-08-29T16:28:00.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://realm.io/docs/java/" target="_blank" rel="external">官方文档</a></p>
+<h2 id="u5F00_u59CB"><a href="#u5F00_u59CB" class="headerlink" title="开始"></a>开始</h2><blockquote>
+<p>请注意目前我们不支持除 Android 以外的 Java 环境。</p>
+</blockquote>
+<h3 id="u73AF_u5883_u8981_u6C42"><a href="#u73AF_u5883_u8981_u6C42" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
+<li>Android Studio (&gt;=0.8.6)</li>
+<li>较新的 Android SDK 版本</li>
+<li>JDK &gt;=7</li>
+</ul>
+<p><strong>*我们支持 API 9 以上的 Android 版本</strong>（Android 2.3 以上）。*</p>
+<h2 id="u5B89_u88C5"><a href="#u5B89_u88C5" class="headerlink" title="安装"></a>安装</h2><p>你有两种安装方法可以选择：</p>
+<h4 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h4><ol>
+<li>确定你的项目使用 jcenter 作为依赖仓库（最新版本的 Android Gradle 插件默认）</li>
+<li>将 <code>compile &#39;io.realm:realm-android:0.71.0&#39;</code> 添加到你的项目依赖</li>
+<li>在 Android Studio 菜单中选择：Tools-&gt;Android-&gt;Sync Project with Gradle Files</li>
+</ol>
+<h4 id="u4F7F_u7528_u5305"><a href="#u4F7F_u7528_u5305" class="headerlink" title="使用包"></a>使用包</h4><ol>
+<li><a href="http://static.realm.io/downloads/java/latest" target="_blank" rel="external">下载</a>最新包并解压</li>
+<li>在 Android Studio 创建一个新的项目</li>
+<li>复制 <code>realm-版本.jar</code> 文件夹到 <code>app/libs</code></li>
+<li>在 Android Studio 菜单中选择：Tools-&gt;Android-&gt;Sync Project with Gradle Files</li>
+</ol>
+<h3 id="Realm__u6D4F_u89C8_u5668"><a href="#Realm__u6D4F_u89C8_u5668" class="headerlink" title="Realm 浏览器"></a>Realm 浏览器</h3><blockquote>
+<p>目前仅支持 Mac OS X。Windows 和 Linux 版本正在开发中。</p>
+</blockquote>
+<p><img src="http://realm.io/assets/docs/browser.png" alt=""></p>
+<p>我们提供一个独立的应用来读写 .realm 数据库。</p>
+<p>你可以在<a href="http://static.realm.io/downloads/cocoa/latest" target="_blank" rel="external">Cocoa release zip</a>的<code>browser/</code>文件夹中找到</p>
+<p>你可以在<strong>Tools&gt;Generate demo database</strong>中生成一个用以测试的数据库。</p>
+<h3 id="u5B9E_u4F8B"><a href="#u5B9E_u4F8B" class="headerlink" title="实例"></a>实例</h3><p>在根目录中我们提供了几个examples来帮助你熟悉运用 Realm。你只需要在 Android Studio 中导入运行即可。</p>
+<p><code>RelamIntroExample</code>包含了一个使用当前API的简单实例，在项目中你只能从Log中看到看到输出。</p>
+<p><code>RealmGridViewExample</code>是一个app，用来展示如何用Realm渲染GridView。</p>
+<p><code>RealmConcurrencyExample</code>是一个简单的app用以展示在多线程中使用Realm，</p>
+<h3 id="u83B7_u5F97_u5E2E_u52A9"><a href="#u83B7_u5F97_u5E2E_u52A9" class="headerlink" title="获得帮助"></a>获得帮助</h3><ul>
+<li>订阅<a href="http://eepurl.com/VEKCn" target="_blank" rel="external">community newsletter</a>定期获取使用Realm的一些技巧和教程。</li>
+<li>我们也能通过你们在<a href="https://groups.google.com/forum/#!forum/realm-java" target="_blank" rel="external">google groups</a>的问题反馈来完善 Realm for Android。</li>
+<li>除了google groups，我们还建议你通过<a href="https://github.com/realm/realm-java" target="_blank" rel="external">Github</a>提交问题。</li>
+</ul>
+<h2 id="u6A21_u578B"><a href="#u6A21_u578B" class="headerlink" title="模型"></a>模型</h2><p>Realm 的数据模型通过实现类似传统 <a href="https://zh.wikipedia.org/wiki/JavaBeans" target="_blank" rel="external">Java Bean</a> 来定义。只需要继承 <code>RealmObject</code> 并让 Realm 的注解处理器生成代理类。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">User</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String          name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span>             age;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Ignore</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span>             sessionId;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 你的 IDE 生成的标准 getter 和 setter…</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> name; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>   <span class="title">setName</span><span class="params">(String name)</span> </span>&#123; <span class="keyword">this</span>.name = name; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span>    <span class="title">getAge</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> age; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>   <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123; <span class="keyword">this</span>.age = age; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span>    <span class="title">getSessionId</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> sessionId; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>   <span class="title">setSessionId</span><span class="params">(<span class="keyword">int</span> dontPersist)</span> </span>&#123; <span class="keyword">this</span>.sessionId = sessionId; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>注意，getter 和 setter 会被 RealmObject 内部所使用的自动生成的代理类所重载，因此你在 getter 和 setter 里自己写的逻辑都不会被执行。</p>
+<p>RealmObject 强依赖于同一个 <a href="/#realms">Realm</a> 实例，所以一定要用 <code>realm.createObject()</code> 实例方法来从 Realm 中实例化它。</p>
+<h3 id="u6570_u636E_u7C7B_u578B"><a href="#u6570_u636E_u7C7B_u578B" class="headerlink" title="数据类型"></a>数据类型</h3><p>Realm 支持这几种数据类型：<code>boolean</code>,<code>short</code>,<code>int</code>,<code>long</code>,<code>float</code>,<code>double</code>,<code>string</code>,<code>Date</code>和<code>byte[]</code>。再者，还能使用 <code>RealmObject</code> 的子类和 <code>RealmList&lt;? extends RealmObject&gt;</code> 来表示模型关系。</p>
+<h3 id="u5FFD_u7565_u5C5E_u6027"><a href="#u5FFD_u7565_u5C5E_u6027" class="headerlink" title="忽略属性"></a>忽略属性</h3><p>注解 <code>@Ignore</code> 表示字段不应被持久化到磁盘中。</p>
+<h3 id="u641C_u7D22_u7D22_u5F15"><a href="#u641C_u7D22_u7D22_u5F15" class="headerlink" title="搜索索引"></a>搜索索引</h3><p>注解 <code>@Index</code> 会为字段增加搜索索引。这会导致插入速度变慢，同时数据文件体积有所增加，但能加速查询。因此建议仅在需要加速查询时才添加索引。目前仅支持索引字符串属性（其它类型会在下个版本支持），且无法删除搜索索引。</p>
+<h2 id="u5199_u5165"><a href="#u5199_u5165" class="headerlink" title="写入"></a>写入</h2><p>读取操作是隐式的，但所有的写入操作（增加、修改、移除对象）都必须包裹在写入事务中以确保线程安全：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 获得一个 Realm 实例</span></span><br><span class="line">Realm realm = Realm.getInstance(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line">realm.beginTransaction();</span><br><span class="line"></span><br><span class="line"><span class="comment">//... 在这里执行增添或更新对象 ...</span></span><br><span class="line"></span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<p>数据对象需要通过Realm来实例化：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 获得一个Realm实例</span></span><br><span class="line">Realm realm = Realm.getInstance(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line">realm.beginTransaction();</span><br><span class="line">User user = realm.createObject(User.class); <span class="comment">// 创建新对象</span></span><br><span class="line">user.setName(<span class="string">"John"</span>);</span><br><span class="line">user.setEmail(<span class="string">"john@corporation.com"</span>);</span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<p>请注意写入操作会互相阻塞，并且当存在其它进行中的写入时也会阻塞它们所在的线程。但得益于 Realm 的 MVCC 架构，当正在进行一个写入事务时读取操作并不会被阻塞！也就是说，除非你需要同时在许多线程里进行并发的写入，你应该尽量使用更大的写入事务来做更多的事情，而不是许多小粒度的写入事务。当你向 Realm 提交一个写入事务，将会通知该 Realm 的所有其它实例，同时让隐式的读取事务自动刷新你的 Realm 对象。</p>
+<h2 id="u67E5_u8BE2"><a href="#u67E5_u8BE2" class="headerlink" title="查询"></a>查询</h2><blockquote>
+<p>Realm 中的所有读取（包括查询）都是延迟执行的，且数据不会被拷贝。</p>
+</blockquote>
+<p>Realm 的查询引擎使用 <a href="https://en.wikipedia.org/wiki/Fluent_interface" target="_blank" rel="external">Fluent 接口</a> 来构造多条件查询。</p>
+<p>比如查找所有叫做 John 或 Peter 的用户，你可以这么写：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 构建查找所有用户的查询:</span></span><br><span class="line">RealmQuery&lt;User&gt; query = realm.where(User.class);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 添加查询条件:</span></span><br><span class="line">query.equalTo(<span class="string">"name"</span>, <span class="string">"John"</span>);</span><br><span class="line">query.or().equalTo(<span class="string">"name"</span>, <span class="string">"Peter"</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 执行查询:</span></span><br><span class="line">RealmResults&lt;User&gt; result1 = query.findAll();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 或者同时进行上述操作 (通过 "Fluent 接口"):</span></span><br><span class="line">RealmResults&lt;User&gt; result2 = realm.where(User.class)</span><br><span class="line">                                  .equalTo(<span class="string">"name"</span>, <span class="string">"John"</span>)</span><br><span class="line">                                  .or()</span><br><span class="line">                                  .equalTo(<span class="string">"name"</span>, <span class="string">"Peter"</span>)</span><br><span class="line">                                  .findAll();</span><br></pre></td></tr></table></figure></p>
+<p>查询返回一个新的 <code>RealmResults</code>，包含名叫 John 和 Peter 的用户。对象并非拷贝，也就是说你得到的是一个所匹配对象的引用的列表，你对所匹配的对象所有的操作都是直接施加于它的原始对象。</p>
+<h3 id="u6761_u4EF6"><a href="#u6761_u4EF6" class="headerlink" title="条件"></a>条件</h3><p>Realm 支持以下查询条件：</p>
+<ul>
+<li><code>greaterThan()</code>,<code>lessThan()</code>,<code>greateThanOrEqualTo()</code> 和 <code>lessThanOrEqualTo()</code></li>
+<li><code>equalTo()</code> 和 <code>notEqualTo()</code></li>
+<li><code>contains()</code>,<code>beiginsWith()</code> 和 <code>endsWith()</code></li>
+</ul>
+<p>并非所有条件都适用于所有数据类型，具体请看 <a href="http://realm.io/docs/java/0.71.0/api/io/realm/RealmQuery.html" target="_blank" rel="external">RealmQuery API</a>。</p>
+<h3 id="u903B_u8F91_u64CD_u4F5C"><a href="#u903B_u8F91_u64CD_u4F5C" class="headerlink" title="逻辑操作"></a>逻辑操作</h3><p>每个查询条件都会被被隐式地被“<code>逻辑和(&amp;)</code>”组合在一起，而“<code>逻辑或(or)</code>”需要显式地去执行<code>or()</code>。</p>
+<p>你也可以将查询条件组合在一起，使用<code>beginGroup()</code>（相当于左括号）和<code>endGroup()</code>（相当于右括号）：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">RealmResults&lt;User&gt; r = realm.where(User.class)</span><br><span class="line">	                        .greaterThan(<span class="string">"age"</span>, <span class="number">10</span>)  <span class="comment">//隐式的逻辑和（&amp;）</span></span><br><span class="line">	                        .beginGroup()</span><br><span class="line">	                        	.equalTo(<span class="string">"name"</span>, <span class="string">"Peter"</span>)</span><br><span class="line">	                            .or()</span><br><span class="line">	                            .contains(<span class="string">"name"</span>, <span class="string">"Jo"</span>)</span><br><span class="line">	                        .endGroup()</span><br><span class="line">	                        .findAll();</span><br></pre></td></tr></table></figure>
+<h3 id="u6392_u5E8F"><a href="#u6392_u5E8F" class="headerlink" title="排序"></a>排序</h3><p>当你执行完查询获得结果后，可以对它进行排序：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RealmResults&lt;User&gt; result = realm.where(User.class).findAll();</span><br><span class="line">RealmResults&lt;User&gt; sortedAscending  = result.sort(<span class="string">"age"</span>);</span><br><span class="line">RealmResults&lt;User&gt; sortedDescending = result.sort(<span class="string">"age"</span>, RealmResults.SORT_ORDER_DECENDING);</span><br></pre></td></tr></table></figure>
+<h3 id="u94FE_u5F0F_u67E5_u8BE2"><a href="#u94FE_u5F0F_u67E5_u8BE2" class="headerlink" title="链式查询"></a>链式查询</h3><p>你也可以直接在查询后进行分类筛选：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">RealmResults&lt;User&gt; teenagers = Realm.where(User.class).between(<span class="string">"age"</span>, <span class="number">13</span>, <span class="number">20</span>).findAll();</span><br><span class="line">RealmResults&lt;User&gt; firstJohn = teenagers.where().equalTo(<span class="string">"name"</span>, <span class="string">"John"</span>).findFirst();</span><br></pre></td></tr></table></figure>
+<h3 id="u805A_u5408"><a href="#u805A_u5408" class="headerlink" title="聚合"></a>聚合</h3><p><code>RealmResult</code> 自带一些聚合方法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">long</span>   sum     = result.sum(<span class="string">"age"</span>).longValue(); <span class="comment">//加法</span></span><br><span class="line"><span class="keyword">long</span>   min     = result.min(<span class="string">"age"</span>).longValue(); <span class="comment">//最小值</span></span><br><span class="line"><span class="keyword">long</span>   max     = result.max(<span class="string">"age"</span>).longValue(); <span class="comment">//最大值</span></span><br><span class="line"><span class="keyword">double</span> average = result.average(<span class="string">"age"</span>); <span class="comment">//平均数</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">long</span>   matches = result.size();</span><br></pre></td></tr></table></figure>
+<h3 id="u8FED_u4EE3"><a href="#u8FED_u4EE3" class="headerlink" title="迭代"></a>迭代</h3><p>遍历 <code>RealmResults</code> 可以这样：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (User u : result) &#123;</span><br><span class="line">    <span class="comment">// ... do something with the object ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>或者使用 <code>for</code> 循环：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; result.size(); i++) &#123;</span><br><span class="line">    User u = result.get(i);</span><br><span class="line">    <span class="comment">// ... do something with the object ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u5220_u9664"><a href="#u5220_u9664" class="headerlink" title="删除"></a>删除</h3><p>你可以从查询结果中删除数据</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 所有的数据变更都需要在一个事务里发生</span></span><br><span class="line">realm.beginTransaction();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 删除单条数据</span></span><br><span class="line">result.remove(<span class="number">0</span>);</span><br><span class="line">result.removeLast();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 删除所有匹配到的数据</span></span><br><span class="line">result.clear();</span><br><span class="line"></span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<h2 id="realms">Realm(s)</h2>
+
+<p>Realm(s) 是我们对数据库的称谓：它包含多个不同的对象，并对应磁盘中的一个文件。</p>
+<h3 id="u9ED8_u8BA4_u7684_Realm"><a href="#u9ED8_u8BA4_u7684_Realm" class="headerlink" title="默认的 Realm"></a>默认的 Realm</h3><p>你可能已经意识到，我们总是通过 <code>Realm.getInstance(this)</code> 来访问我们已初始化的 realm 变量。该单例方法会为你的线程返回一个实例变量，它对应了你的应用文件根目录中一个 default.realm 文件。</p>
+<h3 id="u5176_u5B83_Realm"><a href="#u5176_u5B83_Realm" class="headerlink" title="其它 Realm"></a>其它 Realm</h3><p>It’s sometimes useful to have multiple realms, persisted at different locations,<br>for example if you have different data groupings, different databases per feature,<br> or you need to package some read-only files with your app, separate from the<br> database your users will be editing.</p>
+<p>有时候你可能需要多个持久化在不同位置的 realm 实例，比如说你需要不同的数据分组、各个功能独立数据库，或你需要独立于你的用户可修改的数据库外附带一些只读数据的时候。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Realm moviesrealm = Realm.getInstance(<span class="keyword">this</span>, <span class="string">"allmymovies.realm"</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="u8DE8_u7EBF_u7A0B_u4F7F_u7528_Realm"><a href="#u8DE8_u7EBF_u7A0B_u4F7F_u7528_Realm" class="headerlink" title="跨线程使用 Realm"></a>跨线程使用 Realm</h3><p>跨线程使用 Realm 唯一的规则是，<code>Realm</code>、<code>RealmObject</code> 或 <code>RealmResults</code> 实例不能跨线程传递。当你需要在不同的线程访问同样的数据时，你应该为每个线程获取独立的 Realm 实例（比如 <code>Realm.getInstance(this)</code> 或其它方式）并通过 <code>RealmQuery</code> 取得你的对象。这些对象都对应磁盘上相同的数据，并且对任何线程可读、可写！</p>
+<h2 id="u5173_u7CFB"><a href="#u5173_u7CFB" class="headerlink" title="关系"></a>关系</h2><p>任意两个 RealmObject 都能互相关联。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Email</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String address;</span><br><span class="line">    <span class="comment">// ... setters and getters left out</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Contact</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> Email email;</span><br><span class="line">    <span class="comment">// ... setters and getters left out</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>请注意现在还不支持对关联进行查询。你可以暂时通过遍历你的结果来过滤出你需要的数据。我们会在下个版本中支持内置关联查询。</p>
+<h3 id="u4E00_u5BF9_u591A"><a href="#u4E00_u5BF9_u591A" class="headerlink" title="一对多"></a>一对多</h3><p>也就是使用你的 RealmObject 子类作为类型来声明属性：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Email</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Contact contact;</span><br><span class="line">    <span class="comment">// Other fields…</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u591A_u5BF9_u591A"><a href="#u591A_u5BF9_u591A" class="headerlink" title="多对多"></a>多对多</h3><p>你可以通过一个 <code>RealmList&lt;T&gt;</code> 字段声明来建立单个对象对应0个、1个或更多个对象的关联。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Contact</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> RealmList&lt;Email&gt; emails;</span><br><span class="line">    <span class="comment">// Other fields…</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>RealmList 是基本的 RealmObject 容器，类似于普通的 Java <code>List</code> 类。</p>
+<p>你可以添加标注的 getter 和 setter 来访问关联中的数据。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">realm.beginTransaction();</span><br><span class="line">Contact contact = realm.createObject(Contact.class);</span><br><span class="line">contact.setName(<span class="string">"John Doe"</span>);</span><br><span class="line"></span><br><span class="line">Email email1 = realm.createObject(Email.class);</span><br><span class="line">email1.setAddress(<span class="string">"john@example.com"</span>);</span><br><span class="line">contact.getEmails().add(email1);</span><br><span class="line"></span><br><span class="line">Email email2 = realm.createObject(Email.class);</span><br><span class="line">email2.setNumber(<span class="string">"jd@example.com"</span>);</span><br><span class="line">contact.getEmails().add(email2);</span><br><span class="line"></span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<h2 id="u901A_u77E5"><a href="#u901A_u77E5" class="headerlink" title="通知"></a>通知</h2><p>如果你在一个后台线程中增加数据，你的 UI 或其它线程可以通过监听器获取 Realm 的变化：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">realm.addChangeListener(<span class="keyword">new</span> RealmChangeListener() &#123;</span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onChange</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="comment">// ... do something with the updates (UI, etc.) ...</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>如果有需要，你可以很方便地关掉所有监听器：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">realm.removeAllChangeListeners();</span><br></pre></td></tr></table></figure>
+<h2 id="u8FC1_u79FB"><a href="#u8FC1_u79FB" class="headerlink" title="迁移"></a>迁移</h2><p>随着时间的推动，数据模型变化是常有的事。从一开始在Realm中定义了数据对象后，如果需要改变它，只需要改变RealmObject子类即可。</p>
+<p>如果在储存器中没有旧的数据，那么你只要修改你的代码就能改变数据对象。如果有，那么在执行查询时会因为不匹配而报错。</p>
+<p>所以我们提供了方法给你去更新你的旧数据对象，详情请看我们的实例<a href="https://github.com/realm/realm-java/tree/master/examples/migrationExample" target="_blank" rel="external">migrationSample app</a></p>
+<h2 id="u4E0B_u4E00_u6B65"><a href="#u4E0B_u4E00_u6B65" class="headerlink" title="下一步"></a>下一步</h2><p>你可以查看我们的<a href="https://github.com/realm/realm-java/tree/master/examples" target="_blank" rel="external">example</a>中的实例（我们会陆续提供更多samples）。</p>
+<p>Happy hacking!你可以在<a href="https://groups.google.com/d/forum/realm-java" target="_blank" rel="external">realm-java</a>里和真人开发者交流。</p>
+<h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><p><strong>我应该在产品级应用中使用Realm吗？</strong></p>
+<p>Realm从2012年开始就已经被用于商业产品。</p>
+<p>通过交流反馈你还能推动我们的bug修复和发展。</p>
+<p><strong>我需要向Realm支付费用吗？</strong></p>
+<p>不，Realm for Android 完全免费，在商业项目使用它也不需要收费。</p>
+<p><strong>那你们怎么创造收入呢？</strong></p>
+<p>（这个还是放原句好）We’re actually already generating revenue selling enterprise products and services around our technology. If you need more than what is currently in our releases or in <a href="http://github.com/realm/realm-java" target="_blank" rel="external">realm-java</a>, we’re always happy to chat <a href="http://realm.io/docs/java/0.71.0/info@realm.io" target="_blank" rel="external">by email</a>. Otherwise, we are committed to developing realm-java in the open, and to keep it free and open-source under the Apache 2.0 license.</p>
+<p><strong>源码里面引用的“tightdb”和”core”是什么？</strong></p>
+<p>TightDB是我们C++存储引擎内核的旧名称，内核目前还没开源，但是我们已经有这个计划，只要我们有时间梳理一下、改改名字，等最后敲定后，就会开放源代码，并且同样使用 Apache 2.0 协议。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://realm.io/docs/java/" target="_blank" rel="external">官方文档</a></p>
+<h2 id="u5F00_u59CB"><a href="#u5F00_u59CB" class="heade]]>
+    </summary>
+    
+      <category term="android" scheme="http://djyde.github.io/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Realm实例指南]]></title>
+    <link href="http://djyde.github.io/2014/10/17/realm-todo-tutorial/"/>
+    <id>http://djyde.github.io/2014/10/17/realm-todo-tutorial/</id>
+    <published>2014-10-16T16:00:00.000Z</published>
+    <updated>2015-08-29T16:28:53.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="u80CC_u666F"><a href="#u80CC_u666F" class="headerlink" title="背景"></a>背景</h2><p>Realm 是一个手机数据库，由 YCombinator 孵化的公司 Realm 创造。正如它在<a href="http://realm.io" target="_blank" rel="external">官网</a>中自我描述的一样，它的出现是为了替代SQLite和Core Date。抛开性能不说，相对于传统的SQLite，Realm有更好的体验，这也是我喜欢Realm的其中一个重要原因。</p>
+<p>然而，相对于它的iOS版本，这个如此好用的数据库的Android版本目前还是没有受到广泛的关注，所以我决定为它布一下道，目前已经为它翻译了<a href="http://djyde.github.io/2014/10/17/realm-doc-in-chinese.html">中文文档</a>，现在我们就来通过一个 Todo APP 实例粗略地体验一下 Realm 的使用。</p>
+<h2 id="u5F00_u59CB_u4E4B_u524D"><a href="#u5F00_u59CB_u4E4B_u524D" class="headerlink" title="开始之前"></a>开始之前</h2><p>首先你要确保你的运行环境符合要求：</p>
+<ul>
+<li>Android Studio (&gt;=0.8.6)</li>
+<li>较新的 Android SDK 版本</li>
+<li>JDK（ &gt;=7 ）</li>
+</ul>
+<p>我第一次使用 Realm 的时候就是由于使用 JDK6 所以不断调试还报错。</p>
+<p>要注意的是，在你下载安装了新版本的 JDK 后，必须检查 Android Studio 是否指向正确版本的 JDK。 你可以在 <strong>File-&gt;Project Structure-&gt;SDK Location</strong> 中查看指向的 JDK 目录。</p>
+<h2 id="Get_Start"><a href="#Get_Start" class="headerlink" title="Get Start"></a>Get Start</h2><p>首先，我们要做的是一个 Todo APP，实现添加一条 todo 和修改一条 todo 的完成状态。就是这么简单，主要是演示 Realm 的一些简单的读写查询方法。成品如下：</p>
+<p><img src="http://blogscdn.qiniudn.com/github1.pic.jpg" alt=""></p>
+<h2 id="u7B2C_u4E00_u6B65_uFF0CUI"><a href="#u7B2C_u4E00_u6B65_uFF0CUI" class="headerlink" title="第一步，UI"></a>第一步，UI</h2><p>首先我们先把最简单的布局完成。由于本指南的重点是 Realm 的操作，所以在这里只贴代码，不讲解。</p>
+<p><strong>layout/activity_my.xml</strong>：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">LinearLayout</span> <span class="attribute">xmlns:android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span></span><br><span class="line">    <span class="attribute">xmlns:tools</span>=<span class="value">"http://schemas.android.com/tools"</span></span><br><span class="line">    <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span></span><br><span class="line">    <span class="attribute">android:orientation</span>=<span class="value">"vertical"</span></span><br><span class="line">    <span class="attribute">tools:context</span>=<span class="value">".MyActivity"</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="title">ListView</span></span><br><span class="line">        <span class="attribute">android:id</span>=<span class="value">"@+id/todo_list"</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"0dp"</span></span><br><span class="line">        <span class="attribute">android:layout_weight</span>=<span class="value">"3"</span>/&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="title">LinearLayout</span></span><br><span class="line">        <span class="attribute">android:layout_marginBottom</span>=<span class="value">"5dp"</span></span><br><span class="line">        <span class="attribute">android:layout_alignParentBottom</span>=<span class="value">"true"</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"wrap_content"</span></span><br><span class="line">        <span class="attribute">android:orientation</span>=<span class="value">"horizontal"</span>&gt;</span></span><br><span class="line"></span><br><span class="line">        <span class="tag">&lt;<span class="title">EditText</span></span><br><span class="line">            <span class="attribute">android:id</span>=<span class="value">"@+id/title"</span></span><br><span class="line">            <span class="attribute">android:hint</span>=<span class="value">"What to do?"</span></span><br><span class="line">            <span class="attribute">android:layout_width</span>=<span class="value">"0dp"</span></span><br><span class="line">            <span class="attribute">android:layout_weight</span>=<span class="value">"5"</span></span><br><span class="line">            <span class="attribute">android:layout_height</span>=<span class="value">"wrap_content"</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="title">ImageView</span></span><br><span class="line">            <span class="attribute">android:id</span>=<span class="value">"@+id/add"</span></span><br><span class="line">            <span class="attribute">android:layout_weight</span>=<span class="value">"1"</span></span><br><span class="line">            <span class="attribute">android:src</span>=<span class="value">"@drawable/add"</span></span><br><span class="line">            <span class="attribute">android:layout_width</span>=<span class="value">"0dp"</span></span><br><span class="line">            <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span>/&gt;</span></span><br><span class="line">     <span class="tag">&lt;/<span class="title">LinearLayout</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">LinearLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>layout/todo_item.xml</strong>（每个 item 的布局）：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="pi">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="title">LinearLayout</span> <span class="attribute">xmlns:android</span>=<span class="value">"http://schemas.android.com/apk/res/android"</span></span><br><span class="line">              <span class="attribute">android:orientation</span>=<span class="value">"vertical"</span></span><br><span class="line">              <span class="attribute">android:layout_width</span>=<span class="value">"match_parent"</span></span><br><span class="line">              <span class="attribute">android:layout_height</span>=<span class="value">"match_parent"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="title">CheckBox</span></span><br><span class="line">        <span class="attribute">android:id</span>=<span class="value">"@+id/done"</span></span><br><span class="line">        <span class="attribute">android:textSize</span>=<span class="value">"22sp"</span></span><br><span class="line">        <span class="attribute">android:layout_width</span>=<span class="value">"wrap_content"</span></span><br><span class="line">        <span class="attribute">android:layout_height</span>=<span class="value">"wrap_content"</span>/&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="title">LinearLayout</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="u7B2C_u4E8C_u6B65_uFF0C_u6570_u636E_u6A21_u578B"><a href="#u7B2C_u4E8C_u6B65_uFF0C_u6570_u636E_u6A21_u578B" class="headerlink" title="第二步，数据模型"></a>第二步，数据模型</h2><p>根据需求，我们知道一条 todo 应该要有两个属性，一个是 todo 的标题 <code>String title</code>，一个是它的完成状态 <code>Boolean done</code>。所以我们就可以根据这个建立一个 Todo 的对象。</p>
+<p>Realm 的数据对象类似 Java Bean，我们新建一个 Todo 类，然后继承 <code>RealmObject</code>：</p>
+<p><strong>java/model/Todo.java</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.randy.client.todo4realm.model;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> io.realm.RealmObject;</span><br><span class="line"><span class="keyword">import</span> io.realm.annotations.RealmClass;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Todo</span> <span class="keyword">extends</span> <span class="title">RealmObject</span></span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String title;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">boolean</span> done;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//生成的 Getter 和 Setter</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">isDone</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> done;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setDone</span><span class="params">(<span class="keyword">boolean</span> done)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.done = done;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getTitle</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> title;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setTitle</span><span class="params">(String title)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.title = title;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="u7B2C_u4E09_u6B65_uFF0C_u67E5_u8BE2"><a href="#u7B2C_u4E09_u6B65_uFF0C_u67E5_u8BE2" class="headerlink" title="第三步，查询"></a>第三步，查询</h2><p>在用户打开 APP 后必须看到数据库中已存在的 todo 项，所以我们要在onCreate中执行查询，查找所有的 todo 对象。</p>
+<p>Realm 的查询方法很简单。首先通过 <code>Realm.getInstance(Context)</code> 获取一个 realm 实例，再从 realm 的一系列查询方法返回一个 RealmResults<e>，通过自定义一个适配器来处理查询结果渲染到 ListView 上即可：</e></p>
+<p><strong>java/MyActivity.java</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">MyActivity</span> <span class="keyword">extends</span> <span class="title">Activity</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> ListView lv;</span><br><span class="line">    <span class="keyword">private</span> ImageView add;</span><br><span class="line">    <span class="keyword">private</span> EditText title;</span><br><span class="line">    <span class="keyword">private</span> Realm realm;</span><br><span class="line">    <span class="keyword">private</span> TodoAdapter todoAdapter;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">        setContentView(R.layout.activity_my);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 获得 realm 实例</span></span><br><span class="line">        realm = Realm.getInstance(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line">        add = (ImageView)findViewById(R.id.add);</span><br><span class="line">        title = (EditText)findViewById(R.id.title);</span><br><span class="line">        lv = (ListView)findViewById(R.id.todo_list);</span><br><span class="line"></span><br><span class="line">		<span class="comment">// 执行查询</span></span><br><span class="line">        RealmQuery&lt;Todo&gt; query = realm.where(Todo.class);</span><br><span class="line">        RealmResults&lt;Todo&gt; results = query.findAll();</span><br><span class="line"></span><br><span class="line">		<span class="comment">// 适配器</span></span><br><span class="line">        todoAdapter = <span class="keyword">new</span> TodoAdapter(results,<span class="keyword">this</span>);</span><br><span class="line">        lv.setAdapter(todoAdapter);</span><br><span class="line">		</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>java/adapter/TodoAdapter</strong>(自定义适配器)</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.randy.client.todo4realm.adapter;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> android.content.Context;</span><br><span class="line"><span class="keyword">import</span> android.view.LayoutInflater;</span><br><span class="line"><span class="keyword">import</span> android.view.View;</span><br><span class="line"><span class="keyword">import</span> android.view.ViewGroup;</span><br><span class="line"><span class="keyword">import</span> android.widget.BaseAdapter;</span><br><span class="line"><span class="keyword">import</span> android.widget.CheckBox;</span><br><span class="line"><span class="keyword">import</span> android.widget.CompoundButton;</span><br><span class="line"><span class="keyword">import</span> android.widget.TextView;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.randy.client.todo4realm.R;</span><br><span class="line"><span class="keyword">import</span> com.randy.client.todo4realm.model.Todo;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.List;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> io.realm.Realm;</span><br><span class="line"><span class="keyword">import</span> io.realm.RealmResults;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span><br><span class="line"> * Created by randy on 14-10-12.</span><br><span class="line"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">TodoAdapter</span> <span class="keyword">extends</span> <span class="title">BaseAdapter</span> </span>&#123;</span><br><span class="line">    Context context;</span><br><span class="line">    RealmResults&lt;Todo&gt; todoList;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">TodoAdapter</span><span class="params">(RealmResults&lt;Todo&gt; todoList,Context context)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.todoList = todoList;</span><br><span class="line">        <span class="keyword">this</span>.context = context;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ViewHolder</span></span>&#123;</span><br><span class="line">        CheckBox checkBox;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">long</span> <span class="title">getItemId</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> i;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">getCount</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> todoList.size();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> Object <span class="title">getItem</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> View <span class="title">getView</span><span class="params">(<span class="keyword">final</span> <span class="keyword">int</span> i, View view, ViewGroup viewGroup)</span> </span>&#123;</span><br><span class="line">        ViewHolder holder;</span><br><span class="line">        <span class="keyword">if</span>(view == <span class="keyword">null</span>)&#123;</span><br><span class="line">            view = LayoutInflater.from(context).inflate(R.layout.todo_item,<span class="keyword">null</span>);</span><br><span class="line">            holder = <span class="keyword">new</span> ViewHolder();</span><br><span class="line">            holder.checkBox = (CheckBox)view.findViewById(R.id.done);</span><br><span class="line">            view.setTag(holder);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            holder = (ViewHolder)view.getTag();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">        <span class="comment">//获取done状态和title</span></span><br><span class="line">        holder.checkBox.setChecked(todoList.get(i).isDone());</span><br><span class="line">        holder.checkBox.setText(todoList.get(i).getTitle());</span><br><span class="line">        <span class="keyword">return</span> view;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="u7B2C_u4E09_u6B65_uFF0C_u589E_u52A0"><a href="#u7B2C_u4E09_u6B65_uFF0C_u589E_u52A0" class="headerlink" title="第三步，增加"></a>第三步，增加</h2><p>接下来要为 add 按钮添加插入数据的功能，只需要在绑定一个 onClick 事件，然后通过 <code>addChangeListener()</code> 监听数据库变化来实时更新ListView：</p>
+<p><strong>java/MyActivity.java</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">add = (ImageView)findViewById(R.id.add);</span><br><span class="line">add.setOnClickListener(<span class="keyword">new</span> View.OnClickListener() &#123;</span><br><span class="line">            <span class="annotation">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View view)</span> </span>&#123;</span><br><span class="line">                <span class="comment">//添加一条todo</span></span><br><span class="line">                realm.beginTransaction();</span><br><span class="line"></span><br><span class="line">                Todo todo = realm.createObject(Todo.class);</span><br><span class="line">                <span class="keyword">if</span>(!title.getText().toString().equals(<span class="string">""</span>))&#123;</span><br><span class="line">                    todo.setTitle(title.getText().toString());</span><br><span class="line">                    todo.setDone(<span class="keyword">false</span>);</span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                realm.commitTransaction();</span><br><span class="line"></span><br><span class="line">                title.setText(<span class="string">""</span>);</span><br><span class="line"></span><br><span class="line">                <span class="comment">//监听数据库变化，更新ListView</span></span><br><span class="line">                realm.addChangeListener(<span class="keyword">new</span> RealmChangeListener() &#123;</span><br><span class="line">                    <span class="annotation">@Override</span></span><br><span class="line">                    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onChange</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                        todoAdapter.notifyDataSetChanged();</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;);</span><br><span class="line"></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure>
+<p>需要注意的是，在 Realm 中，所有有关修改数据（如增加，修改，删除）的动作都必须被包含在 <code>beginTransaction()</code> 和 <code>commitTransaction</code> 之中，以确保线程安全。</p>
+<h2 id="u6700_u540E_u4E00_u6B65_uFF0C_u4FEE_u6539_u5B8C_u6210_u72B6_u6001"><a href="#u6700_u540E_u4E00_u6B65_uFF0C_u4FEE_u6539_u5B8C_u6210_u72B6_u6001" class="headerlink" title="最后一步，修改完成状态"></a>最后一步，修改完成状态</h2><p>修改完成状态非常简单，只需要在 getView 中绑定 CheckBox 的 onCheck 事件然后通过 Realm 修改 done 的值：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">holder.checkBox.setOnCheckedChangeListener(<span class="keyword">new</span> CompoundButton.OnCheckedChangeListener() &#123;</span><br><span class="line">            <span class="annotation">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onCheckedChanged</span><span class="params">(CompoundButton compoundButton, <span class="keyword">boolean</span> b)</span> </span>&#123;</span><br><span class="line">                Realm realm = Realm.getInstance(context);</span><br><span class="line">                realm.beginTransaction();</span><br><span class="line">                todoList.get(i).setDone(b);</span><br><span class="line">                realm.commitTransaction();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure>
+<h2 id="Done_21"><a href="#Done_21" class="headerlink" title="Done!"></a>Done!</h2><p>这样我们就完成了一个简单的 Todo APP，是不是很方便？但是，Realm 决不仅仅能够处理这些简单的数据，它还有更多非常棒的特性方法。如果你在看完这篇文章后决定深入了解，那么可以到<a href="/realm.io/docs/java/">官方文档</a>查看更多，或者看我的翻译的<a href="http://djyde.github.io/2014/10/17/realm-doc-in-chinese.html">中文文档</a>。</p>
+<p>本教程的源码托管在 <a href="https://github.com/djyde/Todo4Realm" target="_blank" rel="external">Github</a>，大家可以 clone 下来跑一跑试试。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="u80CC_u666F"><a href="#u80CC_u666F" class="headerlink" title="背景"></a>背景</h2><p>Realm 是一个手机数据库，由 YCombinator 孵化的公司 Realm 创造。正如它在<a h]]>
+    </summary>
+    
+      <category term="android" scheme="http://djyde.github.io/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[StoreDB - 让localStorage更强大]]></title>
+    <link href="http://djyde.github.io/2014/10/06/2014-10-6-storedb/"/>
+    <id>http://djyde.github.io/2014/10/06/2014-10-6-storedb/</id>
+    <published>2014-10-05T16:00:00.000Z</published>
+    <updated>2015-08-29T16:29:12.000Z</updated>
+    <content type="html"><![CDATA[<p>故事从我高三的那一天开始，我正准备着手做一个更好用的在线RSS Reader，RSS解析由jQuery处理，页面逻辑处理使用AngularJS，UI用bootstrap，而数据还不知道使用哪一种技术。</p>
+<p>我首先想到的是IndexedDB，因为它更便于处理我这种比较复杂的数据，而localStorage简单的key-value显然对这种数据无能为力。但IndexedDB兼容性差，API不友好（我认为），所以我萌生了让localStorage同样能处理复杂数据的想法。</p>
+<p>由于我在之前习惯使用 Node.js + MongoDB 的架构，所以我开始思考localStorage和MongoDB的融合方案。</p>
+<p>我思考了两天，把实现逻辑的伪代码写在一张纸上，并且把它命名为StoreDB。</p>
+<p>StoreDB的第一个版本就这样发布在一张高考复习试着的背面。我们学校是寄宿学校，平时不能回家。学校当时放了半天的假，我去到最近的网吧，下载一个Chrome和sublime text2，把我的伪代码敲成JavaScript，在Chrome上不断调试，最后终于完成可用的版本。</p>
+<p>StoreDB写出来之后我很激动，它是我写过的开源项目中最cool的一个项目。我甚至认为它可以改变些什么。</p>
+<p>然后我用它写出了RSS阅读器 EverFeed。</p>
+<p>它真的可以改变很多，比如在以往，构建 Single Page App 的时候要考虑很多数据交互，这就必须依赖后端服务器，StoreDB正好在前端就可以解决你的问题，不必再依赖服务器。再比如，在Hackthon上快速开发一款产品的demo时，调试后端服务器和数据库需要大量的时间，而StoreDB使你无需部署，即可完成同样的效果。</p>
+<p>如果你熟悉MongoDB，你几乎零学习成本就能上手StoreDB，比如插入一条 collection 仅仅需要一个JSON和几行代码：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">storedb(<span class="string">'demo'</span>).insert(&#123;<span class="string">"name"</span>:<span class="string">"Randy"</span>,<span class="string">"sex"</span>:<span class="string">"male"</span>,<span class="string">"age"</span>:<span class="number">20</span>&#125;,<span class="function"><span class="keyword">function</span>(<span class="params">err,result</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(!err)&#123;</span><br><span class="line">    <span class="comment">//do sth...</span></span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="comment">//do sth...</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p>根据条件查询也很简单：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">storedb(<span class="string">'demo'</span>).find(&#123;<span class="string">"name"</span>:<span class="string">"Randy"</span>&#125;,<span class="function"><span class="keyword">function</span>(<span class="params">err,result</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(!err)&#123;</span><br><span class="line">    <span class="comment">//use result to do sth...</span></span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="comment">//do sth...</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p>更精彩的是，我把MongoDB的selector(选择器)也引入到了StoreDB，比如，让name为Randy的age数值增加10，可以这样写：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">storedb(<span class="string">'players'</span>).update(&#123;<span class="string">"name"</span>:<span class="string">"Randy"</span>&#125;,&#123;<span class="string">"$inc"</span>:&#123;<span class="string">"age"</span>:<span class="string">"10"</span>&#125;&#125;,<span class="function"><span class="keyword">function</span>(<span class="params">err</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(!err)&#123;</span><br><span class="line">    <span class="comment">//do sth...</span></span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="comment">//do sth...</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p>它真的可以帮助你更简单地完成你要完成的项目，可惜的是项目一直处于不温不火的状态，希望它有朝一日能造福更多的人。</p>
+<p>开源地址：<a href="https://github.com/djyde/StoreDB" target="_blank" rel="external">https://github.com/djyde/StoreDB</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>故事从我高三的那一天开始，我正准备着手做一个更好用的在线RSS Reader，RSS解析由jQuery处理，页面逻辑处理使用AngularJS，UI用bootstrap，而数据还不知道使用哪一种技术。</p>
+<p>我首先想到的是IndexedDB，因为它更便于处理我这种比]]>
+    </summary>
+    
+      <category term="tech" scheme="http://djyde.github.io/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[对Markdown标准化的构想]]></title>
+    <link href="http://djyde.github.io/2014/09/06/2014-9-6-markdown-standard/"/>
+    <id>http://djyde.github.io/2014/09/06/2014-9-6-markdown-standard/</id>
+    <published>2014-09-05T16:00:00.000Z</published>
+    <updated>2014-09-08T15:54:19.000Z</updated>
+    <content type="html"><![CDATA[<p>John Gruber和Aaron Swartz创造Markdown至今已经有十年，在这十年我们用Markdown节约了大量的时间，像Github、Stackoverflow这样的网站都能看到Markdown的身影，这篇文章也是用它写成。</p>
+<p>如果用面向对象的思维去看待Markdown，它就像是一个interface，所有人可以根据自己不同的需求去编写自己的Markdown实现，比如Github Flavored Markdown。这样的灵活性促进了它迅猛的发展，但同样也给使用者带来了一些问题。</p>
+<p>虽然同样使用Markdown，但在不同的环境下，常用的写法则不一定正确。比如说我通常使用下划线嵌套实现字体倾斜（ _e.g_ ），但在Github中，这样的写法是不允许的，因为当我们需要写像hello_world_example这样的字符串的时候，会被解析成hello  <em>world</em> exapmle，Github选择忽略这种写法，只能使用星号实现斜体，这种做法无疑是正确的。</p>
+<p>这样的乱象带给用户很大的不便，由其在面对一个陌生的编辑环境的时候，没有人告诉你，应该按照怎样的标准去编写Markdown，有时甚至会在提交文本后发生无可挽回的结果。</p>
+<p>为了解决这样的问题，我们应该人为地去制定一些<strong>比Flavored更大范围</strong>的标准。这个标准要求做到以下几点：</p>
+<ul>
+<li>标准的名称</li>
+<li>具有标识（齐备64、128、512px大小的icon）以供用户辨认</li>
+<li>展示具体语法的wiki page</li>
+<li>适用范围广</li>
+</ul>
+<p>另外，制定标准的人（或组织）应该把解析器写出来。不过这不是必须。</p>
+<p>这样，就能按照这些规定制定不同标准，比如说制定用于基础写作的标准（假设叫作<strong>Markdown Writing</strong>）和用于有coding需求的标准（假设叫作<strong>Markdown Coding</strong>）。这样一来，Stackoverflow和Github可以实现<strong>Markdown Coding</strong>的解析，又或者各种不同的Markdown写作工具可以提供标准选择的选项，让用户选择使用哪一个标准去编写Markdown。</p>
+<p>巧合的是，Stackoverflow创始人codinghorror正在做这样的事，他所制定的 <a href="http://commonmark.org/" target="_blank" rel="external">Command Markdown</a> 正是符合上述要求的一个合规标准。</p>
+<p>先写到这，我仍会不断的为Markdown标准化作尽可能的努力，并且我自己也正在写一个合规的标准。</p>
+<p>:)</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>John Gruber和Aaron Swartz创造Markdown至今已经有十年，在这十年我们用Markdown节约了大量的时间，像Github、Stackoverflow这样的网站都能看到Markdown的身影，这篇文章也是用它写成。</p>
+<p>如果用面向对象的思维]]>
+    </summary>
+    
+      <category term="internet" scheme="http://djyde.github.io/tags/internet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的第一个应用 - V2HOT上线]]></title>
+    <link href="http://djyde.github.io/2014/08/28/2014-8-28-v2hot-release/"/>
+    <id>http://djyde.github.io/2014/08/28/2014-8-28-v2hot-release/</id>
+    <published>2014-08-28T08:15:00.000Z</published>
+    <updated>2014-08-28T10:23:29.000Z</updated>
+    <content type="html"><![CDATA[<p>在坐公交的时候，我常常淘出手机消磨时间。入口一般是 微信-&gt;微博-&gt;chrome。对我来说打开浏览器是一个麻烦的举动，而我是一个v2ex的用户，经常希望在闲余的时间看看这个社区里在讨论什么东西，尤其是热议主题，非常有质量且能消磨时间。我手上的设备是nexus5，有人曾为v2ex做过Android客户端，但是没有查看今日热议主题的功能，而且对我来说只需要看看热议主题就行，不希望再看到其它我不太想在碎片时间看到的内容。</p>
+<p>于是，我有了一个很好的idea，恰好自己是个程序员！！:D</p>
+<p>所以我做出来了，V2HOT。V2EX的意思是Way to Explore，而V2HOT的意思是Way to Hot Topics。这是一款纯粹的应用，不需要花俏，只关注内容。所以在第一版，我决定暂时不加入任何图像（除了关于作者里面我的avatar :P）。</p>
+<p>所有的内容均在V2EX首页的今日热议板块抓取：</p>
+<p><img src="/!--￼0--&gt;/assets/screenshot/hot_topic.png" alt="今日热议"></p>
+<p>应用截图：</p>
+<p><img src="http://img.wdjimg.com/mms/screenshot/3/3c/4249b835451a4fd2a674df2cd3c093c3_320_568.jpeg" alt="截图1"><br><img src="http://img.wdjimg.com/mms/screenshot/0/24/50b837b8ea5c078e0deaac4d07cb9240_320_568.jpeg" alt="截图2"></p>
+<p><img src="http://img.wdjimg.com/mms/screenshot/8/b2/9fa6b68141b54fae232a7b9d61a6cb28_320_568.jpeg" alt="截图3"></p>
+<p>下载地址：<br><a href="/!--￼1--&gt;/assets/apk/V2HOT.apk">直接下载APK</a></p>
+<p><a href="http://www.wandoujia.com/apps/com.randy.client.v2hot" target="_blank" rel="external">豌豆荚</a></p>
+<p>程序员最大的优越性是永远不差程序员，这几天彻夜赶工，终于完成了这个app，也是我转Android开发的第一个app，希望大家感觉有用。</p>
+<p>而程序员最大的乐趣是能做出自己想要的东西，We as if the magician. What we want, just do it. 附送一张手绘设计图，从刚开始做web开发的时候就喜欢自己先画出设计图再做UI，现在依然如此。</p>
+<p><img src="/!--￼2--&gt;/assets/image/v2hot_design.png" alt="设计图"></p>
+<p><strong>即将开源</strong>，请关注我的<a href="http://github.com/djyde" target="_blank" rel="external">github</a>和blog。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>在坐公交的时候，我常常淘出手机消磨时间。入口一般是 微信-&gt;微博-&gt;chrome。对我来说打开浏览器是一个麻烦的举动，而我是一个v2ex的用户，经常希望在闲余的时间看看这个社区里在讨论什么东西，尤其是热议主题，非常有质量且能消磨时间。我手上的设备是nexus5，]]>
+    </summary>
+    
+      <category term="android" scheme="http://djyde.github.io/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[在Volley中自定义HTTP头实现模拟PC端访问网页]]></title>
+    <link href="http://djyde.github.io/2014/08/26/volley-http-headers/"/>
+    <id>http://djyde.github.io/2014/08/26/volley-http-headers/</id>
+    <published>2014-08-25T19:15:00.000Z</published>
+    <updated>2015-08-29T16:27:26.000Z</updated>
+    <content type="html"><![CDATA[<p>最近在用Volley + Jsoup 抓V2EX网站首页数据的时候一直抓不到自己想抓到的数据，换了很多种Jsoup不同的选择器依然抓不到要抓的。后来索性把Volley取到的V2EX首页原代码Log出来，才发现原来是因为手机端访问V2EX会自动跳转到手机版，而手机版里根本就没有这个，难怪一直抓不出来。</p>
+<p>终于找到了问题的源头，就着手解决。因为服务器是根据HTTP头的User Agent值来判断浏览器类型，所以我首先想到的方法是通过改写HTTP头去模拟PC端的浏览器访问。 而在Volley中改写HTTP头的方法很方便，只要覆写getHeaders()方法就能实现。代码如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">StringRequest request = <span class="keyword">new</span> StringRequest(<span class="string">"http://xxx.com"</span>, <span class="keyword">new</span> Response.Listener&lt;String&gt;() &#123;</span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onResponse</span><span class="params">(String response)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//use response to do sth...</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;,<span class="keyword">new</span> Response.ErrorListener() &#123;</span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onErrorResponse</span><span class="params">(VolleyError error)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//If error, use error.getMessage() do sth...</span></span><br><span class="line">        error.getMessage()</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)&#123;</span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="keyword">public</span> Map&lt;String, String&gt; getHeaders() <span class="keyword">throws</span> AuthFailureError &#123;</span><br><span class="line">        Map&lt;String,String&gt; headers = <span class="keyword">new</span> HashMap&lt;String, String&gt;();</span><br><span class="line">        headers.put(<span class="string">"User-agent"</span>,<span class="string">"Mozilla/5.0 (Windows NT 6.3)"</span>);</span><br><span class="line">        <span class="keyword">return</span> headers;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<p>我们需要在getHeaders()中定义一个新的HashMap类型来存放自己要改写的header，比如这里我们要改写“User-agent”为“Mozilla/5.0 (Windows NT 6.3)”。</p>
+<p>当然，还可以写自己需要的其它header，只要把它们按key-value形式put到HashMap中，最后返回这个HashMap就成功了。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近在用Volley + Jsoup 抓V2EX网站首页数据的时候一直抓不到自己想抓到的数据，换了很多种Jsoup不同的选择器依然抓不到要抓的。后来索性把Volley取到的V2EX首页原代码Log出来，才发现原来是因为手机端访问V2EX会自动跳转到手机版，而手机版里根本就没]]>
+    </summary>
+    
+      <category term="android" scheme="http://djyde.github.io/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://djyde.github.io/2014/08/26/hello-world/"/>
+    <id>http://djyde.github.io/2014/08/26/hello-world/</id>
+    <published>2014-08-25T18:17:00.000Z</published>
+    <updated>2014-08-25T18:48:16.000Z</updated>
+    <content type="html"><![CDATA[<p>很早开始想做独立博客，但是由于繁忙的学业而断断续续，至今留下的只有几篇烂尾的文章。现在我已经完成了高中学业，正准备踏入大学生活。从今以后这里会是我正式的blog，我会在这里分享技术，分享生活。</p>
+<p>我爱这世界。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>很早开始想做独立博客，但是由于繁忙的学业而断断续续，至今留下的只有几篇烂尾的文章。现在我已经完成了高中学业，正准备踏入大学生活。从今以后这里会是我正式的blog，我会在这里分享技术，分享生活。</p>
+<p>我爱这世界。</p>
+]]>
+    </summary>
+    
+      <category term="live" scheme="http://djyde.github.io/tags/live/"/>
+    
+  </entry>
+  
+</feed>

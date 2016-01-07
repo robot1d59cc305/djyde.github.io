@@ -1,0 +1,838 @@
+<!doctype html>
+<html class="theme-next   use-motion ">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+
+
+
+
+  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="android," />
+
+
+
+
+
+  <link rel="alternate" href="/feed.xml" title="Randy's Blog" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.2" />
+
+
+
+
+
+
+<meta name="description" content="官方文档
+开始
+请注意目前我们不支持除 Android 以外的 Java 环境。
+
+环境要求
+Android Studio (&amp;gt;=0.8.6)
+较新的 Android SDK 版本
+JDK &amp;gt;=7
+
+*我们支持 API 9 以上的 Android 版本（Android 2.3 以上）。*
+安装你有两种安装方法可以选择：
+Maven
+确定你的项目使用 jcenter 作为依赖仓库（最新版">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Realm 中文文档">
+<meta property="og:url" content="http://djyde.github.io/2014/10/17/realm-doc-in-chinese/index.html">
+<meta property="og:site_name" content="Randy's Blog">
+<meta property="og:description" content="官方文档
+开始
+请注意目前我们不支持除 Android 以外的 Java 环境。
+
+环境要求
+Android Studio (&amp;gt;=0.8.6)
+较新的 Android SDK 版本
+JDK &amp;gt;=7
+
+*我们支持 API 9 以上的 Android 版本（Android 2.3 以上）。*
+安装你有两种安装方法可以选择：
+Maven
+确定你的项目使用 jcenter 作为依赖仓库（最新版">
+<meta property="og:image" content="http://realm.io/assets/docs/browser.png">
+<meta property="og:updated_time" content="2015-08-29T16:28:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Realm 中文文档">
+<meta name="twitter:description" content="官方文档
+开始
+请注意目前我们不支持除 Android 以外的 Java 环境。
+
+环境要求
+Android Studio (&amp;gt;=0.8.6)
+较新的 Android SDK 版本
+JDK &amp;gt;=7
+
+*我们支持 API 9 以上的 Android 版本（Android 2.3 以上）。*
+安装你有两种安装方法可以选择：
+Maven
+确定你的项目使用 jcenter 作为依赖仓库（最新版">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var CONFIG = {
+    scheme: '',
+    sidebar: 'post',
+    motion: true
+  };
+</script>
+
+  <title> Realm 中文文档 | Randy's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  <!--[if lte IE 8]>
+  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
+           style='margin-left:auto;margin-right:auto;display: block;'/>
+    </a>
+  </div>
+<![endif]-->
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-72147868-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+  <div class="container one-column page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Randy's Blog</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">Randy Lu, Chinese fullstack developer.</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu ">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            首頁
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+            關於
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+            歸檔
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+            標籤
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-timeline">
+          <a href="/timeline" rel="section">
+            
+            历程
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links" rel="section">
+            
+            推荐
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-opensource">
+          <a href="/opensource" rel="section">
+            
+            开源项目
+          </a>
+        </li>
+      
+
+      
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div id="content" class="content">
+          
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Realm 中文文档
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            發表於
+            <time itemprop="dateCreated" datetime="2014-10-17T00:00:00+08:00" content="2014-10-17">
+              2014-10-17
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body">
+
+      
+      
+
+      
+        <span itemprop="articleBody"><p><a href="http://realm.io/docs/java/" target="_blank" rel="external">官方文档</a></p>
+<h2 id="u5F00_u59CB"><a href="#u5F00_u59CB" class="headerlink" title="开始"></a>开始</h2><blockquote>
+<p>请注意目前我们不支持除 Android 以外的 Java 环境。</p>
+</blockquote>
+<h3 id="u73AF_u5883_u8981_u6C42"><a href="#u73AF_u5883_u8981_u6C42" class="headerlink" title="环境要求"></a>环境要求</h3><ul>
+<li>Android Studio (&gt;=0.8.6)</li>
+<li>较新的 Android SDK 版本</li>
+<li>JDK &gt;=7</li>
+</ul>
+<p><strong>*我们支持 API 9 以上的 Android 版本</strong>（Android 2.3 以上）。*</p>
+<h2 id="u5B89_u88C5"><a href="#u5B89_u88C5" class="headerlink" title="安装"></a>安装</h2><p>你有两种安装方法可以选择：</p>
+<h4 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h4><ol>
+<li>确定你的项目使用 jcenter 作为依赖仓库（最新版本的 Android Gradle 插件默认）</li>
+<li>将 <code>compile &#39;io.realm:realm-android:0.71.0&#39;</code> 添加到你的项目依赖</li>
+<li>在 Android Studio 菜单中选择：Tools-&gt;Android-&gt;Sync Project with Gradle Files</li>
+</ol>
+<h4 id="u4F7F_u7528_u5305"><a href="#u4F7F_u7528_u5305" class="headerlink" title="使用包"></a>使用包</h4><ol>
+<li><a href="http://static.realm.io/downloads/java/latest" target="_blank" rel="external">下载</a>最新包并解压</li>
+<li>在 Android Studio 创建一个新的项目</li>
+<li>复制 <code>realm-版本.jar</code> 文件夹到 <code>app/libs</code></li>
+<li>在 Android Studio 菜单中选择：Tools-&gt;Android-&gt;Sync Project with Gradle Files</li>
+</ol>
+<h3 id="Realm__u6D4F_u89C8_u5668"><a href="#Realm__u6D4F_u89C8_u5668" class="headerlink" title="Realm 浏览器"></a>Realm 浏览器</h3><blockquote>
+<p>目前仅支持 Mac OS X。Windows 和 Linux 版本正在开发中。</p>
+</blockquote>
+<p><img src="http://realm.io/assets/docs/browser.png" alt=""></p>
+<p>我们提供一个独立的应用来读写 .realm 数据库。</p>
+<p>你可以在<a href="http://static.realm.io/downloads/cocoa/latest" target="_blank" rel="external">Cocoa release zip</a>的<code>browser/</code>文件夹中找到</p>
+<p>你可以在<strong>Tools&gt;Generate demo database</strong>中生成一个用以测试的数据库。</p>
+<h3 id="u5B9E_u4F8B"><a href="#u5B9E_u4F8B" class="headerlink" title="实例"></a>实例</h3><p>在根目录中我们提供了几个examples来帮助你熟悉运用 Realm。你只需要在 Android Studio 中导入运行即可。</p>
+<p><code>RelamIntroExample</code>包含了一个使用当前API的简单实例，在项目中你只能从Log中看到看到输出。</p>
+<p><code>RealmGridViewExample</code>是一个app，用来展示如何用Realm渲染GridView。</p>
+<p><code>RealmConcurrencyExample</code>是一个简单的app用以展示在多线程中使用Realm，</p>
+<h3 id="u83B7_u5F97_u5E2E_u52A9"><a href="#u83B7_u5F97_u5E2E_u52A9" class="headerlink" title="获得帮助"></a>获得帮助</h3><ul>
+<li>订阅<a href="http://eepurl.com/VEKCn" target="_blank" rel="external">community newsletter</a>定期获取使用Realm的一些技巧和教程。</li>
+<li>我们也能通过你们在<a href="https://groups.google.com/forum/#!forum/realm-java" target="_blank" rel="external">google groups</a>的问题反馈来完善 Realm for Android。</li>
+<li>除了google groups，我们还建议你通过<a href="https://github.com/realm/realm-java" target="_blank" rel="external">Github</a>提交问题。</li>
+</ul>
+<h2 id="u6A21_u578B"><a href="#u6A21_u578B" class="headerlink" title="模型"></a>模型</h2><p>Realm 的数据模型通过实现类似传统 <a href="https://zh.wikipedia.org/wiki/JavaBeans" target="_blank" rel="external">Java Bean</a> 来定义。只需要继承 <code>RealmObject</code> 并让 Realm 的注解处理器生成代理类。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">User</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> String          name;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span>             age;</span><br><span class="line"></span><br><span class="line">    <span class="annotation">@Ignore</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">int</span>             sessionId;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 你的 IDE 生成的标准 getter 和 setter…</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> String <span class="title">getName</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> name; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>   <span class="title">setName</span><span class="params">(String name)</span> </span>&#123; <span class="keyword">this</span>.name = name; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span>    <span class="title">getAge</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> age; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>   <span class="title">setAge</span><span class="params">(<span class="keyword">int</span> age)</span> </span>&#123; <span class="keyword">this</span>.age = age; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span>    <span class="title">getSessionId</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> sessionId; &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span>   <span class="title">setSessionId</span><span class="params">(<span class="keyword">int</span> dontPersist)</span> </span>&#123; <span class="keyword">this</span>.sessionId = sessionId; &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>注意，getter 和 setter 会被 RealmObject 内部所使用的自动生成的代理类所重载，因此你在 getter 和 setter 里自己写的逻辑都不会被执行。</p>
+<p>RealmObject 强依赖于同一个 <a href="/#realms">Realm</a> 实例，所以一定要用 <code>realm.createObject()</code> 实例方法来从 Realm 中实例化它。</p>
+<h3 id="u6570_u636E_u7C7B_u578B"><a href="#u6570_u636E_u7C7B_u578B" class="headerlink" title="数据类型"></a>数据类型</h3><p>Realm 支持这几种数据类型：<code>boolean</code>,<code>short</code>,<code>int</code>,<code>long</code>,<code>float</code>,<code>double</code>,<code>string</code>,<code>Date</code>和<code>byte[]</code>。再者，还能使用 <code>RealmObject</code> 的子类和 <code>RealmList&lt;? extends RealmObject&gt;</code> 来表示模型关系。</p>
+<h3 id="u5FFD_u7565_u5C5E_u6027"><a href="#u5FFD_u7565_u5C5E_u6027" class="headerlink" title="忽略属性"></a>忽略属性</h3><p>注解 <code>@Ignore</code> 表示字段不应被持久化到磁盘中。</p>
+<h3 id="u641C_u7D22_u7D22_u5F15"><a href="#u641C_u7D22_u7D22_u5F15" class="headerlink" title="搜索索引"></a>搜索索引</h3><p>注解 <code>@Index</code> 会为字段增加搜索索引。这会导致插入速度变慢，同时数据文件体积有所增加，但能加速查询。因此建议仅在需要加速查询时才添加索引。目前仅支持索引字符串属性（其它类型会在下个版本支持），且无法删除搜索索引。</p>
+<h2 id="u5199_u5165"><a href="#u5199_u5165" class="headerlink" title="写入"></a>写入</h2><p>读取操作是隐式的，但所有的写入操作（增加、修改、移除对象）都必须包裹在写入事务中以确保线程安全：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 获得一个 Realm 实例</span></span><br><span class="line">Realm realm = Realm.getInstance(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line">realm.beginTransaction();</span><br><span class="line"></span><br><span class="line"><span class="comment">//... 在这里执行增添或更新对象 ...</span></span><br><span class="line"></span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<p>数据对象需要通过Realm来实例化：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 获得一个Realm实例</span></span><br><span class="line">Realm realm = Realm.getInstance(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line">realm.beginTransaction();</span><br><span class="line">User user = realm.createObject(User.class); <span class="comment">// 创建新对象</span></span><br><span class="line">user.setName(<span class="string">"John"</span>);</span><br><span class="line">user.setEmail(<span class="string">"john@corporation.com"</span>);</span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<p>请注意写入操作会互相阻塞，并且当存在其它进行中的写入时也会阻塞它们所在的线程。但得益于 Realm 的 MVCC 架构，当正在进行一个写入事务时读取操作并不会被阻塞！也就是说，除非你需要同时在许多线程里进行并发的写入，你应该尽量使用更大的写入事务来做更多的事情，而不是许多小粒度的写入事务。当你向 Realm 提交一个写入事务，将会通知该 Realm 的所有其它实例，同时让隐式的读取事务自动刷新你的 Realm 对象。</p>
+<h2 id="u67E5_u8BE2"><a href="#u67E5_u8BE2" class="headerlink" title="查询"></a>查询</h2><blockquote>
+<p>Realm 中的所有读取（包括查询）都是延迟执行的，且数据不会被拷贝。</p>
+</blockquote>
+<p>Realm 的查询引擎使用 <a href="https://en.wikipedia.org/wiki/Fluent_interface" target="_blank" rel="external">Fluent 接口</a> 来构造多条件查询。</p>
+<p>比如查找所有叫做 John 或 Peter 的用户，你可以这么写：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 构建查找所有用户的查询:</span></span><br><span class="line">RealmQuery&lt;User&gt; query = realm.where(User.class);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 添加查询条件:</span></span><br><span class="line">query.equalTo(<span class="string">"name"</span>, <span class="string">"John"</span>);</span><br><span class="line">query.or().equalTo(<span class="string">"name"</span>, <span class="string">"Peter"</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 执行查询:</span></span><br><span class="line">RealmResults&lt;User&gt; result1 = query.findAll();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 或者同时进行上述操作 (通过 "Fluent 接口"):</span></span><br><span class="line">RealmResults&lt;User&gt; result2 = realm.where(User.class)</span><br><span class="line">                                  .equalTo(<span class="string">"name"</span>, <span class="string">"John"</span>)</span><br><span class="line">                                  .or()</span><br><span class="line">                                  .equalTo(<span class="string">"name"</span>, <span class="string">"Peter"</span>)</span><br><span class="line">                                  .findAll();</span><br></pre></td></tr></table></figure></p>
+<p>查询返回一个新的 <code>RealmResults</code>，包含名叫 John 和 Peter 的用户。对象并非拷贝，也就是说你得到的是一个所匹配对象的引用的列表，你对所匹配的对象所有的操作都是直接施加于它的原始对象。</p>
+<h3 id="u6761_u4EF6"><a href="#u6761_u4EF6" class="headerlink" title="条件"></a>条件</h3><p>Realm 支持以下查询条件：</p>
+<ul>
+<li><code>greaterThan()</code>,<code>lessThan()</code>,<code>greateThanOrEqualTo()</code> 和 <code>lessThanOrEqualTo()</code></li>
+<li><code>equalTo()</code> 和 <code>notEqualTo()</code></li>
+<li><code>contains()</code>,<code>beiginsWith()</code> 和 <code>endsWith()</code></li>
+</ul>
+<p>并非所有条件都适用于所有数据类型，具体请看 <a href="http://realm.io/docs/java/0.71.0/api/io/realm/RealmQuery.html" target="_blank" rel="external">RealmQuery API</a>。</p>
+<h3 id="u903B_u8F91_u64CD_u4F5C"><a href="#u903B_u8F91_u64CD_u4F5C" class="headerlink" title="逻辑操作"></a>逻辑操作</h3><p>每个查询条件都会被被隐式地被“<code>逻辑和(&amp;)</code>”组合在一起，而“<code>逻辑或(or)</code>”需要显式地去执行<code>or()</code>。</p>
+<p>你也可以将查询条件组合在一起，使用<code>beginGroup()</code>（相当于左括号）和<code>endGroup()</code>（相当于右括号）：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">RealmResults&lt;User&gt; r = realm.where(User.class)</span><br><span class="line">	                        .greaterThan(<span class="string">"age"</span>, <span class="number">10</span>)  <span class="comment">//隐式的逻辑和（&amp;）</span></span><br><span class="line">	                        .beginGroup()</span><br><span class="line">	                        	.equalTo(<span class="string">"name"</span>, <span class="string">"Peter"</span>)</span><br><span class="line">	                            .or()</span><br><span class="line">	                            .contains(<span class="string">"name"</span>, <span class="string">"Jo"</span>)</span><br><span class="line">	                        .endGroup()</span><br><span class="line">	                        .findAll();</span><br></pre></td></tr></table></figure>
+<h3 id="u6392_u5E8F"><a href="#u6392_u5E8F" class="headerlink" title="排序"></a>排序</h3><p>当你执行完查询获得结果后，可以对它进行排序：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">RealmResults&lt;User&gt; result = realm.where(User.class).findAll();</span><br><span class="line">RealmResults&lt;User&gt; sortedAscending  = result.sort(<span class="string">"age"</span>);</span><br><span class="line">RealmResults&lt;User&gt; sortedDescending = result.sort(<span class="string">"age"</span>, RealmResults.SORT_ORDER_DECENDING);</span><br></pre></td></tr></table></figure>
+<h3 id="u94FE_u5F0F_u67E5_u8BE2"><a href="#u94FE_u5F0F_u67E5_u8BE2" class="headerlink" title="链式查询"></a>链式查询</h3><p>你也可以直接在查询后进行分类筛选：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">RealmResults&lt;User&gt; teenagers = Realm.where(User.class).between(<span class="string">"age"</span>, <span class="number">13</span>, <span class="number">20</span>).findAll();</span><br><span class="line">RealmResults&lt;User&gt; firstJohn = teenagers.where().equalTo(<span class="string">"name"</span>, <span class="string">"John"</span>).findFirst();</span><br></pre></td></tr></table></figure>
+<h3 id="u805A_u5408"><a href="#u805A_u5408" class="headerlink" title="聚合"></a>聚合</h3><p><code>RealmResult</code> 自带一些聚合方法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">long</span>   sum     = result.sum(<span class="string">"age"</span>).longValue(); <span class="comment">//加法</span></span><br><span class="line"><span class="keyword">long</span>   min     = result.min(<span class="string">"age"</span>).longValue(); <span class="comment">//最小值</span></span><br><span class="line"><span class="keyword">long</span>   max     = result.max(<span class="string">"age"</span>).longValue(); <span class="comment">//最大值</span></span><br><span class="line"><span class="keyword">double</span> average = result.average(<span class="string">"age"</span>); <span class="comment">//平均数</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">long</span>   matches = result.size();</span><br></pre></td></tr></table></figure>
+<h3 id="u8FED_u4EE3"><a href="#u8FED_u4EE3" class="headerlink" title="迭代"></a>迭代</h3><p>遍历 <code>RealmResults</code> 可以这样：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (User u : result) &#123;</span><br><span class="line">    <span class="comment">// ... do something with the object ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>或者使用 <code>for</code> 循环：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; result.size(); i++) &#123;</span><br><span class="line">    User u = result.get(i);</span><br><span class="line">    <span class="comment">// ... do something with the object ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u5220_u9664"><a href="#u5220_u9664" class="headerlink" title="删除"></a>删除</h3><p>你可以从查询结果中删除数据</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 所有的数据变更都需要在一个事务里发生</span></span><br><span class="line">realm.beginTransaction();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 删除单条数据</span></span><br><span class="line">result.remove(<span class="number">0</span>);</span><br><span class="line">result.removeLast();</span><br><span class="line"></span><br><span class="line"><span class="comment">// 删除所有匹配到的数据</span></span><br><span class="line">result.clear();</span><br><span class="line"></span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<h2 id="realms">Realm(s)</h2>
+
+<p>Realm(s) 是我们对数据库的称谓：它包含多个不同的对象，并对应磁盘中的一个文件。</p>
+<h3 id="u9ED8_u8BA4_u7684_Realm"><a href="#u9ED8_u8BA4_u7684_Realm" class="headerlink" title="默认的 Realm"></a>默认的 Realm</h3><p>你可能已经意识到，我们总是通过 <code>Realm.getInstance(this)</code> 来访问我们已初始化的 realm 变量。该单例方法会为你的线程返回一个实例变量，它对应了你的应用文件根目录中一个 default.realm 文件。</p>
+<h3 id="u5176_u5B83_Realm"><a href="#u5176_u5B83_Realm" class="headerlink" title="其它 Realm"></a>其它 Realm</h3><p>It’s sometimes useful to have multiple realms, persisted at different locations,<br>for example if you have different data groupings, different databases per feature,<br> or you need to package some read-only files with your app, separate from the<br> database your users will be editing.</p>
+<p>有时候你可能需要多个持久化在不同位置的 realm 实例，比如说你需要不同的数据分组、各个功能独立数据库，或你需要独立于你的用户可修改的数据库外附带一些只读数据的时候。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Realm moviesrealm = Realm.getInstance(<span class="keyword">this</span>, <span class="string">"allmymovies.realm"</span>);</span><br></pre></td></tr></table></figure>
+<h3 id="u8DE8_u7EBF_u7A0B_u4F7F_u7528_Realm"><a href="#u8DE8_u7EBF_u7A0B_u4F7F_u7528_Realm" class="headerlink" title="跨线程使用 Realm"></a>跨线程使用 Realm</h3><p>跨线程使用 Realm 唯一的规则是，<code>Realm</code>、<code>RealmObject</code> 或 <code>RealmResults</code> 实例不能跨线程传递。当你需要在不同的线程访问同样的数据时，你应该为每个线程获取独立的 Realm 实例（比如 <code>Realm.getInstance(this)</code> 或其它方式）并通过 <code>RealmQuery</code> 取得你的对象。这些对象都对应磁盘上相同的数据，并且对任何线程可读、可写！</p>
+<h2 id="u5173_u7CFB"><a href="#u5173_u7CFB" class="headerlink" title="关系"></a>关系</h2><p>任意两个 RealmObject 都能互相关联。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Email</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String address;</span><br><span class="line">    <span class="comment">// ... setters and getters left out</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Contact</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">    <span class="keyword">private</span> Email email;</span><br><span class="line">    <span class="comment">// ... setters and getters left out</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>请注意现在还不支持对关联进行查询。你可以暂时通过遍历你的结果来过滤出你需要的数据。我们会在下个版本中支持内置关联查询。</p>
+<h3 id="u4E00_u5BF9_u591A"><a href="#u4E00_u5BF9_u591A" class="headerlink" title="一对多"></a>一对多</h3><p>也就是使用你的 RealmObject 子类作为类型来声明属性：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Email</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Contact contact;</span><br><span class="line">    <span class="comment">// Other fields…</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="u591A_u5BF9_u591A"><a href="#u591A_u5BF9_u591A" class="headerlink" title="多对多"></a>多对多</h3><p>你可以通过一个 <code>RealmList&lt;T&gt;</code> 字段声明来建立单个对象对应0个、1个或更多个对象的关联。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Contact</span> <span class="keyword">extends</span> <span class="title">RealmObject</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> RealmList&lt;Email&gt; emails;</span><br><span class="line">    <span class="comment">// Other fields…</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>RealmList 是基本的 RealmObject 容器，类似于普通的 Java <code>List</code> 类。</p>
+<p>你可以添加标注的 getter 和 setter 来访问关联中的数据。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">realm.beginTransaction();</span><br><span class="line">Contact contact = realm.createObject(Contact.class);</span><br><span class="line">contact.setName(<span class="string">"John Doe"</span>);</span><br><span class="line"></span><br><span class="line">Email email1 = realm.createObject(Email.class);</span><br><span class="line">email1.setAddress(<span class="string">"john@example.com"</span>);</span><br><span class="line">contact.getEmails().add(email1);</span><br><span class="line"></span><br><span class="line">Email email2 = realm.createObject(Email.class);</span><br><span class="line">email2.setNumber(<span class="string">"jd@example.com"</span>);</span><br><span class="line">contact.getEmails().add(email2);</span><br><span class="line"></span><br><span class="line">realm.commitTransaction();</span><br></pre></td></tr></table></figure>
+<h2 id="u901A_u77E5"><a href="#u901A_u77E5" class="headerlink" title="通知"></a>通知</h2><p>如果你在一个后台线程中增加数据，你的 UI 或其它线程可以通过监听器获取 Realm 的变化：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">realm.addChangeListener(<span class="keyword">new</span> RealmChangeListener() &#123;</span><br><span class="line">    <span class="annotation">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onChange</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="comment">// ... do something with the updates (UI, etc.) ...</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>如果有需要，你可以很方便地关掉所有监听器：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">realm.removeAllChangeListeners();</span><br></pre></td></tr></table></figure>
+<h2 id="u8FC1_u79FB"><a href="#u8FC1_u79FB" class="headerlink" title="迁移"></a>迁移</h2><p>随着时间的推动，数据模型变化是常有的事。从一开始在Realm中定义了数据对象后，如果需要改变它，只需要改变RealmObject子类即可。</p>
+<p>如果在储存器中没有旧的数据，那么你只要修改你的代码就能改变数据对象。如果有，那么在执行查询时会因为不匹配而报错。</p>
+<p>所以我们提供了方法给你去更新你的旧数据对象，详情请看我们的实例<a href="https://github.com/realm/realm-java/tree/master/examples/migrationExample" target="_blank" rel="external">migrationSample app</a></p>
+<h2 id="u4E0B_u4E00_u6B65"><a href="#u4E0B_u4E00_u6B65" class="headerlink" title="下一步"></a>下一步</h2><p>你可以查看我们的<a href="https://github.com/realm/realm-java/tree/master/examples" target="_blank" rel="external">example</a>中的实例（我们会陆续提供更多samples）。</p>
+<p>Happy hacking!你可以在<a href="https://groups.google.com/d/forum/realm-java" target="_blank" rel="external">realm-java</a>里和真人开发者交流。</p>
+<h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><p><strong>我应该在产品级应用中使用Realm吗？</strong></p>
+<p>Realm从2012年开始就已经被用于商业产品。</p>
+<p>通过交流反馈你还能推动我们的bug修复和发展。</p>
+<p><strong>我需要向Realm支付费用吗？</strong></p>
+<p>不，Realm for Android 完全免费，在商业项目使用它也不需要收费。</p>
+<p><strong>那你们怎么创造收入呢？</strong></p>
+<p>（这个还是放原句好）We’re actually already generating revenue selling enterprise products and services around our technology. If you need more than what is currently in our releases or in <a href="http://github.com/realm/realm-java" target="_blank" rel="external">realm-java</a>, we’re always happy to chat <a href="http://realm.io/docs/java/0.71.0/info@realm.io" target="_blank" rel="external">by email</a>. Otherwise, we are committed to developing realm-java in the open, and to keep it free and open-source under the Apache 2.0 license.</p>
+<p><strong>源码里面引用的“tightdb”和”core”是什么？</strong></p>
+<p>TightDB是我们C++存储引擎内核的旧名称，内核目前还没开源，但是我们已经有这个计划，只要我们有时间梳理一下、改改名字，等最后敲定后，就会开放源代码，并且同样使用 Apache 2.0 协议。</p>
+</span>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/android/" rel="tag">#android</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2014/10/17/realm-todo-tutorial/" rel="next" title="Realm实例指南">
+                <i class="fa fa-chevron-left"></i> Realm实例指南
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2014/11/14/monicoin/" rel="prev" title="撸了个新作品 MoniCoin">
+                撸了个新作品 MoniCoin <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+        </div>
+
+        
+
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </div>
+
+      
+        
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目錄
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            本站概覽
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" src="http://7xnx2u.com1.z0.glb.clouddn.com/avatar_glass.jpg?imageView/2/w/320" alt="Randy" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">Randy</p>
+        </div>
+        <p class="site-description motion-element" itemprop="description">Randy's Blog</p>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">16</span>
+              <span class="site-state-item-name">文章</span>
+            </a>
+          </div>
+
+          <div class="site-state-item site-state-categories">
+            
+              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-name">分類</span>
+              
+          </div>
+
+          <div class="site-state-item site-state-tags">
+            <a href="/tags">
+              <span class="site-state-item-count">5</span>
+              <span class="site-state-item-name">標籤</span>
+              </a>
+          </div>
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/feed.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/djyde" target="_blank">
+                  
+                    <i class="fa fa-github"></i> GitHub
+                  
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/djyde" target="_blank">
+                  
+                    <i class="fa fa-weibo"></i> Weibo
+                  
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/randyloop" target="_blank">
+                  
+                    <i class="fa fa-twitter"></i> Twitter
+                  
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc-indicator-top post-toc-indicator">
+            <i class="fa fa-angle-double-up"></i>
+          </div>
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#u5F00_u59CB"><span class="nav-number">1.</span> <span class="nav-text">开始</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#u73AF_u5883_u8981_u6C42"><span class="nav-number">1.1.</span> <span class="nav-text">环境要求</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5B89_u88C5"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Maven"><span class="nav-number">2.0.1.</span> <span class="nav-text">Maven</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#u4F7F_u7528_u5305"><span class="nav-number">2.0.2.</span> <span class="nav-text">使用包</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Realm__u6D4F_u89C8_u5668"><span class="nav-number">2.1.</span> <span class="nav-text">Realm 浏览器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u5B9E_u4F8B"><span class="nav-number">2.2.</span> <span class="nav-text">实例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u83B7_u5F97_u5E2E_u52A9"><span class="nav-number">2.3.</span> <span class="nav-text">获得帮助</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u6A21_u578B"><span class="nav-number">3.</span> <span class="nav-text">模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#u6570_u636E_u7C7B_u578B"><span class="nav-number">3.1.</span> <span class="nav-text">数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u5FFD_u7565_u5C5E_u6027"><span class="nav-number">3.2.</span> <span class="nav-text">忽略属性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u641C_u7D22_u7D22_u5F15"><span class="nav-number">3.3.</span> <span class="nav-text">搜索索引</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5199_u5165"><span class="nav-number">4.</span> <span class="nav-text">写入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u67E5_u8BE2"><span class="nav-number">5.</span> <span class="nav-text">查询</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#u6761_u4EF6"><span class="nav-number">5.1.</span> <span class="nav-text">条件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u903B_u8F91_u64CD_u4F5C"><span class="nav-number">5.2.</span> <span class="nav-text">逻辑操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u6392_u5E8F"><span class="nav-number">5.3.</span> <span class="nav-text">排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u94FE_u5F0F_u67E5_u8BE2"><span class="nav-number">5.4.</span> <span class="nav-text">链式查询</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u805A_u5408"><span class="nav-number">5.5.</span> <span class="nav-text">聚合</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u8FED_u4EE3"><span class="nav-number">5.6.</span> <span class="nav-text">迭代</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u5220_u9664"><span class="nav-number">5.7.</span> <span class="nav-text">删除</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#realms"><span class="nav-number">6.</span> <span class="nav-text">Realm(s)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#u9ED8_u8BA4_u7684_Realm"><span class="nav-number">6.1.</span> <span class="nav-text">默认的 Realm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u5176_u5B83_Realm"><span class="nav-number">6.2.</span> <span class="nav-text">其它 Realm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u8DE8_u7EBF_u7A0B_u4F7F_u7528_Realm"><span class="nav-number">6.3.</span> <span class="nav-text">跨线程使用 Realm</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u5173_u7CFB"><span class="nav-number">7.</span> <span class="nav-text">关系</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E00_u5BF9_u591A"><span class="nav-number">7.1.</span> <span class="nav-text">一对多</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u591A_u5BF9_u591A"><span class="nav-number">7.2.</span> <span class="nav-text">多对多</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u901A_u77E5"><span class="nav-number">8.</span> <span class="nav-text">通知</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u8FC1_u79FB"><span class="nav-number">9.</span> <span class="nav-text">迁移</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u4E0B_u4E00_u6B65"><span class="nav-number">10.</span> <span class="nav-text">下一步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FAQ"><span class="nav-number">11.</span> <span class="nav-text">FAQ</span></a></li></ol></div>
+            
+          </div>
+          <div class="post-toc-indicator-bottom post-toc-indicator">
+            <i class="fa fa-angle-double-down"></i>
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+      
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="icon-next-heart fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Randy</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 強力驅動
+</div>
+
+<div class="theme-info">
+  主題 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT
+  </a>
+</div>
+
+
+
+      </div>
+    </footer>
+
+    <div class="back-to-top"></div>
+  </div>
+
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  
+
+  
+    
+    
+
+  
+
+
+  
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.2"></script>
+
+
+  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.2"></script>
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
+<script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
+
+<script type="text/javascript" src="/js/motion.js?v=0.4.5.2" id="motion.global"></script>
+
+
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  
+<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.2" id="bootstrap.scrollspy.custom"></script>
+
+
+<script type="text/javascript" id="sidebar.toc.highlight">
+  $(document).ready(function () {
+    var tocSelector = '.post-toc';
+    var $tocSelector = $(tocSelector);
+    var activeCurrentSelector = '.active-current';
+
+    $tocSelector
+      .on('activate.bs.scrollspy', function () {
+        var $currentActiveElement = $(tocSelector + ' .active').last();
+
+        removeCurrentActiveClass();
+        $currentActiveElement.addClass('active-current');
+
+        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
+      })
+      .on('clear.bs.scrollspy', function () {
+        removeCurrentActiveClass();
+      });
+
+    function removeCurrentActiveClass () {
+      $(tocSelector + ' ' + activeCurrentSelector)
+        .removeClass(activeCurrentSelector.substring(1));
+    }
+
+    function processTOC () {
+      getTOCMaxHeight();
+      toggleTOCOverflowIndicators();
+    }
+
+    function getTOCMaxHeight () {
+      var height = $('.sidebar').height() -
+                   $tocSelector.position().top -
+                   $('.post-toc-indicator-bottom').height();
+
+      $tocSelector.css('height', height);
+
+      return height;
+    }
+
+    function toggleTOCOverflowIndicators () {
+      tocOverflowIndicator(
+        '.post-toc-indicator-top',
+        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
+      );
+
+      tocOverflowIndicator(
+        '.post-toc-indicator-bottom',
+        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
+      )
+    }
+
+    $(document).on('sidebar.motion.complete', function () {
+      processTOC();
+    });
+
+    $('body').scrollspy({ target: tocSelector });
+    $(window).on('resize', function () {
+      if ( $('.sidebar').hasClass('sidebar-active') ) {
+        processTOC();
+      }
+    });
+
+    onScroll($tocSelector);
+
+    function onScroll (element) {
+      element.on('mousewheel DOMMouseScroll', function (event) {
+          var oe = event.originalEvent;
+          var delta = oe.wheelDelta || -oe.detail;
+
+          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
+          event.preventDefault();
+
+          toggleTOCOverflowIndicators();
+      });
+    }
+
+    function tocOverflowIndicator (indicator, action) {
+      var $indicator = $(indicator);
+      var opacity = action === 'show' ? 1 : 0;
+      $indicator.velocity ?
+        $indicator.velocity('stop').velocity({
+          opacity: opacity
+        }, { duration: 100 }) :
+        $indicator.stop().animate({
+          opacity: opacity
+        }, 100);
+    }
+
+  });
+</script>
+
+<script type="text/javascript" id="sidebar.nav">
+  $(document).ready(function () {
+    var html = $('html');
+    var TAB_ANIMATE_DURATION = 200;
+    var hasVelocity = $.isFunction(html.velocity);
+
+    $('.sidebar-nav li').on('click', function () {
+      var item = $(this);
+      var activeTabClassName = 'sidebar-nav-active';
+      var activePanelClassName = 'sidebar-panel-active';
+      if (item.hasClass(activeTabClassName)) {
+        return;
+      }
+
+      var currentTarget = $('.' + activePanelClassName);
+      var target = $('.' + item.data('target'));
+
+      hasVelocity ?
+        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
+          target
+            .velocity('stop')
+            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
+            .addClass(activePanelClassName);
+        }) :
+        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
+          currentTarget.hide();
+          target
+            .stop()
+            .css({'opacity': 0, 'display': 'block'})
+            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
+              currentTarget.removeClass(activePanelClassName);
+              target.addClass(activePanelClassName);
+            });
+        });
+
+      item.siblings().removeClass(activeTabClassName);
+      item.addClass(activeTabClassName);
+    });
+
+    $('.post-toc a').on('click', function (e) {
+      e.preventDefault();
+      var targetSelector = escapeSelector(this.getAttribute('href'));
+      var offset = $(targetSelector).offset().top;
+      hasVelocity ?
+        html.velocity('stop').velocity('scroll', {
+          offset: offset  + 'px',
+          mobileHA: false
+        }) :
+        $('html, body').stop().animate({
+          scrollTop: offset
+        }, 500);
+    });
+
+    // Expand sidebar on post detail page by default, when post has a toc.
+    motionMiddleWares.sidebar = function () {
+      var $tocContent = $('.post-toc-content');
+      if (CONFIG.sidebar === 'post') {
+        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
+          displaySidebar();
+        }
+      }
+    };
+  });
+</script>
+
+
+
+  <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+  
+  
+
+  
+  
+
+</body>
+</html>
