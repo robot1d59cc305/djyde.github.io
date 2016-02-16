@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Randy Lu, Chinese fullstack developer.]]></subtitle>
   <link href="/feed.xml" rel="self"/>
   <link href="http://djyde.github.io/"/>
-  <updated>2016-02-16T05:33:43.000Z</updated>
+  <updated>2016-02-16T05:36:48.000Z</updated>
   <id>http://djyde.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://djyde.github.io/2016/02/16/how-do-i-detect-app-price/"/>
     <id>http://djyde.github.io/2016/02/16/how-do-i-detect-app-price/</id>
     <published>2016-02-16T05:29:20.000Z</published>
-    <updated>2016-02-16T05:33:43.000Z</updated>
+    <updated>2016-02-16T05:36:48.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u52A8_u673A"><a href="#u52A8_u673A" class="headerlink" title="动机"></a>动机</h2><p>自从入手了 iPad mini 之后，我剁手入了很多游戏。有些游戏太贵，希望等降价或者限免才入。于是我开始找一些提供降价限免资讯的网站。</p>
 <p>找到比较靠谱的是 <a href="http://sspai.com/" target="_blank" rel="external">少数派</a> 和 <a href="http://appshopper.com/" target="_blank" rel="external">Appshopper</a> ，区别是前者是编辑筛选，后者是程序监听价格变动。Appshopper 还能把 APP 加入 wishlist，当价格出现变动的时候会发邮件到你的邮箱。</p>
 <p>Appshopper 在功能上无可挑剔，但是十分蛋疼的是搜索引擎不认中文：</p>
@@ -40,8 +40,8 @@
 <p>监听任务本质上就是一个 cron job, 定时执行获取所有 APPS 的最新信息并对照原有价格。</p>
 <h3 id="Integrations"><a href="#Integrations" class="headerlink" title="Integrations"></a>Integrations</h3><p>对比得出变动后，我希望远不止发送 email。所以我加入了 Integration, 使 Catchem 可以对价格变动作出更灵活的反应。</p>
 <p>目前只有 WebHook 这个 Integration, 当检测出价格变动，Catchem 会自动触发这个 hook， 把相关数据 POST 给所提供的 URL, 这样一来，价格变动后的动作取决于 hook 而不是 Catchem 本身。由此你可以写各种 hook，比如用来发送 Slack 信息的 hook，当你想要的 APP 降价后会给你的 Slack 发送信息。</p>
-<h2 id="u8868_u73B0"><a href="#u8868_u73B0" class="headerlink" title="表现"></a>表现</h2><p><img src="http://blogscdn.qiniudn.com/2016-02-16.1.17.01.png" alt=""></p>
-<p><img src="http://blogscdn.qiniudn.com/2016-02-16.1.17.26.png" alt=""></p>
+<h2 id="u8868_u73B0"><a href="#u8868_u73B0" class="headerlink" title="表现"></a>表现</h2><p><img src="http://blogscdn.qiniudn.com/2016-02-16.1.35.03.png" alt=""></p>
+<p><img src="http://blogscdn.qiniudn.com/2016-02-16.1.35.11.png" alt=""></p>
 <h3 id="u53D1_u9001_u5FAE_u4FE1_u6D88_u606F_u7684_hook"><a href="#u53D1_u9001_u5FAE_u4FE1_u6D88_u606F_u7684_hook" class="headerlink" title="发送微信消息的 hook"></a>发送微信消息的 hook</h3><p>由于我经常用微信，如果 Catchem 可以及时把降价信息推送到我微信的话那是极好的。于是我写了一个给自己发送微信消息的 hook，这个 hook 使用测试订阅号的 token。</p>
 <p>hook 相关的代码段：<a href="https://github.com/djyde/lean-hook/blob/master/routes%2Fwechat.js#L31-L54" target="_blank" rel="external">https://github.com/djyde/lean-hook/blob/master/routes%2Fwechat.js#L31-L54</a></p>
 <p>我伪造了一个价格来测试：</p>
