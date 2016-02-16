@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Randy Lu, Chinese fullstack developer.]]></subtitle>
   <link href="/feed.xml" rel="self"/>
   <link href="http://djyde.github.io/"/>
-  <updated>2016-02-16T05:38:26.000Z</updated>
+  <updated>2016-02-16T05:40:58.000Z</updated>
   <id>http://djyde.github.io/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://djyde.github.io/2016/02/16/how-do-i-detect-app-price/"/>
     <id>http://djyde.github.io/2016/02/16/how-do-i-detect-app-price/</id>
     <published>2016-02-16T05:29:20.000Z</published>
-    <updated>2016-02-16T05:38:26.000Z</updated>
+    <updated>2016-02-16T05:40:58.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u52A8_u673A"><a href="#u52A8_u673A" class="headerlink" title="动机"></a>动机</h2><p>自从入手了 iPad mini 之后，我剁手入了很多游戏。有些游戏太贵，希望等降价或者限免才入。于是我开始找一些提供降价限免资讯的网站。</p>
 <p>找到比较靠谱的是 <a href="http://sspai.com/" target="_blank" rel="external">少数派</a> 和 <a href="http://appshopper.com/" target="_blank" rel="external">Appshopper</a> ，区别是前者是编辑筛选，后者是程序监听价格变动。Appshopper 还能把 APP 加入 wishlist，当价格出现变动的时候会发邮件到你的邮箱。</p>
 <p>Appshopper 在功能上无可挑剔，但是十分蛋疼的是搜索引擎不认中文：</p>
@@ -54,7 +54,11 @@
     <![CDATA[<h2 id="u52A8_u673A"><a href="#u52A8_u673A" class="headerlink" title="动机"></a>动机</h2><p>自从入手了 iPad mini 之后，我剁手入了很多游戏。有些游戏太贵，希望等降价或者限免才入。于是我开]]>
     </summary>
     
-      <category term="develop,lifehacker,live" scheme="http://djyde.github.io/tags/develop-lifehacker-live/"/>
+      <category term="develop" scheme="http://djyde.github.io/tags/develop/"/>
+    
+      <category term="lifehacker" scheme="http://djyde.github.io/tags/lifehacker/"/>
+    
+      <category term="live" scheme="http://djyde.github.io/tags/live/"/>
     
   </entry>
   
