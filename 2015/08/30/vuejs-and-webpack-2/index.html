@@ -148,7 +148,7 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-            首頁
+            Startseite
           </a>
         </li>
       
@@ -156,7 +156,7 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
         <li class="menu-item menu-item-about">
           <a href="/about" rel="section">
             
-            關於
+            Über
           </a>
         </li>
       
@@ -164,7 +164,7 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-            歸檔
+            Archiv
           </a>
         </li>
       
@@ -172,7 +172,7 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-            標籤
+            Tags
           </a>
         </li>
       
@@ -246,7 +246,7 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
         <div class="post-meta">
           <span class="post-time">
-            發表於
+            Veröffentlicht am
             <time itemprop="dateCreated" datetime="2015-08-30T00:31:00+08:00" content="2015-08-30">
               2015-08-30
             </time>
@@ -272,16 +272,16 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
       
         <span itemprop="articleBody"><p><strong>转载前请务必先联系邮箱</strong></p>
-<h2 id="About_Webpack"><a href="#About_Webpack" class="headerlink" title="About Webpack"></a>About Webpack</h2><p>与其费周章说明 Webpack 是什么东西，倒不如先说说不用 Webpack 以前的一些现实。</p>
+<h2 id="About-Webpack"><a href="#About-Webpack" class="headerlink" title="About Webpack"></a>About Webpack</h2><p>与其费周章说明 Webpack 是什么东西，倒不如先说说不用 Webpack 以前的一些现实。</p>
 <p>我们在写前端 JavaScript 的时候，通常是写在多个 <code>.js</code> 文件里，通过闭包避免全局变量污染，然后一股脑地用 <code>&lt;script&gt;</code> 引入。</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"a.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"b.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"c.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"a.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"b.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"c.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>出于性能上的追求，我们会应该把 <code>a.js</code> <code>b.js</code> <code>c.js</code> 合并为同一个文件 <code>bundle.js</code> 来减少请求数量，变成：</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">body</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"bundle.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"bundle.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>使用 Gulp/Grunt 等自动化构建工具很容易可以实现这样的 concat，但是很快我们就会发现，单纯的 concat 并不是一个好的方案，因为代码文件之间的依赖关系不明确，这样一来，有时不得不花一些时间去组织 concat 的顺序。我们很希望像写 Node 一样模块化地去写前端 JavaScript。</p>
 <p>又有些时候，在两个不同的页面当中我们常常会共用一些代码，单纯的 concat 会增加很多不必要的体积。</p>
 <p>所以  ，我们理想的情况是，可以在前端优雅地写符合模块规范（AMD, UMD, CommonJS）的代码并且自动打包，最好还能自动把重用的文件分离出来。</p>
 <p>嘿，Webpack 就很擅长做这种事。</p>
-<h2 id="Using_Webpack"><a href="#Using_Webpack" class="headerlink" title="Using Webpack"></a>Using Webpack</h2><p>Webpack 兼容所有模块规范（如果你不知道到底用哪一种，就用 CommonJS）。</p>
+<h2 id="Using-Webpack"><a href="#Using-Webpack" class="headerlink" title="Using Webpack"></a>Using Webpack</h2><p>Webpack 兼容所有模块规范（如果你不知道到底用哪一种，就用 CommonJS）。</p>
 <p>配置 webpack 比较简单，你需要定义入口文件和 bundle 输出的目录：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'bundle.js'</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>这样，你就能在前端这样去写 JavaScript：</p>
@@ -289,19 +289,19 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 <p>这是 CommonJS 的写法，如果你写过 Node.js，应该对这种写法相当熟悉。这时运行 <code>$ webpack</code> ，webpack 会自动根据入口文件 <code>app.js</code> 中的依赖关系来打包成单个 js 文件，输出到配置文件中指定的 output path 中。</p>
 <p>webpack 也可以通过 plugin 自动分析重用的模块并且打包成单独的文件：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="keyword">var</span> webpack = <span class="built_in">require</span>(<span class="string">'webpack'</span>),</span><br><span class="line">  CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'bundle.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  plugins: [</span><br><span class="line">    <span class="keyword">new</span> CommonsChunkPlugin(<span class="string">'vendor.js'</span>)</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="u591A_u5165_u53E3_u6587_u4EF6"><a href="#u591A_u5165_u53E3_u6587_u4EF6" class="headerlink" title="多入口文件"></a>多入口文件</h3><p>webpack 的一个特色是可以指定多个入口文件，最后打包成多个 bundle。比如说 Timeline page 和 Profile page 是不同的页面，我们不希望两个页面的 js 被打包在一起，这时我们就可以为 timeline 和 profile 两个页面定义不同的入口：</p>
+<h3 id="多入口文件"><a href="#多入口文件" class="headerlink" title="多入口文件"></a>多入口文件</h3><p>webpack 的一个特色是可以指定多个入口文件，最后打包成多个 bundle。比如说 Timeline page 和 Profile page 是不同的页面，我们不希望两个页面的 js 被打包在一起，这时我们就可以为 timeline 和 profile 两个页面定义不同的入口：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// webpack.config.js</span></span><br><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: &#123;</span><br><span class="line">    timeline: <span class="string">'./timeline.js'</span>,</span><br><span class="line">    profile: <span class="string">'./profile.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'[name].bundle.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  plugins: [</span><br><span class="line">    <span class="keyword">new</span> CommonsChunkPlugin(<span class="string">'vendor.js'</span>)</span><br><span class="line">  ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>最后会被分别打包成 <code>timeline.bundle.js</code> 和 <code>profile.bundle.js</code>。</p>
 <p>###loader</p>
 <p>webpack 神奇的地方在于，任何的文件都能被 <code>require()</code>。依靠各种 loader，使你可以直接 <code>require()</code> 样式、图片等静态文件。这些静态文件最后都会被处理（比如 scss pre-process 和图片的压缩）和打包在配置好的 output path 中。</p>
-<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="id">#container</span>&#123;</span><br><span class="line">  <span class="attribute">background-image</span><span class="value">: <span class="function">url</span>(<span class="function">require</span>(<span class="string">'./images/background.png'</span>));</span></span><br><span class="line">  <span class="tag">p</span>&#123;</span><br><span class="line">    <span class="attribute">color</span><span class="value">: <span class="hexcolor">#69C</span>;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-id">#container</span>&#123;</span><br><span class="line">  <span class="attribute">background-image</span>: url(require(<span class="string">'./images/background.png'</span>));</span><br><span class="line">  <span class="selector-tag">p</span>&#123;</span><br><span class="line">    <span class="attribute">color</span>: <span class="number">#69C</span>;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// app.js</span></span><br><span class="line"><span class="built_in">require</span>(<span class="string">'./styles/app.scss'</span>)</span><br><span class="line"><span class="comment">// blablabla....</span></span><br></pre></td></tr></table></figure>
 <p>你可以像上面这样在 JavaScript 中引入 scss （和在样式中引入图片），只要你配置好处理 scss 的 loader：</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  entry: <span class="string">'./app.js'</span>,</span><br><span class="line">  output: &#123;</span><br><span class="line">    path: <span class="string">'./build'</span>,</span><br><span class="line">    filename: <span class="string">'bundle.js'</span></span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="built_in">module</span>: &#123;</span><br><span class="line">    loaders: [</span><br><span class="line">      &#123;</span><br><span class="line">        test: <span class="regexp">/\.(css|scss)$/</span>,</span><br><span class="line">        loader: ExtractTextPlugin.extract(<span class="string">'style'</span>,<span class="string">'css!sass'</span>)</span><br><span class="line">      &#125;,</span><br><span class="line">      &#123;</span><br><span class="line">        test: <span class="regexp">/\.(png|jpg)$/</span>,</span><br><span class="line">        loader: <span class="string">'url?limit=8192'</span> <span class="comment">// 图片低于 8MB 时转换成 inline base64，非常神奇！</span></span><br><span class="line">      &#125;</span><br><span class="line">    ]</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>css 默认被编译到 JavaScript 中成为字符串后再被插入到 <code>&lt;style&gt;</code> 中，我个人建议使用 <code>ExtractTextPlugin</code> 这个插件把 css 分离出去。</p>
-<h2 id="u603B_u7ED3"><a href="#u603B_u7ED3" class="headerlink" title="总结"></a>总结</h2><p>webpack 是一个十分好用的模块打包工具，使用它更加利于实现前端开发工程化。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>webpack 是一个十分好用的模块打包工具，使用它更加利于实现前端开发工程化。</p>
 <p>很多人认为 webpack 可以取代 Gulp/Grunt 等构建工具，其实不然。Webpack 仅仅是<strong>顺便</strong>替构建工具分担了一些预编译预处理的工作，而构建工作不仅仅只有预编译啊。</p>
-<h3 id="u5EF6_u4F38_u9605_u8BFB"><a href="#u5EF6_u4F38_u9605_u8BFB" class="headerlink" title="延伸阅读"></a>延伸阅读</h3><ul>
+<h3 id="延伸阅读"><a href="#延伸阅读" class="headerlink" title="延伸阅读"></a>延伸阅读</h3><ul>
 <li><a href="http://webpack.github.io/docs/tutorials/getting-started/" target="_blank" rel="external">Webpack Getting Started</a></li>
 <li><a href="http://segmentfault.com/a/1190000002551952" target="_blank" rel="external">Webpack 入门指迷</a></li>
 <li><a href="https://www.youtube.com/watch?v=VkTCL6Nqm6Y" target="_blank" rel="external">How Instagram.com Works</a></li>
@@ -385,10 +385,10 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目錄
+            Inhaltsverzeichnis
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            本站概覽
+            Übersicht
           </li>
         </ul>
       
@@ -403,21 +403,21 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">19</span>
-              <span class="site-state-item-name">文章</span>
+              <span class="site-state-item-name">Artikel</span>
             </a>
           </div>
 
           <div class="site-state-item site-state-categories">
             
               <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">分類</span>
+              <span class="site-state-item-name">Kategorien</span>
               
           </div>
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
               <span class="site-state-item-count">7</span>
-              <span class="site-state-item-name">標籤</span>
+              <span class="site-state-item-name">Tags</span>
               </a>
           </div>
 
@@ -481,7 +481,7 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#About_Webpack"><span class="nav-number">1.</span> <span class="nav-text">About Webpack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Using_Webpack"><span class="nav-number">2.</span> <span class="nav-text">Using Webpack</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#u591A_u5165_u53E3_u6587_u4EF6"><span class="nav-number">2.1.</span> <span class="nav-text">多入口文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#u603B_u7ED3"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#u5EF6_u4F38_u9605_u8BFB"><span class="nav-number">3.1.</span> <span class="nav-text">延伸阅读</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#About-Webpack"><span class="nav-number">1.</span> <span class="nav-text">About Webpack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Using-Webpack"><span class="nav-number">2.</span> <span class="nav-text">Using Webpack</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#多入口文件"><span class="nav-number">2.1.</span> <span class="nav-text">多入口文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#延伸阅读"><span class="nav-number">3.1.</span> <span class="nav-text">延伸阅读</span></a></li></ol></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
@@ -510,11 +510,11 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 強力驅動
+  Erstellt mit  <a class="theme-link" href="http://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
-  主題 -
+  Theme -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT
   </a>
