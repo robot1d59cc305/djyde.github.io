@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Randy&#39;s Blog</title>
-  <subtitle>Randy Lu, Chinese fullstack developer.</subtitle>
+  <subtitle>代码、科技、创造和艺术</subtitle>
   <link href="/feed.xml" rel="self"/>
   
   <link href="http://djyde.github.io/"/>
@@ -49,7 +49,7 @@
     <link href="http://djyde.github.io/2016/02/16/how-do-i-detect-app-price/"/>
     <id>http://djyde.github.io/2016/02/16/how-do-i-detect-app-price/</id>
     <published>2016-02-16T05:29:20.000Z</published>
-    <updated>2016-02-16T05:40:58.000Z</updated>
+    <updated>2016-06-03T03:41:52.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;动机&quot;&gt;&lt;a href=&quot;#动机&quot; class=&quot;headerlink&quot; title=&quot;动机&quot;&gt;&lt;/a&gt;动机&lt;/h2&gt;&lt;p&gt;自从入手了 iPad mini 之后，我剁手入了很多游戏。有些游戏太贵，希望等降价或者限免才入。于是我开始找一些提供降价限免资讯的网站。&lt;/p&gt;
 &lt;p&gt;找到比较靠谱的是 &lt;a href=&quot;http://sspai.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;少数派&lt;/a&gt; 和 &lt;a href=&quot;http://appshopper.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Appshopper&lt;/a&gt; ，区别是前者是编辑筛选，后者是程序监听价格变动。Appshopper 还能把 APP 加入 wishlist，当价格出现变动的时候会发邮件到你的邮箱。&lt;/p&gt;
@@ -89,11 +89,11 @@
     </summary>
     
     
-      <category term="live" scheme="http://djyde.github.io/tags/live/"/>
-    
       <category term="develop" scheme="http://djyde.github.io/tags/develop/"/>
     
       <category term="lifehacker" scheme="http://djyde.github.io/tags/lifehacker/"/>
+    
+      <category term="creation" scheme="http://djyde.github.io/tags/creation/"/>
     
   </entry>
   
@@ -102,7 +102,7 @@
     <link href="http://djyde.github.io/2016/02/14/how-did-i-learn-wubi/"/>
     <id>http://djyde.github.io/2016/02/14/how-did-i-learn-wubi/</id>
     <published>2016-02-13T17:39:39.000Z</published>
-    <updated>2016-02-14T03:32:53.000Z</updated>
+    <updated>2016-06-03T03:41:45.000Z</updated>
     
     <content type="html">&lt;p&gt;最近总是看到社区有人讨论输入法，有朋友安利双拼，有人想 &lt;a href=&quot;https://v2ex.com/t/256251&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;开始学五笔&lt;/a&gt;，看了一些回帖，作为一个打了 6,7 年五笔的年轻人，我很有感触，所以就写写我学五笔的经历，给大家借鉴借鉴。&lt;/p&gt;
 &lt;p&gt;我第一次接触五笔是五年级的电脑课，那时鼠标还是有滚球的。当时电脑老师知道我很喜欢电脑，就告诉我学校准备搞一个电脑打字比赛，希望我学五笔去参赛。我那时只会打全拼，压根没有想过学五笔，但是老师告诉我，如果参加，午睡的时间可以到机房练习。听到这个『福利』之后我立马答应参赛。&lt;/p&gt;
@@ -137,6 +137,8 @@
     
       <category term="live" scheme="http://djyde.github.io/tags/live/"/>
     
+      <category term="TLDR" scheme="http://djyde.github.io/tags/TLDR/"/>
+    
   </entry>
   
   <entry>
@@ -144,7 +146,7 @@
     <link href="http://djyde.github.io/2015/09/09/my-liqi/"/>
     <id>http://djyde.github.io/2015/09/09/my-liqi/</id>
     <published>2015-09-09T15:07:00.000Z</published>
-    <updated>2015-09-09T17:24:13.000Z</updated>
+    <updated>2016-06-03T03:41:28.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;介绍一下你自己和所做的工作&quot;&gt;&lt;a href=&quot;#介绍一下你自己和所做的工作&quot; class=&quot;headerlink&quot; title=&quot;介绍一下你自己和所做的工作&quot;&gt;&lt;/a&gt;介绍一下你自己和所做的工作&lt;/h3&gt;&lt;p&gt;我是 Randy，一名 95 后程序员，在一家创业公司做前端工程师。热衷于技术和各种科技、数码产品。&lt;/p&gt;
 &lt;h3 id=&quot;你都在使用哪些硬件？&quot;&gt;&lt;a href=&quot;#你都在使用哪些硬件？&quot; class=&quot;headerlink&quot; title=&quot;你都在使用哪些硬件？&quot;&gt;&lt;/a&gt;你都在使用哪些硬件？&lt;/h3&gt;&lt;ul&gt;
@@ -190,7 +192,7 @@
     </summary>
     
     
-      <category term="live" scheme="http://djyde.github.io/tags/live/"/>
+      <category term="lifestyle" scheme="http://djyde.github.io/tags/lifestyle/"/>
     
   </entry>
   
@@ -199,7 +201,7 @@
     <link href="http://djyde.github.io/2015/08/31/vuejs-and-webpack-3/"/>
     <id>http://djyde.github.io/2015/08/31/vuejs-and-webpack-3/</id>
     <published>2015-08-31T07:43:00.000Z</published>
-    <updated>2015-08-31T14:07:57.000Z</updated>
+    <updated>2016-06-03T03:41:23.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;转载前请务必先联系邮箱&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;Why-Vue-js-Webpack&quot;&gt;&lt;a href=&quot;#Why-Vue-js-Webpack&quot; class=&quot;headerlink&quot; title=&quot;Why Vue.js + Webpack&quot;&gt;&lt;/a&gt;Why Vue.js + Webpack&lt;/h2&gt;&lt;p&gt;在以往的一些小型的前端项目中，我习惯把逻辑（&lt;code&gt;scripts&lt;/code&gt;）、视图（&lt;code&gt;views&lt;/code&gt;）和样式（&lt;code&gt;styles&lt;/code&gt;）分开在独立的目录当中，保证三者不耦合在一起。但是随着项目越来越大，这样的结构会让开发越来越痛苦，比如要增加或修改某个 &lt;code&gt;view&lt;/code&gt; 的时候，就要在 &lt;code&gt;scripts&lt;/code&gt; 和 &lt;code&gt;sytles&lt;/code&gt; 里找到对应这个 &lt;code&gt;view&lt;/code&gt; 的逻辑和样式进行修改。&lt;/p&gt;
@@ -233,6 +235,12 @@
     
       <category term="frontend" scheme="http://djyde.github.io/tags/frontend/"/>
     
+      <category term="javascript" scheme="http://djyde.github.io/tags/javascript/"/>
+    
+      <category term="vue" scheme="http://djyde.github.io/tags/vue/"/>
+    
+      <category term="tutorial" scheme="http://djyde.github.io/tags/tutorial/"/>
+    
   </entry>
   
   <entry>
@@ -240,7 +248,7 @@
     <link href="http://djyde.github.io/2015/08/30/vuejs-and-webpack-2/"/>
     <id>http://djyde.github.io/2015/08/30/vuejs-and-webpack-2/</id>
     <published>2015-08-29T16:31:00.000Z</published>
-    <updated>2015-08-30T02:24:49.000Z</updated>
+    <updated>2016-06-03T03:41:19.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;转载前请务必先联系邮箱&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;About-Webpack&quot;&gt;&lt;a href=&quot;#About-Webpack&quot; class=&quot;headerlink&quot; title=&quot;About Webpack&quot;&gt;&lt;/a&gt;About Webpack&lt;/h2&gt;&lt;p&gt;与其费周章说明 Webpack 是什么东西，倒不如先说说不用 Webpack 以前的一些现实。&lt;/p&gt;
@@ -290,6 +298,12 @@
     
       <category term="frontend" scheme="http://djyde.github.io/tags/frontend/"/>
     
+      <category term="javascript" scheme="http://djyde.github.io/tags/javascript/"/>
+    
+      <category term="vue" scheme="http://djyde.github.io/tags/vue/"/>
+    
+      <category term="tutorial" scheme="http://djyde.github.io/tags/tutorial/"/>
+    
   </entry>
   
   <entry>
@@ -297,7 +311,7 @@
     <link href="http://djyde.github.io/2015/08/29/vuejs-and-webpack-1/"/>
     <id>http://djyde.github.io/2015/08/29/vuejs-and-webpack-1/</id>
     <published>2015-08-29T09:58:00.000Z</published>
-    <updated>2016-01-07T14:49:59.000Z</updated>
+    <updated>2016-06-03T03:41:15.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;转载前请务必先联系邮箱&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;最近在把 SISE Game（我们学校的校内游戏直播网站） 从原本的 Ruby on Rails 彻底用 Node.js 重写，  经过一些考虑，决定用 Vue.js 和 Express.js 实现前后端分离的架构，在这几天的重写过程中，积累了对 Webpack 和 Vue.js 的一些新的看法，今天我想先说说 Vue.js。&lt;/p&gt;
@@ -338,6 +352,12 @@
     
       <category term="frontend" scheme="http://djyde.github.io/tags/frontend/"/>
     
+      <category term="javascript" scheme="http://djyde.github.io/tags/javascript/"/>
+    
+      <category term="vue" scheme="http://djyde.github.io/tags/vue/"/>
+    
+      <category term="tutorial" scheme="http://djyde.github.io/tags/tutorial/"/>
+    
   </entry>
   
   <entry>
@@ -345,7 +365,7 @@
     <link href="http://djyde.github.io/2015/07/01/note-to-new-students/"/>
     <id>http://djyde.github.io/2015/07/01/note-to-new-students/</id>
     <published>2015-06-30T16:00:00.000Z</published>
-    <updated>2015-07-01T13:37:22.000Z</updated>
+    <updated>2016-06-03T03:41:01.000Z</updated>
     
     <content type="html">&lt;p&gt;写下这篇文章，是由于我想和即将进入大学有意学习编程的同学谈谈关于编程的事，因为你可能需要一些建议，来步入这个新的阶段。&lt;/p&gt;
 &lt;p&gt;编程是非常有趣的一件事情，学会编程就像成为魔术师，你可以创造任何你想创造的东西。在我出生到现在的这 20 年里，除了文学，没有比编程更吸引我的活动。就像 Zed Shaw 所说的，『编程作为一项智力活动，是唯一一种能让你创建交互式艺术的艺术形式。你可以创建项目让别人使用，而且你可以间接地和使用者沟通。没有其他的艺术形式能做到如此程度的交互性。电影领着观众走向一个方向，绘画是不会动的。而代码却是双向互动的。』&lt;/p&gt;
@@ -389,7 +409,7 @@
     </summary>
     
     
-      <category term="tech" scheme="http://djyde.github.io/tags/tech/"/>
+      <category term="TLDR" scheme="http://djyde.github.io/tags/TLDR/"/>
     
   </entry>
   
@@ -398,7 +418,7 @@
     <link href="http://djyde.github.io/2015/05/09/release-v2hot-plus/"/>
     <id>http://djyde.github.io/2015/05/09/release-v2hot-plus/</id>
     <published>2015-05-08T16:22:00.000Z</published>
-    <updated>2015-05-08T16:23:46.000Z</updated>
+    <updated>2016-06-03T03:40:43.000Z</updated>
     
     <content type="html">&lt;p&gt;大约在一年前，我刚毕业，开始搞 Android，做了一个叫 V2HOT 的 APP &lt;a href=&quot;https://www.v2ex.com/t/130456&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.v2ex.com/t/130456&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;后来由于各种事情，再也没有迭代。过了几乎一年，我对 Android 和 Material Design 有了更深的理解，所以今天我重写了一个新的版本，取名叫 V2HOT Plus。&lt;/p&gt;
@@ -422,6 +442,10 @@
     
       <category term="android" scheme="http://djyde.github.io/tags/android/"/>
     
+      <category term="creation" scheme="http://djyde.github.io/tags/creation/"/>
+    
+      <category term="open-source" scheme="http://djyde.github.io/tags/open-source/"/>
+    
   </entry>
   
   <entry>
@@ -429,7 +453,7 @@
     <link href="http://djyde.github.io/2015/04/24/recyclerview-endless-load/"/>
     <id>http://djyde.github.io/2015/04/24/recyclerview-endless-load/</id>
     <published>2015-04-24T02:07:00.000Z</published>
-    <updated>2015-08-29T16:29:41.000Z</updated>
+    <updated>2016-06-03T03:40:29.000Z</updated>
     
     <content type="html">&lt;p&gt;最近项目中需要实现列表到底后加载更多的功能，由于我使用的是 RecyclerView，所以我就基于它实现了一个，现在分享给大家。&lt;/p&gt;
 &lt;p&gt;要实现触底的时候刷新，首先要做的事当然是监听列表滑动到最底部的事件了，在 RecyclerView 当中，实现的方法和以前的 ListView 不同。因为前者有一个非常厉害的 LayoutManager，我们可以利用它来获取一些需要用到的数据。&lt;/p&gt;
@@ -494,7 +518,7 @@
     <link href="http://djyde.github.io/2014/11/14/monicoin/"/>
     <id>http://djyde.github.io/2014/11/14/monicoin/</id>
     <published>2014-11-13T16:00:00.000Z</published>
-    <updated>2014-11-14T15:38:31.000Z</updated>
+    <updated>2016-06-03T03:40:06.000Z</updated>
     
     <content type="html">&lt;p&gt;今天中午朋友想要一个可以模拟比特币交易的东西，我看挺简单的，就开始动手写。为了高效、方便我决定还是选用 &lt;a href=&quot;http://github.com/djyde/storedb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;StoreDB&lt;/a&gt; + AngularJS 架构，而实时行情使用 &lt;a href=&quot;http://okcoin.cn&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;OKCoin&lt;/a&gt; 提供的 WebSocket。&lt;/p&gt;
 &lt;p&gt;下午有两节课，逃课风险比较高，所以索性把 mba 带去上课写。上课写代码其实还是挺高效的，只是有时候在想逻辑的时候会被干扰。&lt;/p&gt;
@@ -514,7 +538,9 @@
     </summary>
     
     
-      <category term="internet" scheme="http://djyde.github.io/tags/internet/"/>
+      <category term="creation" scheme="http://djyde.github.io/tags/creation/"/>
+    
+      <category term="open-source" scheme="http://djyde.github.io/tags/open-source/"/>
     
   </entry>
   
@@ -523,7 +549,7 @@
     <link href="http://djyde.github.io/2014/10/17/realm-doc-in-chinese/"/>
     <id>http://djyde.github.io/2014/10/17/realm-doc-in-chinese/</id>
     <published>2014-10-16T16:00:00.000Z</published>
-    <updated>2015-08-29T16:28:00.000Z</updated>
+    <updated>2016-06-03T03:39:48.000Z</updated>
     
     <content type="html">&lt;p&gt;&lt;a href=&quot;http://realm.io/docs/java/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官方文档&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h2&gt;&lt;blockquote&gt;
@@ -651,6 +677,8 @@
     
       <category term="android" scheme="http://djyde.github.io/tags/android/"/>
     
+      <category term="translation" scheme="http://djyde.github.io/tags/translation/"/>
+    
   </entry>
   
   <entry>
@@ -658,7 +686,7 @@
     <link href="http://djyde.github.io/2014/10/17/realm-todo-tutorial/"/>
     <id>http://djyde.github.io/2014/10/17/realm-todo-tutorial/</id>
     <published>2014-10-16T16:00:00.000Z</published>
-    <updated>2015-08-29T16:28:53.000Z</updated>
+    <updated>2016-06-03T03:39:39.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;Realm 是一个手机数据库，由 YCombinator 孵化的公司 Realm 创造。正如它在&lt;a href=&quot;http://realm.io&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;官网&lt;/a&gt;中自我描述的一样，它的出现是为了替代SQLite和Core Date。抛开性能不说，相对于传统的SQLite，Realm有更好的体验，这也是我喜欢Realm的其中一个重要原因。&lt;/p&gt;
 &lt;p&gt;然而，相对于它的iOS版本，这个如此好用的数据库的Android版本目前还是没有受到广泛的关注，所以我决定为它布一下道，目前已经为它翻译了&lt;a href=&quot;http://djyde.github.io/2014/10/17/realm-doc-in-chinese.html&quot;&gt;中文文档&lt;/a&gt;，现在我们就来通过一个 Todo APP 实例粗略地体验一下 Realm 的使用。&lt;/p&gt;
@@ -713,7 +741,7 @@
     <link href="http://djyde.github.io/2014/10/06/2014-10-6-storedb/"/>
     <id>http://djyde.github.io/2014/10/06/2014-10-6-storedb/</id>
     <published>2014-10-05T16:00:00.000Z</published>
-    <updated>2015-08-29T16:29:12.000Z</updated>
+    <updated>2016-06-03T03:39:23.000Z</updated>
     
     <content type="html">&lt;p&gt;故事从我高三的那一天开始，我正准备着手做一个更好用的在线RSS Reader，RSS解析由jQuery处理，页面逻辑处理使用AngularJS，UI用bootstrap，而数据还不知道使用哪一种技术。&lt;/p&gt;
 &lt;p&gt;我首先想到的是IndexedDB，因为它更便于处理我这种比较复杂的数据，而localStorage简单的key-value显然对这种数据无能为力。但IndexedDB兼容性差，API不友好（我认为），所以我萌生了让localStorage同样能处理复杂数据的想法。&lt;/p&gt;
@@ -741,7 +769,13 @@
     </summary>
     
     
-      <category term="tech" scheme="http://djyde.github.io/tags/tech/"/>
+      <category term="frontend" scheme="http://djyde.github.io/tags/frontend/"/>
+    
+      <category term="creation" scheme="http://djyde.github.io/tags/creation/"/>
+    
+      <category term="open-source" scheme="http://djyde.github.io/tags/open-source/"/>
+    
+      <category term="javascript" scheme="http://djyde.github.io/tags/javascript/"/>
     
   </entry>
   
@@ -787,7 +821,7 @@
     <link href="http://djyde.github.io/2014/08/28/2014-8-28-v2hot-release/"/>
     <id>http://djyde.github.io/2014/08/28/2014-8-28-v2hot-release/</id>
     <published>2014-08-28T08:15:00.000Z</published>
-    <updated>2014-08-28T10:23:29.000Z</updated>
+    <updated>2016-06-03T03:40:21.000Z</updated>
     
     <content type="html">&lt;p&gt;在坐公交的时候，我常常淘出手机消磨时间。入口一般是 微信-&amp;gt;微博-&amp;gt;chrome。对我来说打开浏览器是一个麻烦的举动，而我是一个v2ex的用户，经常希望在闲余的时间看看这个社区里在讨论什么东西，尤其是热议主题，非常有质量且能消磨时间。我手上的设备是nexus5，有人曾为v2ex做过Android客户端，但是没有查看今日热议主题的功能，而且对我来说只需要看看热议主题就行，不希望再看到其它我不太想在碎片时间看到的内容。&lt;/p&gt;
 &lt;p&gt;于是，我有了一个很好的idea，恰好自己是个程序员！！:D&lt;/p&gt;
@@ -813,6 +847,10 @@
     
     
       <category term="android" scheme="http://djyde.github.io/tags/android/"/>
+    
+      <category term="creation" scheme="http://djyde.github.io/tags/creation/"/>
+    
+      <category term="open-source" scheme="http://djyde.github.io/tags/open-source/"/>
     
   </entry>
   
