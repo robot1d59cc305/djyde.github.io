@@ -1,5 +1,11 @@
 <!doctype html>
-<html class="theme-next   use-motion ">
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -21,18 +27,55 @@
 
 
 
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+  
+  
+    
+  
+  <link href="//libs.useso.com/js/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
 
 
 
 
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.useso.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Fira Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
 
 
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
+
+
+  
+
+<link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="live," />
@@ -46,7 +89,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.2" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
 
 
 
@@ -76,27 +119,24 @@ Macbook Air
 
 
 <script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: '',
-    sidebar: 'post',
-    motion: true
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
   };
 </script>
 
   <title> 我是 Randy, 这是我的利器 | Randy's Blog </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
   
 
 
@@ -113,7 +153,16 @@ Macbook Air
 
 
 
-  <div class="container one-column page-post-detail">
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -142,21 +191,13 @@ Macbook Air
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-            Startseite
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-            Über
+            首页
           </a>
         </li>
       
@@ -164,7 +205,7 @@ Macbook Air
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-            Archiv
+            归档
           </a>
         </li>
       
@@ -172,7 +213,15 @@ Macbook Air
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-            Tags
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+            关于
           </a>
         </li>
       
@@ -180,7 +229,7 @@ Macbook Air
         <li class="menu-item menu-item-timeline">
           <a href="/timeline" rel="section">
             
-            历程
+            经历
           </a>
         </li>
       
@@ -188,20 +237,11 @@ Macbook Air
         <li class="menu-item menu-item-links">
           <a href="/links" rel="section">
             
-            推荐
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-opensource">
-          <a href="/opensource" rel="section">
-            
-            开源项目
+            朋友们
           </a>
         </li>
       
 
-      
       
     </ul>
   
@@ -214,8 +254,9 @@ Macbook Air
 
     <main id="main" class="main">
       <div class="main-inner">
-        <div id="content" class="content">
-          
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
 
   <div id="posts" class="posts-expand">
     
@@ -246,7 +287,10 @@ Macbook Air
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-09-09T23:07:00+08:00" content="2015-09-09">
               2015-09-09
             </time>
@@ -260,18 +304,22 @@ Macbook Air
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
-        <span itemprop="articleBody"><h3 id="介绍一下你自己和所做的工作"><a href="#介绍一下你自己和所做的工作" class="headerlink" title="介绍一下你自己和所做的工作"></a>介绍一下你自己和所做的工作</h3><p>我是 Randy，一名 95 后程序员，在一家创业公司做前端工程师。热衷于技术和各种科技、数码产品。</p>
+        <h3 id="介绍一下你自己和所做的工作"><a href="#介绍一下你自己和所做的工作" class="headerlink" title="介绍一下你自己和所做的工作"></a>介绍一下你自己和所做的工作</h3><p>我是 Randy，一名 95 后程序员，在一家创业公司做前端工程师。热衷于技术和各种科技、数码产品。</p>
 <h3 id="你都在使用哪些硬件？"><a href="#你都在使用哪些硬件？" class="headerlink" title="你都在使用哪些硬件？"></a>你都在使用哪些硬件？</h3><ul>
 <li><p><a href="http://www.apple.com/cn/macbook-air/" target="_blank" rel="external">Macbook Air</a> </p>
 <p>11 寸 Macbook Air ( i5 4GB 128GB ) 是我的主力机，是 2014 Early 的版本。目前来看写 Android 写到项目中期的时候会有明显的卡顿。写前端项目对性能要求没有 Android 高，所以目前还没有必须升级的需求。11 寸的确比较小，但是平时工作都是接显示器的，就不在意了，尤其是当你背着它到处抱的时候，就觉得为了便携性，屏幕小也是值得的。</p>
@@ -306,7 +354,41 @@ Macbook Air
 <h3 id="你平时获得工作灵感的方式有哪些？"><a href="#你平时获得工作灵感的方式有哪些？" class="headerlink" title="你平时获得工作灵感的方式有哪些？"></a>你平时获得工作灵感的方式有哪些？</h3><p>阅读。读资讯，读书等等。平时我经常刷 Github, hackernews, V2EX 这些社区。 V2EX 的创意板块是获取灵感的好地方。</p>
 <h3 id="推荐一件生活中的利器给大家"><a href="#推荐一件生活中的利器给大家" class="headerlink" title="推荐一件生活中的利器给大家"></a>推荐一件生活中的利器给大家</h3><p>我推荐<strong>乌克丽丽</strong>。因为 ukulele 是一件学习门槛不高的乐器，它的音色很欢快，学习也很容易，学几个和弦指法就能弹唱一首歌。平时累了就弹一首，等待编译的时候也可以舒缓一下工作压力。</p>
 <p><strong>本文参与了「利器社群计划」，发现更多创造者和他们的工具：<a href="http://liqi.io/community/" target="_blank" rel="external">http://liqi.io/community/</a></strong></p>
-</span>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div></div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="//blogscdn.qiniudn.com/donate_wechat.png" alt="Randy WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="//blogscdn.qiniudn.com/donate_alipay.png" alt="Randy Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
       
     </div>
 
@@ -352,21 +434,19 @@ Macbook Air
   </div>
 
 
-        </div>
+          </div>
+          
 
-        
 
-
-        
+          
   <div class="comments" id="comments">
     
   </div>
 
 
-      </div>
-
-      
+        </div>
         
+          
   
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
@@ -384,41 +464,40 @@ Macbook Air
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            文章目录
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            站点概览
           </li>
         </ul>
       
 
       <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="http://7xnx2u.com1.z0.glb.clouddn.com/avatar_glass.jpg?imageView/2/w/320" alt="Randy" itemprop="image"/>
+          <img class="site-author-image" itemprop="image"
+               src="https://cdn.v2ex.co/gravatar/8c8d71eed2b3080dd5841262edfb0c46"
+               alt="Randy" />
           <p class="site-author-name" itemprop="name">Randy</p>
+          <p class="site-description motion-element" itemprop="description">Randy's Blog</p>
         </div>
-        <p class="site-description motion-element" itemprop="description">Randy's Blog</p>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">19</span>
-              <span class="site-state-item-name">Artikel</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">Kategorien</span>
-              
-          </div>
+          
 
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">7</span>
-              <span class="site-state-item-name">Tags</span>
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
               </a>
-          </div>
+            </div>
+          
 
         </nav>
 
@@ -435,26 +514,38 @@ Macbook Air
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/djyde" target="_blank">
+                <a href="https://github.com/djyde" target="_blank" title="Github">
                   
-                    <i class="fa fa-github"></i> GitHub
+                    <i class="fa fa-fw fa-globe"></i>
                   
+                  Github
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://weibo.com/djyde" target="_blank">
+                <a href="https://twitter.com/randyloop" target="_blank" title="Twitter">
                   
-                    <i class="fa fa-weibo"></i> Weibo
+                    <i class="fa fa-fw fa-twitter"></i>
                   
+                  Twitter
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://twitter.com/randyloop" target="_blank">
+                <a href="http://weibo.com/djyde" target="_blank" title="Weibo">
                   
-                    <i class="fa fa-twitter"></i> Twitter
+                    <i class="fa fa-fw fa-weibo"></i>
                   
+                  Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://zhihu.com/djyde" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-comment"></i>
+                  
+                  知乎
                 </a>
               </span>
             
@@ -464,17 +555,13 @@ Macbook Air
         
         
 
-        <div class="links-of-author motion-element">
-          
-        </div>
+        
+        
 
       </section>
 
       
         <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc-indicator-top post-toc-indicator">
-            <i class="fa fa-angle-double-up"></i>
-          </div>
           <div class="post-toc">
             
               
@@ -483,9 +570,6 @@ Macbook Air
               <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#介绍一下你自己和所做的工作"><span class="nav-number">1.</span> <span class="nav-text">介绍一下你自己和所做的工作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#你都在使用哪些硬件？"><span class="nav-number">2.</span> <span class="nav-text">你都在使用哪些硬件？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#软件呢？"><span class="nav-number">3.</span> <span class="nav-text">软件呢？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#你最理想的工作环境是什么？"><span class="nav-number">4.</span> <span class="nav-text">你最理想的工作环境是什么？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#你平时获得工作灵感的方式有哪些？"><span class="nav-number">5.</span> <span class="nav-text">你平时获得工作灵感的方式有哪些？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#推荐一件生活中的利器给大家"><span class="nav-number">6.</span> <span class="nav-text">推荐一件生活中的利器给大家</span></a></li></ol></div>
             
           </div>
-          <div class="post-toc-indicator-bottom post-toc-indicator">
-            <i class="fa fa-angle-double-down"></i>
-          </div>
         </section>
       
 
@@ -493,238 +577,123 @@ Macbook Air
   </aside>
 
 
-      
+        
+      </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
+  &copy;  2014 - 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart fa fa-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Randy</span>
 </div>
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="http://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
+    NexT.Mist
   </a>
 </div>
 
+        
 
-
+        
       </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
-
-  
   
 
-  
-    
-    
-
-  
-
-
-  
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.2"></script>
-
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.2"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-<script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-<script type="text/javascript" src="/js/motion.js?v=0.4.5.2" id="motion.global"></script>
-
-
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  
-<script type="text/javascript" src="/js/bootstrap.scrollspy.js?v=0.4.5.2" id="bootstrap.scrollspy.custom"></script>
-
-
-<script type="text/javascript" id="sidebar.toc.highlight">
-  $(document).ready(function () {
-    var tocSelector = '.post-toc';
-    var $tocSelector = $(tocSelector);
-    var activeCurrentSelector = '.active-current';
-
-    $tocSelector
-      .on('activate.bs.scrollspy', function () {
-        var $currentActiveElement = $(tocSelector + ' .active').last();
-
-        removeCurrentActiveClass();
-        $currentActiveElement.addClass('active-current');
-
-        $tocSelector[0].scrollTop = $currentActiveElement.position().top;
-      })
-      .on('clear.bs.scrollspy', function () {
-        removeCurrentActiveClass();
-      });
-
-    function removeCurrentActiveClass () {
-      $(tocSelector + ' ' + activeCurrentSelector)
-        .removeClass(activeCurrentSelector.substring(1));
-    }
-
-    function processTOC () {
-      getTOCMaxHeight();
-      toggleTOCOverflowIndicators();
-    }
-
-    function getTOCMaxHeight () {
-      var height = $('.sidebar').height() -
-                   $tocSelector.position().top -
-                   $('.post-toc-indicator-bottom').height();
-
-      $tocSelector.css('height', height);
-
-      return height;
-    }
-
-    function toggleTOCOverflowIndicators () {
-      tocOverflowIndicator(
-        '.post-toc-indicator-top',
-        $tocSelector.scrollTop() > 0 ? 'show' : 'hide'
-      );
-
-      tocOverflowIndicator(
-        '.post-toc-indicator-bottom',
-        $tocSelector.scrollTop() >= $tocSelector.find('ol').height() - $tocSelector.height() ? 'hide' : 'show'
-      )
-    }
-
-    $(document).on('sidebar.motion.complete', function () {
-      processTOC();
-    });
-
-    $('body').scrollspy({ target: tocSelector });
-    $(window).on('resize', function () {
-      if ( $('.sidebar').hasClass('sidebar-active') ) {
-        processTOC();
-      }
-    });
-
-    onScroll($tocSelector);
-
-    function onScroll (element) {
-      element.on('mousewheel DOMMouseScroll', function (event) {
-          var oe = event.originalEvent;
-          var delta = oe.wheelDelta || -oe.detail;
-
-          this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
-          event.preventDefault();
-
-          toggleTOCOverflowIndicators();
-      });
-    }
-
-    function tocOverflowIndicator (indicator, action) {
-      var $indicator = $(indicator);
-      var opacity = action === 'show' ? 1 : 0;
-      $indicator.velocity ?
-        $indicator.velocity('stop').velocity({
-          opacity: opacity
-        }, { duration: 100 }) :
-        $indicator.stop().animate({
-          opacity: opacity
-        }, 100);
-    }
-
-  });
-</script>
-
-<script type="text/javascript" id="sidebar.nav">
-  $(document).ready(function () {
-    var html = $('html');
-    var TAB_ANIMATE_DURATION = 200;
-    var hasVelocity = $.isFunction(html.velocity);
-
-    $('.sidebar-nav li').on('click', function () {
-      var item = $(this);
-      var activeTabClassName = 'sidebar-nav-active';
-      var activePanelClassName = 'sidebar-panel-active';
-      if (item.hasClass(activeTabClassName)) {
-        return;
-      }
-
-      var currentTarget = $('.' + activePanelClassName);
-      var target = $('.' + item.data('target'));
-
-      hasVelocity ?
-        currentTarget.velocity('transition.slideUpOut', TAB_ANIMATE_DURATION, function () {
-          target
-            .velocity('stop')
-            .velocity('transition.slideDownIn', TAB_ANIMATE_DURATION)
-            .addClass(activePanelClassName);
-        }) :
-        currentTarget.animate({ opacity: 0 }, TAB_ANIMATE_DURATION, function () {
-          currentTarget.hide();
-          target
-            .stop()
-            .css({'opacity': 0, 'display': 'block'})
-            .animate({ opacity: 1 }, TAB_ANIMATE_DURATION, function () {
-              currentTarget.removeClass(activePanelClassName);
-              target.addClass(activePanelClassName);
-            });
-        });
-
-      item.siblings().removeClass(activeTabClassName);
-      item.addClass(activeTabClassName);
-    });
-
-    $('.post-toc a').on('click', function (e) {
-      e.preventDefault();
-      var targetSelector = escapeSelector(this.getAttribute('href'));
-      var offset = $(targetSelector).offset().top;
-      hasVelocity ?
-        html.velocity('stop').velocity('scroll', {
-          offset: offset  + 'px',
-          mobileHA: false
-        }) :
-        $('html, body').stop().animate({
-          scrollTop: offset
-        }, 500);
-    });
-
-    // Expand sidebar on post detail page by default, when post has a toc.
-    motionMiddleWares.sidebar = function () {
-      var $tocContent = $('.post-toc-content');
-      if (CONFIG.sidebar === 'post') {
-        if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
-          displaySidebar();
-        }
-      }
-    };
-  });
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
 </script>
 
 
 
-  <script type="text/javascript" src="/js/bootstrap.js"></script>
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="//libs.useso.com/js/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="//libs.useso.com/js/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
 
   
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
   
 
 </body>

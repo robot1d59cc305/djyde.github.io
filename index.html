@@ -1,5 +1,11 @@
 <!doctype html>
-<html class="theme-next   use-motion ">
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -21,21 +27,58 @@
 
 
 
-  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
+  
+  
+    
+  
+  <link href="//libs.useso.com/js/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
 
 
 
 
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,400italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link href="//fonts.useso.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Fira Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
 
 
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="djyde, Randy, frontend" />
+
+  
+
+<link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="randy, djyde, frontend" />
 
 
 
@@ -46,7 +89,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.2" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
 
 
 
@@ -66,27 +109,24 @@
 
 
 <script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: '',
-    sidebar: 'post',
-    motion: true
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
   };
 </script>
 
   <title> Randy's Blog </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
   
 
 
@@ -103,9 +143,18 @@
 
 
 
-  <div class="container one-column 
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
    page-home 
-">
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -134,21 +183,13 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
             
-            Startseite
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-            Über
+            首页
           </a>
         </li>
       
@@ -156,7 +197,7 @@
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
             
-            Archiv
+            归档
           </a>
         </li>
       
@@ -164,7 +205,15 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
             
-            Tags
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+            关于
           </a>
         </li>
       
@@ -172,7 +221,7 @@
         <li class="menu-item menu-item-timeline">
           <a href="/timeline" rel="section">
             
-            历程
+            经历
           </a>
         </li>
       
@@ -180,20 +229,11 @@
         <li class="menu-item menu-item-links">
           <a href="/links" rel="section">
             
-            推荐
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-opensource">
-          <a href="/opensource" rel="section">
-            
-            开源项目
+            朋友们
           </a>
         </li>
       
 
-      
       
     </ul>
   
@@ -206,15 +246,10 @@
 
     <main id="main" class="main">
       <div class="main-inner">
-        <div id="content" class="content">
-          
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
   <section id="posts" class="posts-expand">
-
-    
-
-    
-    
-
     
       
 
@@ -247,7 +282,10 @@
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2016-03-25T10:57:23+08:00" content="2016-03-25">
               2016-03-25
             </time>
@@ -261,31 +299,41 @@
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            在我很小的时候，在香港电视剧的影响下，我最初的理想是当一名警察。但是很不幸，当我向着全班描述这个理想的时候，班上的同学都哈哈大笑，甚至老师也对我说，你这样的身材，能打得过小偷么。
-于是这个理想再也没有跟任何人提起。但是我很俗套地感谢那位老师，因为从那以后我决定改变我的理想，成为一名科学家。
-之后我读
-            ...
-          </span>
+          
+          在我很小的时候，在香港电视剧的影响下，我最初的理想是当一名警察。但是很不幸，当我向着全班描述这个理想的时候，班上的同学都哈哈大笑，甚至老师也对我说，你这样的身材，能打得过小偷么。
+于是这个理想再也没有
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/03/25/21-year-old-saying/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -334,7 +382,10 @@
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2016-02-16T13:29:20+08:00" content="2016-02-16">
               2016-02-16
             </time>
@@ -348,30 +399,41 @@
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            动机自从入手了 iPad mini 之后，我剁手入了很多游戏。有些游戏太贵，希望等降价或者限免才入。于是我开始找一些提供降价限免资讯的网站。
-找到比较靠谱的是 少数派 和 Appshopper ，区别是前者是编辑筛选，后者是程序监听价格变动。Appshopper 还能把 APP 加入 wishlis
-            ...
-          </span>
+          
+          动机自从入手了 iPad mini 之后，我剁手入了很多游戏。有些游戏太贵，希望等降价或者限免才入。于是我开始找一些提供降价限免资讯的网站。
+找到比较靠谱的是 少数派 和 Appshopper ，区别
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/02/16/how-do-i-detect-app-price/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -420,7 +482,10 @@
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2016-02-14T01:39:39+08:00" content="2016-02-14">
               2016-02-14
             </time>
@@ -434,30 +499,41 @@
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            最近总是看到社区有人讨论输入法，有朋友安利双拼，有人想 开始学五笔，看了一些回帖，作为一个打了 6,7 年五笔的年轻人，我很有感触，所以就写写我学五笔的经历，给大家借鉴借鉴。
-我第一次接触五笔是五年级的电脑课，那时鼠标还是有滚球的。当时电脑老师知道我很喜欢电脑，就告诉我学校准备搞一个电脑打字比赛，希
-            ...
-          </span>
+          
+          最近总是看到社区有人讨论输入法，有朋友安利双拼，有人想 开始学五笔，看了一些回帖，作为一个打了 6,7 年五笔的年轻人，我很有感触，所以就写写我学五笔的经历，给大家借鉴借鉴。
+我第一次接触五笔是五年级
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2016/02/14/how-did-i-learn-wubi/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -506,7 +582,10 @@
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-09-09T23:07:00+08:00" content="2015-09-09">
               2015-09-09
             </time>
@@ -520,32 +599,43 @@
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            介绍一下你自己和所做的工作我是 Randy，一名 95 后程序员，在一家创业公司做前端工程师。热衷于技术和各种科技、数码产品。
+          
+          介绍一下你自己和所做的工作我是 Randy，一名 95 后程序员，在一家创业公司做前端工程师。热衷于技术和各种科技、数码产品。
 你都在使用哪些硬件？
 Macbook Air 
-11 寸 Macbook Air ( i5 4GB 128GB ) 是我的主力机，是 2014 Early 的版本。目前来看
-            ...
-          </span>
+11 寸 Macbook
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/09/09/my-liqi/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -594,7 +684,10 @@ Macbook Air
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-08-31T15:43:00+08:00" content="2015-08-31">
               2015-08-31
             </time>
@@ -608,30 +701,41 @@ Macbook Air
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            转载前请务必先联系邮箱
-Why Vue.js + Webpack在以往的一些小型的前端项目中，我习惯把逻辑（scripts）、视图（views）和样式（styles）分开在独立的目录当中，保证三者不耦合在一起。但是随着项目越来越大，这样的结构会让开发越来越痛苦，比如要增加或修改某个 view 的时候
-            ...
-          </span>
+          
+          转载前请务必先联系邮箱
+Why Vue.js + Webpack在以往的一些小型的前端项目中，我习惯把逻辑（scripts）、视图（views）和样式（styles）分开在独立的目录当中，保证三者不耦
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/08/31/vuejs-and-webpack-3/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -680,7 +784,10 @@ Why Vue.js + Webpack在以往的一些小型的前端项目中，我习惯把逻
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-08-30T00:31:00+08:00" content="2015-08-30">
               2015-08-30
             </time>
@@ -694,31 +801,42 @@ Why Vue.js + Webpack在以往的一些小型的前端项目中，我习惯把逻
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            转载前请务必先联系邮箱
+          
+          转载前请务必先联系邮箱
 About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说不用 Webpack 以前的一些现实。
-我们在写前端 JavaScript 的时候，通常是写在多个 .js 文件里，通过闭包避免全局变量污染，然后一股脑地用 &lt;script&gt; 引入。
-            ...
-          </span>
+我们在写前端 JavaScript 的时候，通常是写在
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/08/30/vuejs-and-webpack-2/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -767,7 +885,10 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-08-29T17:58:00+08:00" content="2015-08-29">
               2015-08-29
             </time>
@@ -781,30 +902,41 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            转载前请务必先联系邮箱
-最近在把 SISE Game（我们学校的校内游戏直播网站） 从原本的 Ruby on Rails 彻底用 Node.js 重写，  经过一些考虑，决定用 Vue.js 和 Express.js 实现前后端分离的架构，在这几天的重写过程中，积累了对 Webpack 和 Vue.
-            ...
-          </span>
+          
+          转载前请务必先联系邮箱
+最近在把 SISE Game（我们学校的校内游戏直播网站） 从原本的 Ruby on Rails 彻底用 Node.js 重写，  经过一些考虑，决定用 Vue.js 和 Ex
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/08/29/vuejs-and-webpack-1/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -853,7 +985,10 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-07-01T00:00:00+08:00" content="2015-07-01">
               2015-07-01
             </time>
@@ -867,30 +1002,41 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            写下这篇文章，是由于我想和即将进入大学有意学习编程的同学谈谈关于编程的事，因为你可能需要一些建议，来步入这个新的阶段。
-编程是非常有趣的一件事情，学会编程就像成为魔术师，你可以创造任何你想创造的东西。在我出生到现在的这 20 年里，除了文学，没有比编程更吸引我的活动。就像 Zed Shaw 所说的，
-            ...
-          </span>
+          
+          写下这篇文章，是由于我想和即将进入大学有意学习编程的同学谈谈关于编程的事，因为你可能需要一些建议，来步入这个新的阶段。
+编程是非常有趣的一件事情，学会编程就像成为魔术师，你可以创造任何你想创造的东西。
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/07/01/note-to-new-students/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -939,7 +1085,10 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-05-09T00:22:00+08:00" content="2015-05-09">
               2015-05-09
             </time>
@@ -953,30 +1102,41 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            大约在一年前，我刚毕业，开始搞 Android，做了一个叫 V2HOT 的 APP https://www.v2ex.com/t/130456
-后来由于各种事情，再也没有迭代。过了几乎一年，我对 Android 和 Material Design 有了更深的理解，所以今天我重写了一个新的版本，取名叫
-            ...
-          </span>
+          
+          大约在一年前，我刚毕业，开始搞 Android，做了一个叫 V2HOT 的 APP https://www.v2ex.com/t/130456
+后来由于各种事情，再也没有迭代。过了几乎一年，我对 An
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/05/09/release-v2hot-plus/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -1025,7 +1185,10 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
         <div class="post-meta">
           <span class="post-time">
-            Veröffentlicht am
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2015-04-24T10:07:00+08:00" content="2015-04-24">
               2015-04-24
             </time>
@@ -1039,30 +1202,41 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
           
 
+          
+          
+
+          
         </div>
       </header>
     
 
 
-    <div class="post-body">
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="articleBody">
-            
-            最近项目中需要实现列表到底后加载更多的功能，由于我使用的是 RecyclerView，所以我就基于它实现了一个，现在分享给大家。
-要实现触底的时候刷新，首先要做的事当然是监听列表滑动到最底部的事件了，在 RecyclerView 当中，实现的方法和以前的 ListView 不同。因为前者有一个非常厉
-            ...
-          </span>
+          
+          最近项目中需要实现列表到底后加载更多的功能，由于我使用的是 RecyclerView，所以我就基于它实现了一个，现在分享给大家。
+要实现触底的时候刷新，首先要做的事当然是监听列表滑动到最底部的事件了，
+          ...
+
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/04/24/recyclerview-endless-load/#more" rel="contents">
-              Weiterlesen &raquo;
+              阅读全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -1080,7 +1254,6 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
 
     
-
   </section>
 
   
@@ -1090,17 +1263,15 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
 
 
+          </div>
+          
+
+
+          
+
         </div>
-
         
-
-
-        
-
-      </div>
-
-      
-        
+          
   
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
@@ -1119,31 +1290,30 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
 
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="http://7xnx2u.com1.z0.glb.clouddn.com/avatar_glass.jpg?imageView/2/w/320" alt="Randy" itemprop="image"/>
+          <img class="site-author-image" itemprop="image"
+               src="https://cdn.v2ex.co/gravatar/8c8d71eed2b3080dd5841262edfb0c46"
+               alt="Randy" />
           <p class="site-author-name" itemprop="name">Randy</p>
+          <p class="site-description motion-element" itemprop="description">Randy's Blog</p>
         </div>
-        <p class="site-description motion-element" itemprop="description">Randy's Blog</p>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">19</span>
-              <span class="site-state-item-name">Artikel</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">Kategorien</span>
-              
-          </div>
+          
 
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">7</span>
-              <span class="site-state-item-name">Tags</span>
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
               </a>
-          </div>
+            </div>
+          
 
         </nav>
 
@@ -1160,26 +1330,38 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
           
             
               <span class="links-of-author-item">
-                <a href="https://github.com/djyde" target="_blank">
+                <a href="https://github.com/djyde" target="_blank" title="Github">
                   
-                    <i class="fa fa-github"></i> GitHub
+                    <i class="fa fa-fw fa-globe"></i>
                   
+                  Github
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="http://weibo.com/djyde" target="_blank">
+                <a href="https://twitter.com/randyloop" target="_blank" title="Twitter">
                   
-                    <i class="fa fa-weibo"></i> Weibo
+                    <i class="fa fa-fw fa-twitter"></i>
                   
+                  Twitter
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://twitter.com/randyloop" target="_blank">
+                <a href="http://weibo.com/djyde" target="_blank" title="Weibo">
                   
-                    <i class="fa fa-twitter"></i> Twitter
+                    <i class="fa fa-fw fa-weibo"></i>
                   
+                  Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://zhihu.com/djyde" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-comment"></i>
+                  
+                  知乎
                 </a>
               </span>
             
@@ -1189,9 +1371,8 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
         
         
 
-        <div class="links-of-author motion-element">
-          
-        </div>
+        
+        
 
       </section>
 
@@ -1201,77 +1382,119 @@ About Webpack与其费周章说明 Webpack 是什么东西，倒不如先说说�
   </aside>
 
 
-      
+        
+      </div>
     </main>
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
+  &copy;  2014 - 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart fa fa-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Randy</span>
 </div>
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="http://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT
+    NexT.Mist
   </a>
 </div>
 
+        
 
-
+        
       </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
-  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="//libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="//libs.useso.com/js/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+  
+  <script type="text/javascript" src="//libs.useso.com/js/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
 
   
   
 
   
-    
-    
 
   
 
 
-  
-
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.2"></script>
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
 
 
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.2"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-<script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-<script type="text/javascript" src="/js/motion.js?v=0.4.5.2" id="motion.global"></script>
-
-
-  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
   
 
-  <script type="text/javascript" src="/js/bootstrap.js"></script>
 
+
+  
+
+
+
+
+  
   
   
 
   
+
   
 
 </body>
